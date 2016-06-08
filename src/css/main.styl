@@ -1,3 +1,49 @@
+$footer-height-lg = 100px;
+$fancy-font-blue = #004EFB;
+$dark-footer-gray = #222222;
+
+$selected-link-gray = #C4C4C4;
+$unselected-link-gray = #909090;
+
 .app-footer {
-  background-color #0fa0ce;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: $footer-height-lg;
+  z-index: 100;
+  opacity: 1;
+
+  color: white;
+  background-color: $dark-footer-gray;
+
+  a {
+    color: $unselected-link-gray;
+  }
+
+  .link--active {
+    color: $selected-link-gray;
+  }
+}
+
+.home {
+  position: fixed;
+  bottom: $footer-height-lg;
+
+  p {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+  }
+
+  .home__teaser-text {
+    font-size: 3vw;
+  }
+
+  .home__hackathon-name {
+    font-size: 10vw;
+    color: $fancy-font-blue;
+  }
+
 }

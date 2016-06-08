@@ -1,9 +1,9 @@
 # mobility_hacks
 ## Infos
 
-You can find the mocks here:
+You can find the mocks here: https://marvelapp.com/15chihf
 
-And here is the Trello board for organising:
+And here is the Trello board for organising: https://trello.com/b/Kf4aPWQr/berlin-hackathon-website
 
 ## TechStack
 
