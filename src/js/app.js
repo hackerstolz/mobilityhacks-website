@@ -3,12 +3,13 @@ import ReactDom from 'react-dom';
 import { Router, Route, IndexRoute } from 'react-router';
 
 // Assets
-require('./index.html');
-require('./css/normalize.css');
-require('./css/skeleton.css');
+require('./../index.html');
+require('./../css/normalize.css');
+require('./../css/skeleton.css');
+require('./../css/main.styl');
 
 // Views
-import AppLayout from './views/AppLayout';
+import AppLayout from './layout/AppLayout';
 import Home from './views/Home';
 
 
