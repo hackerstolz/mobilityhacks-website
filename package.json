@@ -1,0 +1,36 @@
+{
+  "name": "mobility-hacks-website",
+  "version": "0.0.1",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CanardSauvage/waschnick.de"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --inline --watch",
+    "build": "webpack",
+    "watch": "webpack -w"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.13",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "clean-webpack-plugin": "^0.1.9",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.7.1",
+    "raw-loader": "^0.5.1",
+    "source-map-loader": "^0.1.5",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-router": "^1.0.0"
+  }
+}
