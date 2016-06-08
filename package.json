@@ -1,5 +1,6 @@
 {
   "name": "mobility-hacks-website",
+  "description": "Website for www.mobility-hacks.de",
   "version": "0.0.1",
   "license": "SEE LICENSE IN LICENSE",
   "repository": {
@@ -29,8 +30,9 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
-    "react": "^0.14.3",
-    "react-dom": "^0.14.3",
-    "react-router": "^1.0.0"
+    "history": "^1.17.0",
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8",
+    "react-router": "^1.0.3"
   }
 }

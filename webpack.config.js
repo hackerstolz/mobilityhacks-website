@@ -19,7 +19,9 @@ module.exports = [
             ]
         },
         plugins: [
-            new CleanWebpackPlugin('dist')
+            new CleanWebpackPlugin('dist'),
+            new ExtractTextPlugin("css/default.css")
+
         ]
     }
 ];
