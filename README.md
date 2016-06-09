@@ -28,3 +28,4 @@ npm run start
 ## Inspiration
 
 Loading effects: http://tympanus.net/Development/GridLoadingEffects/
+Resposive font size: http://madebymike.com.au/writing/precise-control-responsive-typography/
