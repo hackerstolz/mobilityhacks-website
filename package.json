@@ -9,6 +9,7 @@
   },
   "scripts": {
     "start": "webpack-dev-server --inline --watch",
+    "script": "webpack -p",
     "build": "webpack",
     "watch": "webpack -w"
   },
