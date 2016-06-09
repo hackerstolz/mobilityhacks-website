@@ -1,9 +1,11 @@
 # mobility_hacks
+---
+
 ## Infos
 
-You can find the mocks here: https://marvelapp.com/15chihf
-
-And here is the Trello board for organising: https://trello.com/b/Kf4aPWQr/berlin-hackathon-website
+* [Stage](http://stage.mobility-hacks.de/)
+* You can find the mocks here: https://marvelapp.com/15chihf
+* And here is the Trello board for organising: https://trello.com/b/Kf4aPWQr/berlin-hackathon-website
 
 ## TechStack
 
@@ -14,18 +16,17 @@ And here is the Trello board for organising: https://trello.com/b/Kf4aPWQr/berli
 
 ## Building
 
-
-´´´
+```bash
 npm run build
-´´´
+```
 
 ## Live reloading & dev
 
-´´´
+```bash
 npm run start
-´´´
+```
 
 ## Inspiration
 
-Loading effects: http://tympanus.net/Development/GridLoadingEffects/
-Resposive font size: http://madebymike.com.au/writing/precise-control-responsive-typography/
+Loading effects: [Demo](http://tympanus.net/Development/GridLoadingEffects/)
+Resposive font size: [Blog post](http://madebymike.com.au/writing/precise-control-responsive-typography/)
