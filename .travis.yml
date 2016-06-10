@@ -3,4 +3,4 @@ node_js:
   - "5"
 
 after_success:
-    "find dist -type f -exec curl -u $FTP_USER:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://ftp.mobility-hacks.de/stage/{} \;"
+    "npm run deploy"

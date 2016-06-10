@@ -11,6 +11,7 @@
     "start": "webpack-dev-server --inline --watch",
     "script": "webpack -p",
     "build": "webpack",
+    "deploy": "node src/js/deploy.js",
     "watch": "webpack -w"
   },
   "devDependencies": {
@@ -22,6 +23,7 @@
     "css-loader": "^0.23.1",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.8.5",
+    "ftp-deploy": "^1.1.0",
     "html-loader": "^0.4.3",
     "html-webpack-plugin": "^2.7.1",
     "raw-loader": "^0.5.1",
