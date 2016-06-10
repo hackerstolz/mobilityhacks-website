@@ -16,6 +16,9 @@
 
 ## Building
 
+[![Build Status](https://travis-ci.org/hackerstolz/mobilityhacks-website.svg?branch=master)](https://travis-ci.org/hackerstolz/mobilityhacks-website)
+
+
 ```bash
 npm run build
 ```
