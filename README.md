@@ -20,6 +20,10 @@
 npm run build
 ```
 
+## Deployment
+
+The site will be deployt on every push to master.
+
 ## Live reloading & dev
 
 ```bash
