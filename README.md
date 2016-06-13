@@ -44,4 +44,7 @@ npm run start
 ## Inspiration
 
 Loading effects: [Demo](http://tympanus.net/Development/GridLoadingEffects/)
+
 Resposive font size: [Blog post](http://madebymike.com.au/writing/precise-control-responsive-typography/)
+
+How should the fonts be loaded? [Blog post](https://css-tricks.com/loading-web-fonts-with-the-web-font-loader/)
