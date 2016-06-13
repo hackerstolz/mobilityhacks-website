@@ -1,6 +1,14 @@
 # mobility_hacks
 ---
 
+## Quickstart
+
+```bash
+npm install
+npm run start
+open http://localhost:8080
+```
+
 ## Infos
 
 * [Stage](http://stage.mobility-hacks.de/)
