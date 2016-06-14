@@ -8,19 +8,20 @@ const Tile = React.createClass({
         return (
             <div>
                 <div className="tile image-element-class">
-                    <div className="tileTitlePicture">{this.title}</div>
-                    <img className="image" src={ require(this.imageSrc) }/>
+                    <div className="tileTitlePicture">{this.props.title}</div>
+                    <img className="image" src={ require(this.props.imageSrc) }/>
                 </div>
             </div>
         );
     }
 });
 
-class PreviousHackathons extends React.Component {
-    const masonryOptions = {
-        transitionDuration: 0
-    };
+const masonryOptions = {
+    transitionDuration: 0
+};
 
+
+class PreviousHackathons extends React.Component {
     render() {
         return (
             <div className="previous-hackathons content-container">
@@ -29,7 +30,7 @@ class PreviousHackathons extends React.Component {
                     elementType={'ul'} // default 'div'
                     options={ this.masonryOptions } // default {}
                     disableImagesLoaded={false} // default false
-                >
+                    >
                     <Tile imageSrc="./images/Bitmap01.jpg"/>
                     <Tile imageSrc="./images/Bitmap02.jpg"/>
                     <Tile imageSrc="./images/Bitmap03.jpg"/>
