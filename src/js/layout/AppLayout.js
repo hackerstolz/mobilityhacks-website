@@ -2,6 +2,8 @@ import React from 'react';
 
 import Footer   from './Footer';
 
+require('./layout.styl');
+
 class AppLayout extends React.Component {
     render() {
         return (

@@ -1,0 +1,39 @@
+$footer-height-lg = 55px;
+$dark-footer-gray = #222222;
+
+$selected-link-gray = #C4C4C4;
+$unselected-link-gray = #909090;
+
+.app-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: $footer-height-lg;
+  z-index: 100;
+  opacity: 1;
+
+  color: white;
+  background-color: $dark-footer-gray;
+
+  .app-footer--right {
+    text-align right
+    float right
+  }
+
+  a {
+    font-size 22px
+    font-weight 400
+    padding 12px
+    margin-right 16px
+    color: $unselected-link-gray;
+
+    &.last-link {
+      // does the contact link need extra styling?
+    }
+  }
+
+  .link--active {
+    color: $selected-link-gray;
+  }
+}

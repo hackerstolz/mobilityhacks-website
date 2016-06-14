@@ -1,9 +1,10 @@
 import React from 'react';
+require('./main.styl');
 
 class Home extends React.Component {
     render() {
         return (
-            <div className="home">
+            <div className="home content-container">
                 <div className="home__teaser-text">
                     <p>December 2016</p>
                     <p>Berlin, Germany</p>
@@ -13,7 +14,7 @@ class Home extends React.Component {
                 </div>
                 <div className="home__hackathon-name">
                     <p>Mobility Hacks</p>
-                    </div>
+                </div>
             </div>
         );
     }
