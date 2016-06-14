@@ -1,25 +1,12 @@
 import React from 'react';
+import Tile from './Tile';
 
 var Masonry = require('react-masonry-component');
 
 
-const Tile = React.createClass({
-    render: function () {
-        return (
-            <div>
-                <div className="tile image-element-class">
-                    <div className="tileTitlePicture">{this.props.title}</div>
-                    <img className="image" src={ require(this.props.imageSrc) }/>
-                </div>
-            </div>
-        );
-    }
-});
-
 const masonryOptions = {
     transitionDuration: 0
 };
-
 
 class PreviousHackathons extends React.Component {
     render() {
@@ -27,7 +14,6 @@ class PreviousHackathons extends React.Component {
             <div className="previous-hackathons content-container">
                 <Masonry
                     className={'my-gallery-class'} // default ''
-                    elementType={'ul'} // default 'div'
                     options={ this.masonryOptions } // default {}
                     disableImagesLoaded={false} // default false
                     >
