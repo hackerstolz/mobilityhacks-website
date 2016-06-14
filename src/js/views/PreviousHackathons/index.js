@@ -5,7 +5,7 @@ var Masonry = require('react-masonry-component');
 
 
 const masonryOptions = {
-    transitionDuration: 0
+    transitionDuration: 10000
 };
 
 class PreviousHackathons extends React.Component {
@@ -17,6 +17,9 @@ class PreviousHackathons extends React.Component {
                     options={ this.masonryOptions } // default {}
                     disableImagesLoaded={false} // default false
                     >
+                    <Tile className="tile--two-times" text="Hey ho. this was our previous hackathon food{hacks}.
+                        Great particioants, fantastic products, amazing atmosphere &
+                        lecker food. it was a f.ing success."/>
                     <Tile imageSrc="./images/Bitmap01.jpg"/>
                     <Tile imageSrc="./images/Bitmap02.jpg"/>
                     <Tile imageSrc="./images/Bitmap03.jpg"/>
