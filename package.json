@@ -38,6 +38,7 @@
     "history": "^1.17.0",
     "react": "^0.14.8",
     "react-dom": "^0.14.8",
+    "react-masonry-component": "^4.0.4",
     "react-router": "^1.0.3"
   }
 }
