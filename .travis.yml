@@ -2,8 +2,19 @@ language: node_js
 node_js:
   - "5"
 
+env:
+  - FOO=foo BAR=bar
+
+# whitelist
+branches:
+  only:
+    - master
+    - dev
+
 script:
     "npm run build"
 
 after_success:
+  - if [ $TRAVIS_BRANCH == "master" ]; then
     "npm run deploy"
+    fi
