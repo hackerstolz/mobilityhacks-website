@@ -21,7 +21,7 @@ open http://localhost:8080
 - Webpack for building
 - react
 - skeleton.css for grid
-
+- react-masonry-component for tiles, cf. https://github.com/eiriklv/react-masonry-component
 ## Building
 
 [![Build Status](https://travis-ci.org/hackerstolz/mobilityhacks-website.svg?branch=master)](https://travis-ci.org/hackerstolz/mobilityhacks-website)

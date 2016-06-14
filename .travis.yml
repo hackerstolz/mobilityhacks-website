@@ -15,6 +15,6 @@ script:
     "npm run build"
 
 after_success:
-  - if [ $TRAVIS_BRANCH == "master" ]; then
+  - if [[ "$TRAVIS_BRANCH" == "master" ]]; then
     "npm run deploy"
     fi
