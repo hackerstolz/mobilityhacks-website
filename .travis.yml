@@ -2,17 +2,16 @@ language: node_js
 node_js:
   - "5"
 
+env:
+  - FOO=foo BAR=bar
+
 # whitelist
 branches:
   only:
     - master
-    - dev
 
 script:
     "npm run build"
 
-deploy:
-  provider: script
-  script: deploy.sh
-  on:
-    branch: master
+after_success:
+    "npm run deploy"
