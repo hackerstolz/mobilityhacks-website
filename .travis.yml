@@ -11,7 +11,8 @@ branches:
 script:
     "npm run build"
 
-after_success:
-  - if [[ "$TRAVIS_BRANCH" == "master" ]]; then
-    "npm run deploy"
-    fi
+deploy:
+  provider: script
+  script: deploy.sh
+  on:
+    branch: master
