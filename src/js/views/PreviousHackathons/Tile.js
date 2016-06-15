@@ -16,7 +16,7 @@ class Tile extends React.Component {
             return (
                 <div className={ className }>
                     <div className="tile__title">{this.props.title}</div>
-                    <div className="tile__text">{this.props.text}</div>
+                    <div className="tile__text">{this.props.children}</div>
                 </div>
             );
         }
