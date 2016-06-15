@@ -1,4 +1,21 @@
-// .tile--two-times
-// 	font-size 44px
-// 	line-height 1
-// 	font-weight bold
+$tileWidth = 478px
+$tileHeight = 358px
+
+.tile
+  font-size 40px
+  line-height 2
+  font-weight bold
+  text-transform uppercase
+  margin 3px
+  width $tileWidth
+  height $tileHeight
+
+.tile--two-times
+  //width 2 * $tileWidth
+  //height $tileHeight
+  text-overflow ellipsis
+  overflow visible
+
+.tile__text
+  width 2 * $tileWidth
+

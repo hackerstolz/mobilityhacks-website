@@ -6,7 +6,7 @@ import { Router, Route, IndexRoute } from 'react-router';
 require('./../index.html');
 require('./../css/normalize.css');
 require('./../css/skeleton.css');
-require('./../css/main.styl');
+require('./../fonts/fonts.styl');
 
 // Views (if you have an index.js you can import folders)
 import AppLayout from './layout/AppLayout';

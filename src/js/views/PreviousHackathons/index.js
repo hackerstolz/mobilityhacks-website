@@ -21,6 +21,7 @@ class PreviousHackathons extends React.Component {
                     <Tile className="tile--two-times" text="Hey ho. this was our previous hackathon food{hacks}.
                         Great particioants, fantastic products, amazing atmosphere &
                         lecker food. it was a f.ing success."/>
+                    <Tile className="tile--two-times" text=""/>
                     <Tile imageSrc="./images/Bitmap01.jpg"/>
                     <Tile imageSrc="./images/Bitmap02.jpg"/>
                     <Tile imageSrc="./images/Bitmap03.jpg"/>
@@ -29,10 +30,12 @@ class PreviousHackathons extends React.Component {
                     <Tile imageSrc="./images/Bitmap06.jpg"/>
                     <Tile imageSrc="./images/Bitmap07.jpg"/>
                     <Tile imageSrc="./images/Bitmap08.jpg"/>
+                    <Tile text="A lot of happy\nwinners and\nbeautifull and\nhandmade\nbanana-trophies"/>
                     <Tile imageSrc="./images/Bitmap09.jpg"/>
                     <Tile imageSrc="./images/Bitmap10.jpg"/>
                     <Tile imageSrc="./images/Bitmap11.jpg"/>
                     <Tile imageSrc="./images/Bitmap12.jpg"/>
+                    <Tile text="OH M YLORD.\nLook at this\nsuper super\nlecker and\ndelicious food."/>
                     <Tile imageSrc="./images/Bitmap13.jpg"/>
                     <Tile imageSrc="./images/Bitmap14.jpg"/>
                     <Tile imageSrc="./images/Bitmap15.jpg"/>
@@ -42,6 +45,7 @@ class PreviousHackathons extends React.Component {
                     <Tile imageSrc="./images/Bitmap19.jpg"/>
                     <Tile imageSrc="./images/Bitmap20.jpg"/>
                     <Tile imageSrc="./images/Bitmap21.jpg"/>
+                    <Tile text="When your lapotp keeps making jokes...<a>www.food-hacks.de</a>"/>
                     <Tile imageSrc="./images/Bitmap22.jpg"/>
                     <Tile imageSrc="./images/Bitmap23.jpg"/>
                     <Tile imageSrc="./images/Bitmap24.jpg"/>
