@@ -9,7 +9,7 @@ class Home extends React.Component {
                     <p>December 2016</p>
                     <p>Berlin, Germany</p>
                     <p>This is a Hackathon</p>
-                    <p>by Hackastolz.</p>
+                    <p>by Hackerstolz.</p>
                     <p>Stay tuned.</p>
                 </div>
                 <div className="home__hackathon-name">

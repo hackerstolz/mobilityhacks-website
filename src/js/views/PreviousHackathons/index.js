@@ -1,5 +1,6 @@
 import React from 'react';
 import Tile from './Tile';
+require('./main.styl');
 
 var Masonry = require('react-masonry-component');
 
