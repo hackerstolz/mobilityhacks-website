@@ -5,8 +5,21 @@ $dark-footer-gray = #222222;
 $selected-link-gray = #C4C4C4;
 $unselected-link-gray = #909090;
 
-$breakPointMedium = 614px
 $menu-width = 250px;
+
+// Responsive
+
+$breakPointMedium = 614px
+
+.only-small-screen
+  display none
+
+@media screen and (max-width: $breakPointMedium)
+  .only-small-screen
+    display inherit
+
+  .only-big-screen
+    display none
 
 // Default Mixins
 

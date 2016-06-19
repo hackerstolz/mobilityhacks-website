@@ -27,7 +27,7 @@ class PreviousHackathons extends React.Component {
                             'food. it was a f.ing success.'}
                         </span>
                     </Tile>
-                    <Tile className="tile--two-times" text=""/>
+                    <Tile className="tile--two-times only-big-screen" text=""/>
                     <Tile imageSrc="./images/Bitmap01.jpg"/>
                     <Tile imageSrc="./images/Bitmap02.jpg"/>
                     <Tile imageSrc="./images/Bitmap03.jpg"/>
