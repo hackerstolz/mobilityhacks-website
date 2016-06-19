@@ -1,1 +1,36 @@
 $hacker-blue = #004EFB
+$footer-height-lg = 55px;
+$dark-footer-gray = #222222;
+
+$selected-link-gray = #C4C4C4;
+$unselected-link-gray = #909090;
+
+$breakPointMedium = 614px
+$menu-width = 250px;
+
+// Default Mixins
+
+vendor(prop, args)
+  -webkit-{prop} args
+  -moz-{prop} args
+  -ms-{prop} args
+  -o-{prop} args
+  {prop} args
+
+border-box()
+  vendor('box-sizing', arguments)
+
+border-radius()
+  vendor('border-radius', arguments)
+
+box-shadow()
+  vendor('box-shadow', arguments)
+
+transition()
+  vendor('transition', arguments)
+
+transform()
+  vendor('transform', arguments)
+
+transform-origin()
+  vendor('transform-origin', arguments)

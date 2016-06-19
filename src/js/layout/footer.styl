@@ -1,8 +1,4 @@
-$footer-height-lg = 55px;
-$dark-footer-gray = #222222;
-
-$selected-link-gray = #C4C4C4;
-$unselected-link-gray = #909090;
+@import "../../css/settings.styl"
 
 .app-footer {
   position: fixed;
@@ -33,7 +29,6 @@ $unselected-link-gray = #909090;
     padding 12px
     margin-right 16px
     color $unselected-link-gray
-    
 
     &.last-link {
       // does the contact link need extra styling?
@@ -42,5 +37,42 @@ $unselected-link-gray = #909090;
 
   .link--active {
     color: $selected-link-gray;
+  }
+}
+
+// OffCanvasMenu
+
+.menu
+  display: block
+
+  .menu-items-container
+    position absolute
+    z-index 2
+    top 0
+    width $menu-width
+    height 100%
+    border-box()
+    transition(transform ease 1000ms);
+
+    &.left
+      background #273D7A
+      left $menu-width * -1
+      transition(left ease 1000ms);
+
+    &.visible.left
+      left 0
+
+.menu-item {
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding: 10px 15px;
+  border-bottom: solid 1px #555;
+  cursor: pointer;
+  //.border-box;
+  color: #B0B0B0;
+
+  &:hover {
+    color: #F0F0F0;
   }
 }

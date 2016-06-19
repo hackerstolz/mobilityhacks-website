@@ -1,5 +1,6 @@
 $tileWidth = 478px
 $tileHeight = 358px
+$singleImageBreakpoint = 580px
 
 .previous-hackathons__tiles
   margin-bottom 100px
@@ -28,4 +29,12 @@ $tileHeight = 358px
   letter-spacing -0.01em
   text-transform uppercase
 
+@media screen and (max-width: $singleImageBreakpoint)
+  .tile__text
+    font-size 48px
+    width $tileWidth
+    height 2 * $tileHeight
+    text-overflow clip
 
+  .tile, .tile__text, .tile__image, .tile--two-times
+    width 90vw
