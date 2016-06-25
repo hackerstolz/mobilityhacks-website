@@ -9,7 +9,7 @@ require('./../css/skeleton.css');
 require('./../fonts/fonts.styl');
 
 // Views (if you have an index.js you can import folders)
-import AppLayout from './layout/AppLayout';
+import Layout from './layout/Layout';
 import Home from './views/Home/';
 import BecomeASponsor from './views/BecomeASponsor/';
 import Contact from './views/Contact/';
@@ -18,7 +18,7 @@ import PreviousHackathons from './views/PreviousHackathons/';
 
 ReactDom.render(
     <Router>
-        <Route name="root" path="/" component={ AppLayout }>
+        <Route name="root" path="/" component={ Layout }>
             <IndexRoute name="home" component={ Home }/>
             <Route name="home" path="home" component={ Home }/>
             <Route name="get-your-ticket" path="get-your-ticket" component={ GetYourTicket }/>

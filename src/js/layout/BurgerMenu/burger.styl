@@ -1,0 +1,44 @@
+@import "../../../css/settings.styl"
+
+.burger-menu-button
+  z-index 100
+  position fixed
+  bottom 0
+  left 0
+  padding 16px
+  img
+    width 48px
+    height 48px
+
+.smartphone-menu
+  z-index 50
+  display: block
+  position absolute
+  top 0
+  width 100%
+  height 100%
+  background #444444
+  visibility hidden
+  opacity 0.0
+  border-box()
+  transition(all ease-out 500ms);
+
+  &.visible
+    visibility visible
+    opacity 1.0
+    transition(opacity ease 400ms);
+
+.menu-item {
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding: 10px 15px;
+  border-bottom: solid 1px #555;
+  cursor: pointer;
+  //.border-box;
+  color: #B0B0B0;
+
+  &:hover {
+    color: #F0F0F0;
+  }
+}

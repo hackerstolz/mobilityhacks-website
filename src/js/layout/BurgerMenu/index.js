@@ -1,5 +1,16 @@
 import React from 'react';
 
+require('./burger.styl');
+
+export class BurgerMenuButton extends React.Component {
+    render() {
+        return (
+            <div className="burger-menu-button only-small-screen" onClick={ this.props.clickHandler }>
+                <img src={ require('./burger.svg') }/>
+            </div>
+        );
+    }
+}
 export class MenuListItem extends React.Component {
     navigate(hash) {
         window.location.hash = hash;
@@ -43,10 +54,8 @@ export class Menu extends React.Component {
 
     render() {
         return (
-            <div className="menu">
-                <div className={(this.state.visible ? "visible " : "") + this.props.alignment + " menu-items-container"}>
-                    {this.props.children}
-                </div>
+            <div className={"smartphone-menu " + (this.state.visible ? "visible " : "") }>
+                {this.props.children}
             </div>
         );
     }
