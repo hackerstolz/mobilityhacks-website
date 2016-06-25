@@ -1,12 +1,31 @@
 import React from 'react';
 
 require('./burger.styl');
+var burgerIcon = require('./burger.svg');
+var crossIcon = require('./cross.svg');
+
 
 export class BurgerMenuButton extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {showCross: false, icon: burgerIcon};
+        this.state
+    }
+
+    toggle() {
+        if (this.state.showCross) {
+            this.setState({showCross: false, icon: burgerIcon});
+        } else {
+            this.setState({showCross: true, icon: crossIcon});
+        }
+        this.props.clickHandler();
+    }
+
+
     render() {
         return (
-            <div className="burger-menu-button only-small-screen" onClick={ this.props.clickHandler }>
-                <img src={ require('./burger.svg') }/>
+            <div className="burger-menu-button only-small-screen" onClick={ this.toggle.bind(this) }>
+                <img src={ this.state.icon }/>
             </div>
         );
     }
