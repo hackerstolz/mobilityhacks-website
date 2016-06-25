@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router'
-import { BurgerMenuButton, Menu, MenuListItem } from './BurgerMenu/'
+import { BurgerMenuButton, Menu } from './BurgerMenu/'
 
 require('./footer.styl');
 
@@ -20,10 +20,15 @@ class Footer extends React.Component {
         return (
             <div>
                 <Menu ref="offCanvasMenu" alignment="left">
-                    <Link to="home" activeClassName="link--active">Home</Link>
-                    <Link to="get-your-ticket" activeClassName="link--active">Get your ticket</Link>
-                    <Link to="previous-hackathons" activeClassName="link--active">Previous Hackathons</Link>
-                    <Link to="become-a-sponsor" activeClassName="link--active">Become a Sponsor</Link>
+                    <div className="offCanvasMenu__container-top"></div>
+                    <div className="offCanvasMenu__container-content">
+                        <Link to="home" activeClassName="link--active">Home</Link>
+                        <Link to="get-your-ticket" activeClassName="link--active">Get your ticket</Link>
+                        <Link to="previous-hackathons" activeClassName="link--active">Previous Hackathons</Link>
+                        <Link to="become-a-sponsor" activeClassName="link--active">Become a Sponsor</Link>
+                        <Link to="contact" activeClassName="link--active">Contact</Link>
+                    </div>
+                    <div className="offCanvasMenu__container-bottom"></div>
                 </Menu>
 
                 <BurgerMenuButton clickHandler={ this.toggleMenu.bind(this) }/>

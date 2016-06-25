@@ -11,19 +11,6 @@ export class BurgerMenuButton extends React.Component {
         );
     }
 }
-export class MenuListItem extends React.Component {
-    navigate(hash) {
-        window.location.hash = hash;
-    }
-
-    render() {
-        return (
-            <div className="menu-item">
-                {this.props.children}
-            </div>
-        );
-    }
-}
 
 export class Menu extends React.Component {
     constructor(props) {
@@ -54,7 +41,7 @@ export class Menu extends React.Component {
 
     render() {
         return (
-            <div className={"smartphone-menu " + (this.state.visible ? "visible " : "") }>
+            <div className={"offCanvasMenu " + (this.state.visible ? "visible " : "") } onClick={ this.hide.bind(this) }>
                 {this.props.children}
             </div>
         );

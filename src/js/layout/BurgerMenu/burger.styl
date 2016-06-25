@@ -10,9 +10,11 @@
     width 48px
     height 48px
 
-.smartphone-menu
+.offCanvasMenu
   z-index 50
-  display: block
+  display: flex
+  flex-direction: column
+  vertical-align bottom
   position absolute
   top 0
   width 100%
@@ -28,17 +30,24 @@
     opacity 1.0
     transition(opacity ease 400ms);
 
-.menu-item {
-  float: left;
-  width: 100%;
-  margin: 0;
-  padding: 10px 15px;
-  border-bottom: solid 1px #555;
-  cursor: pointer;
-  //.border-box;
-  color: #B0B0B0;
+  .offCanvasMenu__container-top
+    flex 4
+    width 100%
+  .offCanvasMenu__container-content
+    flex 5
+    width 100%
+  .offCanvasMenu__container-bottom
+    flex 2
+    width 100%
 
-  &:hover {
-    color: #F0F0F0;
-  }
-}
+  a
+    display block
+    text-align right
+    padding 15px
+    color #fff
+    text-transform uppercase
+    font-size 6vw
+
+    &.link--active
+      text-decoration underline
+
