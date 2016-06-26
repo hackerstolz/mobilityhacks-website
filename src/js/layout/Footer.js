@@ -6,20 +6,31 @@ require('./footer.styl');
 
 
 class Footer extends React.Component {
-    //constructor(props) {
-    //    super(props);
-    //    this.toggleMenu = Menu.toggle;
-    //}
+    constructor(props) {
+        super(props);
+        this.state = {visible: false};
+    }
 
-    //
     toggleMenu() {
-        this.refs.offCanvasMenu.toggle();
+        if (this.state.visible == true) {
+            this.hideMenu();
+        } else {
+            this.showMenu();
+        }
+    }
+
+    showMenu() {
+        this.setState({visible: true});
+    }
+
+    hideMenu() {
+        this.setState({visible: false});
     }
 
     render() {
         return (
-            <div>
-                <Menu ref="offCanvasMenu" alignment="left">
+            <div className="footer-container">
+                <Menu ref="offCanvasMenu" visible={ this.state.visible } clickHandler={ this.toggleMenu.bind(this) }>
                     <div className="offCanvasMenu__container-top"></div>
                     <div className="offCanvasMenu__container-content">
                         <Link to="home" activeClassName="link--active">Home</Link>
@@ -31,7 +42,7 @@ class Footer extends React.Component {
                     <div className="offCanvasMenu__container-bottom"></div>
                 </Menu>
 
-                <BurgerMenuButton clickHandler={ this.toggleMenu.bind(this) }/>
+                <BurgerMenuButton ref="burgerIcon" visible={ this.state.visible } clickHandler={ this.toggleMenu.bind(this) }/>
 
                 <div className="app-footer only-big-screen" ref="appFooter">
                     <Link to="home" activeClassName="link--active">Home</Link>

@@ -2,8 +2,16 @@ import React from 'react';
 import SensUsAMailButton from '../../layout/Buttons'
 require('./main.styl');
 
+class RegistrationSuccess extends React.Component {
+    render() {
+
+    }
+}
+
 class Contact extends React.Component {
     render() {
+
+
         return (
             <div className="contact content-container">
                 <div className="contact__container">

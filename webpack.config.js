@@ -21,7 +21,9 @@ module.exports = [
         plugins: [
             new CleanWebpackPlugin('dist'),
             new ExtractTextPlugin("css/default.css")
-
-        ]
+        ],
+        devServer: {
+            historyApiFallback: true
+        }
     }
 ];

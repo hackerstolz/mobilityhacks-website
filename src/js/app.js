@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import { Router, Route, IndexRoute } from 'react-router';
+import { browserHistory, Router, Route, IndexRoute } from 'react-router';
 
 // Assets
 require('./../index.html');
@@ -17,14 +17,14 @@ import GetYourTicket from './views/GetYourTicket/';
 import PreviousHackathons from './views/PreviousHackathons/';
 
 ReactDom.render(
-    <Router>
+    <Router history={browserHistory}>
         <Route name="root" path="/" component={ Layout }>
             <IndexRoute name="home" component={ Home }/>
-            <Route name="home" path="home" component={ Home }/>
-            <Route name="get-your-ticket" path="get-your-ticket" component={ GetYourTicket }/>
-            <Route name="previous-hackathons" path="previous-hackathons" component={ PreviousHackathons }/>
-            <Route name="become-a-sponsor" path="become-a-sponsor" component={ BecomeASponsor }/>
-            <Route name="contact" path="contact" component={ Contact }/>
+            <Route name="home" path="home" location="history" component={ Home }/>
+            <Route name="get-your-ticket" path="get-your-ticket" location="history" component={ GetYourTicket }/>
+            <Route name="previous-hackathons" path="previous-hackathons" location="history" component={ PreviousHackathons }/>
+            <Route name="become-a-sponsor" path="become-a-sponsor" location="history" component={ BecomeASponsor }/>
+            <Route name="contact" path="contact" location="history" component={ Contact }/>
         </Route>
     </Router>,
     document.getElementById('app')
