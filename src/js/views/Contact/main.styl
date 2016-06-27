@@ -1,8 +1,40 @@
-.contact__container
-  width 70vw
-  margin auto
-  text-align center
+@import '../../../css/settings.styl'
 
-.contact__text
-  margin 30px
-  font-size 3vw
+.contact
+  margin 0;
+  margin-bottom: 40px;
+
+  .contact__impressum
+    padding 20px
+    text-align center
+    a
+      color $hacker-blue
+
+  .outer-container
+    display: table;
+    position: absolute;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+
+  .middle-container
+    display: table-cell;
+    vertical-align: middle;
+    margin-top -20px
+
+  .inner-container
+    width 70vw
+    margin auto
+    text-align center
+
+  .contact__text
+    margin 30px
+    font-size 3vw
+
+@media screen and (max-width: $breakPointMedium)
+  .contact
+    .inner-container
+      width 90vw
+
+    .contact__text
+      font-size 5vw

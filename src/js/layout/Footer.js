@@ -45,12 +45,13 @@ class Footer extends React.Component {
                 <BurgerMenuButton ref="burgerIcon" visible={ this.state.visible } clickHandler={ this.toggleMenu.bind(this) }/>
 
                 <div className="app-footer only-big-screen" ref="appFooter">
+                    <div className="app-footer--left">
                     <Link to="home" activeClassName="link--active">Home</Link>
                     <Link to="get-your-ticket" activeClassName="link--active">Get your ticket</Link>
                     <Link to="previous-hackathons" activeClassName="link--active">Previous Hackathons</Link>
                     <Link to="become-a-sponsor" activeClassName="link--active">Become a Sponsor</Link>
-
-                    <div className="app-footer--right only-big-screen">
+                    </div>
+                    <div className="app-footer--right">
                         <Link to="contact" activeClassName="link--active" className="last-link">Contact</Link>
                     </div>
 
