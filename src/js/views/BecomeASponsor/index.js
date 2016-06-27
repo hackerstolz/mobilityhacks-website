@@ -39,11 +39,14 @@ class BecomeASponsor extends React.Component {
                     <p className="sponsor-paragraph__title">PREVIOUS HACKERSTOLZ SPONSORS</p>
                 </div>
 
-                <div className="sponsor-image-cloud__container">
-                    <img className="sponsor-image-cloud__image" src={ require('./sponsors_cloud.png') }/>
-                </div>
-
                 <div className="sponsor--centered">
+                    <div className="sponsor-image-cloud__container">
+                        <img className="sponsor-image-cloud__image" src={ require('./sponsors_cloud.png') }/>
+                    </div>
+
+                    <br />
+                    <br />
+
                     <SensUsAMailButton />
                 </div>
             </div>

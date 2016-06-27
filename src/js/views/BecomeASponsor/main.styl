@@ -1,32 +1,33 @@
-$hacker-blue = #004EFB
+@import '../../../css/settings.styl'
 
-.become-a-sponsor {
-  .sponsor-paragraph__container {
-    .sponsor-paragraph__title {
+.become-a-sponsor
+  .sponsor-paragraph__container
+    .sponsor-paragraph__title
       font-size 44px
       line-height 1
       font-weight bold
       color $hacker-blue
-    }
 
-    .sponsor-paragraph__text {
+    .sponsor-paragraph__text
       color #000000
       font-size 44px
       line-height 1
       font-weight bold
       margin-bottom 60px
-    }
-  }
 
-  .sponsor-image-cloud__container {
-    .sponsor-image-cloud__image {
+  .sponsor-image-cloud__container
+    .sponsor-image-cloud__image
       width calc(100vw - 200px)
-    }
-  }
-
-  .sponsor--centered {
+      max-width 1200px
+  .sponsor--centered
     margin 70px auto
     text-align center
-  }
-}
 
+@media screen and (max-width: $breakPointMedium)
+  .become-a-sponsor
+    .sponsor-paragraph__container
+      .sponsor-paragraph__title, .sponsor-paragraph__text
+        font-size 28px
+    .sponsor-image-cloud__container
+      .sponsor-image-cloud__image
+        width 90vw
