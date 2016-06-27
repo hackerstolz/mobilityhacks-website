@@ -2,21 +2,25 @@ import React from 'react';
 
 class Tile extends React.Component {
     render() {
-        var className = this.props.className ? "tile " + this.props.className : "tile";
 
         if (this.props.imageSrc) {
+            var imgStyle = {
+                backgroundImage: 'url(' + require(this.props.imageSrc) + ')'
+            };
+            var className = 'tile tile__image ' + (this.props.className ? this.props.className : "");
+
             return (
-                <div className={ className }>
-                    <div className="tile__title">{this.props.title}</div>
-                    <img className="tile__image" src={ require(this.props.imageSrc) }/>
+                <div className={ className } style={ imgStyle }>
+                    {this.props.children}
                 </div>
             );
         }
         else {
+            var className = 'tile tile__text ' + (this.props.className ? this.props.className : "");
+
             return (
                 <div className={ className }>
-                    <div className="tile__title">{this.props.title}</div>
-                    <div className="tile__text">{this.props.children}</div>
+                    {this.props.children}
                 </div>
             );
         }

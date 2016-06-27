@@ -1,40 +1,61 @@
+@import '../../../css/settings.styl'
+
 $tileWidth = 478px
 $tileHeight = 358px
-$singleImageBreakpoint = 580px
+$defaultMargin = 3px
 
-.previous-hackathons__tiles
-  margin-bottom 100px
+.previous-hackathons
+  margin 0
+  margin-bottom $footer-height-lg
+  display flex
+  flex-direction row
+  flex-wrap wrap
+  align-items flex-start
 
 .tile
+  float left
   margin 3px
+  flex-grow 1
   width $tileWidth
   height $tileHeight
   a, br
     font-size 46px
 
-.tile--two-times
-  //width 2 * $tileWidth
-  //height $tileHeight
-  text-overflow ellipsis
-  overflow visible
-  .tile__text
-    width 2 * $tileWidth
+  &.tile--two-times
+    font-size 52px
+    text-overflow ellipsis
+    overflow visible
+    width (2 * $tileWidth)
+    height auto
+    margin 0
+
+.tile__image
+  background-size cover
+  background-repeat no-repeat
 
 .tile__text
-  padding 18px 20px
   font-size 54px
   font-weight bold
   line-height 1.2
   word-spacing: -0.3em;
   letter-spacing -0.01em
   text-transform uppercase
+  p
+    padding 18px 20px
 
-@media screen and (max-width: $singleImageBreakpoint)
+@media screen and (max-width: $breakPointMedium)
   .tile__text
     font-size 48px
-    width $tileWidth
-    height 2 * $tileHeight
     text-overflow clip
+    height auto
 
   .tile, .tile__text, .tile__image, .tile--two-times
-    width 90vw
+    width 100vw
+    margin 0 2px 4px 0
+
+  .tile
+    &.tile--two-times
+      font-size 40px
+      width 100vw
+      height auto
+
