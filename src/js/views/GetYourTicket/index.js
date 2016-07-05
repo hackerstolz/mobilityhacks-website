@@ -11,15 +11,32 @@ class RegistrationSuccess extends React.Component {
 
 class GetYourTicket extends React.Component {
     isSuccessFromRegistration() {
-        console.info(this.props.location.query);
-        return this.props.location.query.id;
+        console.info("isSuccessFromRegistration: " + this.getParameterByName("email"));
+        return this.getParameterByName("email");
+    }
+
+    getParameterByName(name) {
+        var url = window.location.href;
+        name = name.replace(/[\[\]]/g, "\\$&");
+        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+            results = regex.exec(url);
+        if (!results) {
+            return null;
+        }
+        if (!results[2]) {
+            return '';
+        }
+        return decodeURIComponent(results[2]);
     }
 
     render() {
         if (this.isSuccessFromRegistration()) {
             return (
-                <div className="get-your-ticket content-container">
+                <div className="get-your-ticket get-your-ticket--success content-container">
                     <h1>Thank you for your registration!</h1>
+
+                    <p className="success__text">We will send you a mail when the registration is open to <br /><span
+                        className="other-font">{ this.getParameterByName("email") }</span></p>
                 </div>
             );
         } else {

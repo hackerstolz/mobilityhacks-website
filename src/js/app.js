@@ -17,7 +17,7 @@ import GetYourTicket from './views/GetYourTicket/';
 import PreviousHackathons from './views/PreviousHackathons/';
 
 ReactDom.render(
-    <Router history={browserHistory}>
+    <Router history={ browserHistory }>
         <Route name="root" path="/" component={ Layout }>
             <IndexRoute name="home" component={ Home }/>
             <Route name="home" path="home" location="history" component={ Home }/>
