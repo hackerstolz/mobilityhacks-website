@@ -1,6 +1,8 @@
 var FtpDeploy = require('ftp-deploy');
 var ftpDeploy = new FtpDeploy();
 
+console.info("### Current branch is: " +  process.env.TRAVIS_BRANCH);
+
 var config = {
     username: process.env.FTP_USER,
     password: process.env.FTP_PASSWORD,
