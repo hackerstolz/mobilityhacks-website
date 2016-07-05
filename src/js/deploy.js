@@ -7,7 +7,7 @@ var config = {
     host: "ftp.mobility-hacks.de",
     port: 21,
     localRoot: "./dist",
-    remoteRoot: "/stage/",
+    remoteRoot: process.env.TRAVIS_BRANCH === "dev" ? "/stage/" : "/",
     exclude: ['.git', '.idea', 'tmp/*']
 };
 
