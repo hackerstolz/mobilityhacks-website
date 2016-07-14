@@ -5,7 +5,7 @@
   "license": "SEE LICENSE IN LICENSE",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CanardSauvage/waschnick.de"
+    "url": "https://github.com/hackerstolz/mobilityhacks-website"
   },
   "scripts": {
     "start": "webpack-dev-server --inline --watch",
