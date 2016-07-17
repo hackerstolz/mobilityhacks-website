@@ -59,7 +59,7 @@ class PreviousHackathons extends React.Component {
                     <p>
                         { 'When your laptop keeps making jokes...' }
                     </p>
-                    <a href="www.food-hacks.de">www.food-hacks.de</a>
+                    <a href="http://www.food-hacks.de">www.food-hacks.de</a>
                 </Tile>
                 <Tile imageSrc="./images/Bitmap22.jpg"/>
                 <Tile imageSrc="./images/Bitmap23.jpg"/>
