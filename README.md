@@ -35,6 +35,9 @@ npm run build
 
 The site will be deployt on every push to master.
 
+* ``dev`` branch goes to stage.mobility-hacks.de
+* ```master`` goes to prod --> mobility-hacks.de
+
 ## Live reloading & dev
 
 ```bash

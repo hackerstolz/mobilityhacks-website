@@ -15,6 +15,11 @@ class GetYourTicket extends React.Component {
         return this.getParameterByName("email");
     }
 
+    isStage() {
+        var url = window.location.href;
+        return url.indexOf("stage") != -1;
+    }
+
     getParameterByName(name) {
         var url = window.location.href;
         name = name.replace(/[\[\]]/g, "\\$&");
