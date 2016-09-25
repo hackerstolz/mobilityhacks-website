@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import { browserHistory, Router, Route, IndexRoute } from 'react-router';
+import {browserHistory, Router, Route, IndexRoute} from 'react-router';
 
 // Assets
 require('./../index.html');
@@ -16,6 +16,9 @@ import BecomeASponsor from './views/BecomeASponsor/';
 import Contact from './views/Contact/';
 import GetYourTicket from './views/GetYourTicket/';
 import PreviousHackathons from './views/PreviousHackathons/';
+import BackgroundMap from './layout/BackgroundMap/';
+
+BackgroundMap();
 
 ReactDom.render(
     <Router history={ browserHistory }>
