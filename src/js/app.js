@@ -16,9 +16,6 @@ import BecomeASponsor from './views/BecomeASponsor/';
 import Contact from './views/Contact/';
 import GetYourTicket from './views/GetYourTicket/';
 import PreviousHackathons from './views/PreviousHackathons/';
-import BackgroundMap from './layout/BackgroundMap/';
-
-BackgroundMap();
 
 ReactDom.render(
     <Router history={ browserHistory }>
