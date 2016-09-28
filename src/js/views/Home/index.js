@@ -5,15 +5,28 @@ class Home extends React.Component {
     render() {
         return (
             <div className="home content-container">
-                <div className="home__teaser-text">
-                    <p>December 2016</p>
-                    <p>Berlin, Germany</p>
-                    <p>This is a Hackathon</p>
-                    <p>by Hackerstolz.</p>
-                    <p>Stay tuned.</p>
-                </div>
                 <div className="home__hackathon-name">
-                    <p>Mobility Hacks</p>
+                    <p className="home__hackathon-name__line1">mobility</p>
+                    <p className="home__hackathon-name__line2">{'{hacks}'}</p>
+                </div>
+                <div className="home__teaser-text">
+                    <ul>
+                        <li>
+                            date:<br />
+                            saturday, 03/12/16<br />
+                            sunday, 03/12/16
+                        </li>
+                        <li>
+                            location:<br />
+                            spielfeld digital hub<br />
+                            skalizuer str. 85/86<br />
+                            10993 berlin
+                        </li>
+                        <li>
+                            this hackathon is<br />
+                            organized by <a href="hackerstolz.de" target="_blank">hackerstolz</a>.
+                        </li>
+                    </ul>
                 </div>
             </div>
         );

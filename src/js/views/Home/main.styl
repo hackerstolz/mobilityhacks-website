@@ -5,59 +5,87 @@ $footer-height-lg = 100px;
 body
   min-height 100%
 
-.home {
-  position: fixed;
-  bottom: $footer-height-lg;
-  margin 60px
+.home
+  //position fixed
+  //bottom $footer-height-lg
+  //margin 60px
+  height 100%
+  width 100%
   // above(1200px)
   //   margin 30px 80px
 
-  p {
-    text-transform: uppercase;
-    font-weight: 600;
-    line-height: 1;
-    padding: 0;
-    margin: 0;
-  }
+  color white
 
-  .home__teaser-text {
-    font-size: calc(3vw + 15px)
-    margin-bottom: 50px;
-  }
+  .home__hackathon-name
+    font-size 4vw
+    font-weight bold
+    letter-spacing 1.81
+    p
+      margin 0
+    .home__hackathon-name__line2
+      margin-left 5vw
 
-  .home__hackathon-name {
-    font-size: 9vw;
-    color: $fancy-font-blue;
-  }
+  .home__teaser-text
+    margin-top 100px
+    ul
+      position relative
+      list-style none
+      margin-left 0
+      padding-left 1.2em
+    ul li:before
+      content "+"
+      position absolute
+      left 0
+      color $hacker-blue
+    a
+      color white
+      text-decoration underline
 
-  /* screen width is more than double the height */
-  @media screen and (min-aspect-ratio: 5 / 2) {
-    .home__teaser-text {
-      font-size: 2vw
-    }
-
-    .home__hackathon-name {
-      font-size: 7vw;
-    }
-  }
-
-  @media screen and (min-aspect-ratio: 7 / 2) {
-    .home__teaser-text {
-      font-size: 1.5vw
-    }
-
-    .home__hackathon-name {
-      font-size: 5vw;
-    }
-  }
-
-  @media screen and (min-aspect-ratio: 9 / 2) {
-    .home__teaser-text {
-      font-size: 1.2vw
-    }
-
-    .home__hackathon-name {
-      font-size: 4vw;
-    }
-  }
-}
+//p {
+//  text-transform: uppercase;
+//  font-weight: 600;
+//  line-height: 1;
+//  padding: 0;
+//  margin: 0;
+//}
+//
+//.home__teaser-text {
+//  font-size: calc(3vw + 15px)
+//  margin-bottom: 50px;
+//}
+//
+//.home__hackathon-name {
+//  font-size: 9vw;
+//  color: $fancy-font-blue;
+//}
+//
+///* screen width is more than double the height */
+//@media screen and (min-aspect-ratio: 5 / 2) {
+//  .home__teaser-text {
+//    font-size: 2vw
+//  }
+//
+//  .home__hackathon-name {
+//    font-size: 7vw;
+//  }
+//}
+//
+//@media screen and (min-aspect-ratio: 7 / 2) {
+//  .home__teaser-text {
+//    font-size: 1.5vw
+//  }
+//
+//  .home__hackathon-name {
+//    font-size: 5vw;
+//  }
+//}
+//
+//@media screen and (min-aspect-ratio: 9 / 2) {
+//  .home__teaser-text {
+//    font-size: 1.2vw
+//  }
+//
+//  .home__hackathon-name {
+//    font-size: 4vw;
+//  }
+//}

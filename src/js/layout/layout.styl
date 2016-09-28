@@ -1,10 +1,27 @@
-a {
+a
   text-decoration none
-}
+
+*
+  -webkit-font-smoothing antialiased
+
+html, body
+  background black
 
 body
   font-family 'GT Pressura Mono Trial'
 
 .content-container
   margin 30px
-  margin-bottom 80px
+  margin-bottom $footer-height-lg
+  margin-top 0
+
+.ticket-button
+  padding 48px
+  position relative
+  margin auto auto
+  float right
+
+  .ticket-button__image
+    min-width 150px
+    width 10vw
+    max-width 300px
