@@ -16,6 +16,7 @@ import BecomeASponsor from './views/BecomeASponsor/';
 import Contact from './views/Contact/';
 import GetYourTicket from './views/GetYourTicket/';
 import PreviousHackathons from './views/PreviousHackathons/';
+import Modal from './views/Modal/';
 
 ReactDom.render(
     <Router history={ browserHistory }>
@@ -26,6 +27,7 @@ ReactDom.render(
             <Route name="previous-hackathons" path="previous-hackathons" location="history" component={ PreviousHackathons }/>
             <Route name="become-a-sponsor" path="become-a-sponsor" location="history" component={ BecomeASponsor }/>
             <Route name="contact" path="contact" location="history" component={ Contact }/>
+            <Route name="modal" path="modal" location="modal" component={ Modal }/>
         </Route>
     </Router>,
     document.getElementById('app')

@@ -52,6 +52,7 @@ class Footer extends React.Component {
                         <Link to="become-a-sponsor" activeClassName="link--active">Become a Sponsor</Link>
                     </div>
                     <div className="app-footer--right">
+                        <Link to="modal" activeClassName="link--active">Test</Link>
                         <Link to="contact" activeClassName="link--active" className="last-link">Contact</Link>
                     </div>
 

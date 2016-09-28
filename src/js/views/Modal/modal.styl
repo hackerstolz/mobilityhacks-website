@@ -1,0 +1,69 @@
+@import "../../../css/settings.styl"
+
+#modal
+  //position: absolute;
+  opacity 0.8
+  background #121212
+  margin auto auto
+
+  max-width 1000px
+  min-width 300px
+  width 50vw
+  height 70vh
+  margin-top 60px
+
+  color white
+
+  .modal__header
+    display flex
+    .modal__header__item
+      flex 1 0 auto
+    .left:hover, .right:hover
+      opacity 0.6
+    .left
+      text-align left
+    .center
+      text-align center
+      text-transform uppercase
+    .right
+      text-align right
+
+  .modal__title
+    font-family 'Stanley'
+    text-align center
+    letter-spacing 2px
+    // A9A9A9
+    .modal__title--header
+      font-size 4vw
+      color $hacker-blue
+    .modal__title--text
+      color white
+  fieldset
+    border 2px solid #101B29
+    height 200px
+  legend
+    writing-mode tb-rl
+    //margin-top 50%
+    transform(rotate(180deg))
+
+//left 50%
+//right 50%
+
+//left: 50%;
+//margin: -250px 0 0 -32%;
+
+//position: absolute;
+//top: -50%;
+//visibility: hidden;
+//width: 65%;
+//box-shadow: 0 3px 7px rgba(0, 0, 0, .25);
+//box-sizing: border-box;
+//transition: all .4s ease-in-out;
+//-moz-transition: all .4s ease-in-out;
+//-webkit-transition: all .4s ease-in-out
+
+//#modal:target {
+//  opacity: 1;
+//  top: 50%;
+//  visibility: visible
+//}
