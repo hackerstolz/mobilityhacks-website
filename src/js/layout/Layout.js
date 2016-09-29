@@ -1,5 +1,8 @@
 import React from 'react';
+import {Link} from 'react-router';
+
 import Footer from './FooterMenu/Footer';
+import TicketButton from './TicketButton/ticket-button';
 
 require('./layout.styl');
 require('./background.styl');
@@ -9,9 +12,7 @@ class AppLayout extends React.Component {
     render() {
         return (
             <div className="app-wrapper">
-                <div className="ticket-button">
-                    <img className="ticket-button__image" src={require('./ticket_button.svg')}/>
-                </div>
+             <TicketButton />
                 {this.props.children}
                 <Footer />
             </div>

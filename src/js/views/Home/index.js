@@ -24,7 +24,7 @@ class Home extends React.Component {
                         </li>
                         <li>
                             this hackathon is<br />
-                            organized by <a href="hackerstolz.de" target="_blank">hackerstolz</a>.
+                            organized by <a href="http://www.hackerstolz.de" target="_blank">hackerstolz</a>.
                         </li>
                     </ul>
                 </div>

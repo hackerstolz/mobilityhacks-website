@@ -34,10 +34,13 @@ class Footer extends React.Component {
                     <div className="offCanvasMenu__container-top"></div>
                     <div className="offCanvasMenu__container-content">
                         <Link to="home" activeClassName="link--active">Home</Link>
-                        <Link to="get-your-ticket" activeClassName="link--active">Get your ticket</Link>
-                        <Link to="previous-hackathons" activeClassName="link--active">Previous Hackathons</Link>
-                        <Link to="become-a-sponsor" activeClassName="link--active">Become a Sponsor</Link>
-                        <Link to="contact" activeClassName="link--active">Contact</Link>
+                        <Link to="station-01" activeClassName="link--active">Why Mobility?</Link>
+                        <Link to="station-02" activeClassName="link--active">Prizes</Link>
+                        <Link to="station-03" activeClassName="link--active">Jury</Link>
+                        <Link to="station-04" activeClassName="link--active">Organizers</Link>
+                        <Link to="station-05" activeClassName="link--active">Sponsors</Link>
+                        <Link to="station-06-schedule" activeClassName="link--active">Schedule</Link>
+                        <Link to="station-07-faq" activeClassName="link--active">FAQ</Link>
                     </div>
                     <div className="offCanvasMenu__container-bottom"></div>
                 </Menu>
@@ -46,13 +49,16 @@ class Footer extends React.Component {
 
                 <div className="app-footer only-big-screen" ref="appFooter">
                     <div className="app-footer--left">
-                        <Link to="home" activeClassName="link--active">Home</Link>
-                        <Link to="get-your-ticket" activeClassName="link--active">Get your ticket</Link>
-                        <Link to="previous-hackathons" activeClassName="link--active">Previous Hackathons</Link>
-                        <Link to="become-a-sponsor" activeClassName="link--active">Become a Sponsor</Link>
+                        <Link to="home" activeClassName="link--active">#</Link>
+                        <Link to="station-01-why-mobility" activeClassName="link--active">Why Mobility</Link>
+                        <Link to="station-02-prizes-and-criteria" activeClassName="link--active">Prizes</Link>
+                        <Link to="station-03-jury" activeClassName="link--active">Jury</Link>
+                        <Link to="station-04-organizers" activeClassName="link--active">Organizers</Link>
+                        <Link to="station-05-sponsors" activeClassName="link--active">Sponsors</Link>
+                        <Link to="station-06-schedule" activeClassName="link--active">Schedule</Link>
+                        <Link to="station-07-faq" activeClassName="link--active">FAQ</Link>
                     </div>
                     <div className="app-footer--right">
-                        <Link to="modal" activeClassName="link--active">Test</Link>
                         <Link to="contact" activeClassName="link--active" className="last-link">Contact</Link>
                     </div>
 

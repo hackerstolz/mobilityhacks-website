@@ -1,4 +1,5 @@
 import React from 'react';
+import {Router, Link, browserHistory} from 'react-router';
 
 require('./modal.styl');
 
@@ -6,21 +7,13 @@ require('./modal.styl');
 class Modal extends React.Component {
     constructor(props) {
         super(props);
-        // this.state = {visible: false};
-        this.leftClick.bind(this);
-        this.rightClick.bind(this);
-        this.exitClick.bind(this);
     }
 
     leftClick() {
-
+        window.history.back();
     }
 
     rightClick() {
-
-    }
-
-    exitClick() {
 
     }
 
@@ -29,14 +22,16 @@ class Modal extends React.Component {
             <div id="modal" className="content-container">
                 <div className="modal-content ">
                     <div className="modal__header">
-                        <div className="modal__header__item left" onClick={ this.leftClick() }>
+                        <div className="modal__header__item left" onClick={ this.leftClick.bind(this) }>
                             <img src={ require('./left-arrow.svg') }/>
                         </div>
                         <div className="modal__header__item center">
                             { this.props.header }
                         </div>
-                        <div className="modal__header__item right" onClick={ this.exitClick() }>
-                            <img src={ require('./star.svg') }/>
+                        <div className="modal__header__item right">
+                            <Link to="home" activeClassName="link--active">
+                                <img src={ require('./star.svg') }/>
+                            </Link>
                         </div>
                     </div>
                     <div className="modal__title">
@@ -45,11 +40,7 @@ class Modal extends React.Component {
                            dangerouslySetInnerHTML={ {__html: this.props.titletext} }/>
                     </div>
                     <div className="modal__content">
-
-                        <fieldset>
-                            <legend>Jury members</legend>
-                            asdf
-                        </fieldset>
+                        { this.props.children }
                     </div>
                 </div>
             </div>
