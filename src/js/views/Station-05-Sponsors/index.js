@@ -15,40 +15,36 @@ class ModalView extends React.Component {
                     title='Sponsors'
                     titletext={titletext}
                 >
-                    <fieldset className="jury__fieldset">
+                    <fieldset className="fieldset">
                         <legend>GOLD Sponsors</legend>
-                        <div className="jury__fieldset__container">
-                            <div className="jury__fieldset__container-wrapper">
-                                <div className="jury-member">
-                                    <img className="jury-head" src={require('./IBM.png')}/>
-                                    <p className="jury-text">1. Prize</p>
-                                    <p className="jury-text">???</p>
+                        <div className="fieldset__container">
+                            <div className="fieldset__container-wrapper">
+                                <div className="full-image__container">
+                                    <img className="full-image" src={require('./IBM.png')}/>
                                 </div>
-                                <div className="jury-member">
-                                    <img className="jury-head" src={require('./BVG.png')}/>
-                                    <p className="jury-text">2. Prize</p>
-                                    <p className="jury-text">???</p>
+                                <div className="full-image__container">
+                                    <img className="full-image" src={require('./BVG.png')}/>
                                 </div>
                             </div>
                         </div>
                     </fieldset>
 
-                    <fieldset className="jury__fieldset">
+                    <fieldset className="fieldset">
                         <legend>Sponsors</legend>
-                        <div className="jury__fieldset__container">
-                            <div className="jury__fieldset__container-wrapper">
-                                <div className="jury-member">
-                                    <img className="jury-head" src={require('./SAP.png')}/>
+                        <div className="fieldset__container">
+                            <div className="fieldset__container-wrapper">
+                                <div className="full-image__container">
+                                    <img className="full-image" src={require('./SAP.png')}/>
                                 </div>
                             </div>
                         </div>
                     </fieldset>
-                    <fieldset className="jury__fieldset">
+                    <fieldset className="fieldset">
                         <legend>Partners</legend>
-                        <div className="jury__fieldset__container">
-                            <div className="jury__fieldset__container-wrapper">
-                                <div className="jury-member">
-                                    <img className="jury-head" src={require('./Spielfeld.png')}/>
+                        <div className="fieldset__container">
+                            <div className="fieldset__container-wrapper">
+                                <div className="full-image__container">
+                                    <img className="full-image" src={require('./Spielfeld.png')}/>
                                 </div>
                             </div>
                         </div>

@@ -3,6 +3,9 @@ import Modal from '../../layout/Modal/Modal';
 
 require('./main.styl');
 
+const titletext = 'A little less fatal than in circus maximus.<br />' +
+    'But berely a pinch.';
+
 class ModalView extends React.Component {
     render() {
         return (
@@ -10,50 +13,49 @@ class ModalView extends React.Component {
                 <Modal
                     header='Station 3'
                     title='Jury'
-                    titletext='A little less fatal than in circus maximus.<br />But berely a pinch.'
+                    titletext={titletext}
                 >
-                    <fieldset className="jury__fieldset">
+
+                    <fieldset className="fieldset">
                         <legend>Jury members</legend>
-                        <div className="jury__fieldset__container">
-                            <div className="jury__fieldset__container-wrapper">
-                            <div className="jury-member">
-                                <img className="jury-head" src={require('./jury-head.png')}/>
-                                <p className="jury-name">Ben Dover</p>
-                                <p className="jury-text">IBM, University of berlin</p>
-                                <p className="jury-text">Business judge</p>
-                            </div>
-                            <div className="jury-member">
-                                <img className="jury-head" src={require('./jury-head.png')}/>
-                                <p className="jury-name">Ben Dover</p>
-                                <p className="jury-text">IBM, University of berlin</p>
-                                <p className="jury-text">Business judge</p>
-                            </div>
-                            <div className="jury-member">
-                                <img className="jury-head" src={require('./jury-head.png')}/>
-                                <p className="jury-name">Ben Dover</p>
-                                <p className="jury-text">IBM, University of berlin</p>
-                                <p className="jury-text">Business judge</p>
-                            </div>
-                            <div className="jury-member">
-                                <img className="jury-head" src={require('./jury-head.png')}/>
-                                <p className="jury-name">Ben Dover</p>
-                                <p className="jury-text">IBM, University of berlin</p>
-                                <p className="jury-text">Business judge</p>
-                            </div>
-                            <div className="jury-member">
-                                <img className="jury-head" src={require('./jury-head.png')}/>
-                                <p className="jury-name">Ben Dover</p>
-                                <p className="jury-text">IBM, University of berlin</p>
-                                <p className="jury-text">Business judge</p>
-                            </div>
+                        <div className="fieldset__container">
+                            <div className="fieldset__container-wrapper">
+                                <div className="circle-image__container">
+                                    <img className="circle-image" src={require('./jury-head.png')}/>
+                                    <p className="image-text-title">Ben Dover</p>
+                                    <p className="image-text">IBM, University of berlin</p>
+                                    <p className="image-text">Business judge</p>
+                                </div>
+                                <div className="circle-image__container">
+                                    <img className="circle-image" src={require('./jury-head.png')}/>
+                                    <p className="image-text-title">Ben Dover</p>
+                                    <p className="image-text">IBM, University of berlin</p>
+                                    <p className="image-text">Business judge</p>
+                                </div>
+                                <div className="circle-image__container">
+                                    <img className="circle-image" src={require('./jury-head.png')}/>
+                                    <p className="image-text-title">Ben Dover</p>
+                                    <p className="image-text">IBM, University of berlin</p>
+                                    <p className="image-text">Business judge</p>
+                                </div>
+                                <div className="circle-image__container">
+                                    <img className="circle-image" src={require('./jury-head.png')}/>
+                                    <p className="image-text-title">Ben Dover</p>
+                                    <p className="image-text">IBM, University of berlin</p>
+                                    <p className="image-text">Business judge</p>
+                                </div>
+                                <div className="circle-image__container">
+                                    <img className="circle-image" src={require('./jury-head.png')}/>
+                                    <p className="image-text-title">Ben Dover</p>
+                                    <p className="image-text">IBM, University of berlin</p>
+                                    <p className="image-text">Business judge</p>
+                                </div>
                             </div>
                         </div>
                     </fieldset>
                 </Modal>
-            </
-                div >
-        )
-            ;
+            </div>
+        );
     }
 }
 

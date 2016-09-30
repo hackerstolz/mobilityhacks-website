@@ -5,15 +5,24 @@ import Footer from './FooterMenu/Footer';
 import TicketButton from './TicketButton/ticket-button';
 
 require('./layout.styl');
-require('./background.svg');
 
 class AppLayout extends React.Component {
     render() {
         return (
             <div className="app-wrapper">
+                <div className="circle__container">
+                    <div className="circle-first__container">
+                        <img className="circle-first" src={require('./Background/first_circle.svg')}/>
+                    </div>
+                    <div className="circle-left__container">
+                        <img className="circle-left" src={require('./Background/kreis_links.svg')}/>
+                    </div>
+                </div>
+
                 <TicketButton />
-                <img className="circle-left" src={require('./kreis_links.svg')}/>
+
                 {this.props.children}
+
                 <Footer />
             </div>
         );

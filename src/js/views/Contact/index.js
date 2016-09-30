@@ -6,9 +6,7 @@ class Contact extends React.Component {
     render() {
         return (
             <div className="contact content-container">
-                <div className="contact__impressum">
-                    <a className="impressum__link" href="http://www.hackerstolz.de/de/impressum/">Impressum</a>
-                </div>
+
                 <div className="outer-container">
 
                     <div className="middle-container">
@@ -19,6 +17,10 @@ class Contact extends React.Component {
                             </p>
 
                             <SensUsAMailButton />
+
+                            <div className="contact__impressum">
+                                <a className="impressum__link" href="http://www.hackerstolz.de/de/impressum/">Impressum</a>
+                            </div>
                         </div>
                     </div>
                 </div>

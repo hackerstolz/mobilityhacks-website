@@ -2,14 +2,15 @@
 
 #modal
   //position: absolute;
-  opacity 0.8
+  opacity 0.9
   background #121212
   margin auto auto
 
   max-width 1000px
   min-width 300px
   width 50vw
-  height 70vh
+  height 70%
+  max-height 70%
   margin-top 60px
 
   color white
@@ -39,12 +40,23 @@
     .modal__title--text
       color white
   fieldset
-    border 2px solid #101B29
-    height 200px
+    border 4px solid #101B29
+    display block
+    padding 20px
+    padding-left 40px
+    position: relative;
+    min-height 200px
   legend
-    writing-mode tb-rl
+    vendor('writing-mode', vertical-lr)
     //margin-top 50%
+    text-transform uppercase
     transform(rotate(180deg))
+    text-align: center;
+    padding: 3px;
+    height: 100%;
+    position: absolute;
+    left: -18px;
+    top: 0;
 
   .small-button
     font-family 'Stanley'
@@ -54,24 +66,46 @@
     font-weight 600
     color $hacker-blue
 
-//left 50%
-//right 50%
+.fieldset__container
+  text-align center
+  //display flex
+  //align-items center
+  //justify-content center
+  p
+    margin 0
+  .fieldset__container-wrapper
+    margin auto
+    display flex
+    align-items center
+    justify-content center
+    flex-wrap wrap
+  .circle-image__container
+    margin 12px
+    //flex 1 0 auto
+    float left
+    width 160px
+    text-align center
+    .circle-image
+      width 120px
+      height 120px
+      border-radius 50%
+  .full-image__container
+    margin 12px
+    float left
+    text-align center
+    .full-image
+      color white
+      height 100px
+  .image-text-title
+    color white
+  .image-text
+    color white
 
-//left: 50%;
-//margin: -250px 0 0 -32%;
-
-//position: absolute;
-//top: -50%;
-//visibility: hidden;
-//width: 65%;
-//box-shadow: 0 3px 7px rgba(0, 0, 0, .25);
-//box-sizing: border-box;
-//transition: all .4s ease-in-out;
-//-moz-transition: all .4s ease-in-out;
-//-webkit-transition: all .4s ease-in-out
-
-//#modal:target {
-//  opacity: 1;
-//  top: 50%;
-//  visibility: visible
-//}
+  @media screen and (max-width: $breakPointMedium)
+    .full-image
+      max-width 100px !important
+      height auto !important
+  @media screen and (min-width: $breakPointMedium) and (max-width $breakPointBig)
+    .full-image
+      max-width 200px !important
+      height auto !important

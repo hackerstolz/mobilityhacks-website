@@ -6,50 +6,50 @@ const titletext = 'Why us, I don\'t know. ll';
 class ModalView extends React.Component {
     render() {
         return (
-            <div className="modal content-container">
+            <div className="organizers content-container">
                 <Modal
                     header='Station 4'
                     title='Organizers'
                     titletext={titletext}
                 >
-                    <fieldset className="jury__fieldset">
+                    <fieldset className="fieldset">
                         <legend>Organizers</legend>
-                        <div className="jury__fieldset__container">
-                            <div className="jury__fieldset__container-wrapper">
-                                <div className="jury-member">
-                                    <img className="jury-head" src={require('./jury-head.png')}/>
-                                    <p className="jury-name">Frederik Chettouh</p>
-                                    <p className="jury-text">Sponsors, Service, Moderation</p>
+                        <div className="fieldset__container">
+                            <div className="fieldset__container-wrapper">
+                                <div className="circle-image__container">
+                                    <img className="circle-image" src={require('./jury-head.png')}/>
+                                    <p className="image-text-title">Frederik Chettouh</p>
+                                    <p className="image-text">Sponsors, Service, Moderation</p>
                                 </div>
-                                <div className="jury-member">
-                                    <img className="jury-head" src={require('./jury-head.png')}/>
-                                    <p className="jury-name">Alexander Müller</p>
-                                    <p className="jury-text">Finance, Moderation, Planning</p>
+                                <div className="circle-image__container">
+                                    <img className="circle-image" src={require('./jury-head.png')}/>
+                                    <p className="image-text-title">Alexander Müller</p>
+                                    <p className="image-text">Finance, Moderation, Planning</p>
                                 </div>
-                                <div className="jury-member">
-                                    <img className="jury-head" src={require('./jury-head.png')}/>
-                                    <p className="jury-name">Özden Gelgeç</p>
-                                    <p className="jury-text">Identity, Interior Design</p>
+                                <div className="circle-image__container">
+                                    <img className="circle-image" src={require('./jury-head.png')}/>
+                                    <p className="image-text-title">Özden Gelgeç</p>
+                                    <p className="image-text">Identity, Interior Design</p>
                                 </div>
-                                <div className="jury-member">
-                                    <img className="jury-head" src={require('./jury-head.png')}/>
-                                    <p className="jury-name">Sebastian Waschnick</p>
-                                    <p className="jury-text">Tech Partnerships, Website</p>
+                                <div className="circle-image__container">
+                                    <img className="circle-image" src={require('./jury-head.png')}/>
+                                    <p className="image-text-title">Sebastian Waschnick</p>
+                                    <p className="image-text">Tech Partnerships, Website</p>
                                 </div>
-                                <div className="jury-member">
-                                    <img className="jury-head" src={require('./jury-head.png')}/>
-                                    <p className="jury-name">Iris Bröse</p>
-                                    <p className="jury-text">Sponsors, Planning, Interior, Catering</p>
+                                <div className="circle-image__container">
+                                    <img className="circle-image" src={require('./jury-head.png')}/>
+                                    <p className="image-text-title">Iris Bröse</p>
+                                    <p className="image-text">Sponsors, Planning, Interior, Catering</p>
                                 </div>
-                                <div className="jury-member">
-                                    <img className="jury-head" src={require('./jury-head.png')}/>
-                                    <p className="jury-name">Niko Ring</p>
-                                    <p className="jury-text">Sponsors, Tech Partnerships, Infrastructure</p>
+                                <div className="circle-image__container">
+                                    <img className="circle-image" src={require('./jury-head.png')}/>
+                                    <p className="image-text-title">Niko Ring</p>
+                                    <p className="image-text">Sponsors, Tech Partnerships, Infrastructure</p>
                                 </div>
-                                <div className="jury-member">
-                                    <img className="jury-head" src={require('./jury-head.png')}/>
-                                    <p className="jury-name">Daniel Seiler</p>
-                                    <p className="jury-text">Identity</p>
+                                <div className="circle-image__container">
+                                    <img className="circle-image" src={require('./jury-head.png')}/>
+                                    <p className="image-text-title">Daniel Seiler</p>
+                                    <p className="image-text">Identity</p>
                                 </div>
                             </div>
                         </div>

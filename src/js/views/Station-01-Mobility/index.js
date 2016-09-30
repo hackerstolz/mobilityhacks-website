@@ -16,7 +16,6 @@ class ModalView extends React.Component {
                     titletext={titletext}
 
                 >
-                    <div className="small-button">OK</div>
                 </Modal>
             </div>
         );

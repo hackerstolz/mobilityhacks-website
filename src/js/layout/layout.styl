@@ -11,6 +11,7 @@ body
 
 html, body, #app, .app-wrapper
   width 100%
+  min-height 100%
 
 .content-container
   padding 30px
@@ -21,7 +22,7 @@ html {
   position: absolute;
 
   // background: bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit;
-  background: url(./background.svg) black;
+  background: url(./Background/background.jpg) black;
   background-size: 240vw auto;
   background-repeat: no-repeat;
   //background-attachment: fixed;
@@ -38,16 +39,87 @@ html {
   z-index: -1;
 }
 
-.circle-left
+.circle__container
+  width 100%
+  height 100%
+  overflow hidden
   position absolute
+
+.circle-left__container
+  //.circle-left
+  position absolute
+  overflow hidden
   left 50vw
   top 70vh
   width 60vw
-  animation(spin 180s linear infinite)
+  .circle-left
+    animation(spin 180s linear infinite)
+
+.circle-first__container
+  position absolute
+  left 42%
+  top 16vw
+  width 35vw
+  .circle-first
+    animation(flash 4s ease-in-out infinite)
+    width 35vw
+
+//transform-origin: 70% 70%;
+
+//animation(spin 180s linear infinite)
+//width 36vw
+//.circle-first
+//  //animation(pulse 60s linear infinite)
+//  animation(spin 180s linear infinite)
+//  width 36vw
+
+//width 36vw
+
+//<img className="circle-first" src={require('./Background/first_circle.svg')}/>
+//<img className="circle-left" src={require('./Background/kreis_links.svg')}/>
+//animation(spin 180s linear infinite)
 
 @keyframes spin {
   100% {
     vendor('transform', rotate(360deg));
+  }
+}
+
+@keyframes flash {
+  0%, 50%, 100% {
+    opacity: 1;
+    vendor('transform', scale(1));
+  }
+  25%, 75% {
+    opacity: 0.7;
+    vendor('transform', scale(1.02));
+  }
+}
+
+@keyframes pulse {
+  0% {
+    vendor('transform', scale(1));
+  }
+  30% {
+    vendor('transform', scale(1));
+  }
+  40% {
+    vendor('transform', scale(1.08));
+  }
+  50% {
+    vendor('transform', scale(1));
+  }
+  60% {
+    vendor('transform', scale(1));
+  }
+  70% {
+    vendor('transform', scale(1.05));
+  }
+  80% {
+    vendor('transform', scale(1));
+  }
+  100% {
+    vendor('transform', scale(1));
   }
 }
 
@@ -56,8 +128,14 @@ html {
   position absolute
   margin auto auto
   right 0
-
+  :hover
+    opacity 0.9
   .ticket-button__image
     min-width 150px
     width 10vw
     max-width 300px
+  @media screen and (max-width: $breakPointMedium)
+    padding 12px
+  @media screen and (min-width: $breakPointMedium) and (max-width $breakPointBig)
+    padding 24px
+

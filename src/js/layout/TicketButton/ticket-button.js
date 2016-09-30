@@ -1,12 +1,13 @@
 import React from 'react';
+import {Link} from 'react-router';
 
 export default class TicketButton extends React.Component {
     render() {
         return (
             <div className="ticket-button">
-                <a href="//www.eventbrite.co.uk/e/mobilityhacks-hackathon-about-the-future-of-mobility-tickets-27795158066" target="_blank">
+                <Link to="get-your-ticket" activeClassName="link--active">
                     <img className="ticket-button__image" src={require('./ticket_button.svg')}/>
-                </a>
+                </Link>
             </div>
         );
     }
