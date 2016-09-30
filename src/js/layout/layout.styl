@@ -45,16 +45,6 @@ html {
   overflow hidden
   position absolute
 
-.circle-left__container
-  //.circle-left
-  position absolute
-  overflow hidden
-  left 50vw
-  top 70vh
-  width 60vw
-  .circle-left
-    animation(spin 180s linear infinite)
-
 .circle-first__container
   position absolute
   left 42%
@@ -64,20 +54,15 @@ html {
     animation(flash 4s ease-in-out infinite)
     width 35vw
 
-//transform-origin: 70% 70%;
-
-//animation(spin 180s linear infinite)
-//width 36vw
-//.circle-first
-//  //animation(pulse 60s linear infinite)
-//  animation(spin 180s linear infinite)
-//  width 36vw
-
-//width 36vw
-
-//<img className="circle-first" src={require('./Background/first_circle.svg')}/>
-//<img className="circle-left" src={require('./Background/kreis_links.svg')}/>
-//animation(spin 180s linear infinite)
+.circle-left__container
+  //.circle-left
+  position absolute
+  overflow hidden
+  left 50vw
+  top 70vh
+  width 60vw
+  .circle-left
+    animation(spin 180s linear infinite)
 
 @keyframes spin {
   100% {
@@ -136,6 +121,8 @@ html {
     max-width 300px
   @media screen and (max-width: $breakPointMedium)
     padding 12px
+    .circle-left__container
+      display none
   @media screen and (min-width: $breakPointMedium) and (max-width $breakPointBig)
     padding 24px
 

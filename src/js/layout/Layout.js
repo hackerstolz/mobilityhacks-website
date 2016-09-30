@@ -12,10 +12,10 @@ class AppLayout extends React.Component {
             <div className="app-wrapper">
                 <div className="circle__container">
                     <div className="circle-first__container">
-                        <img className="circle-first" src={require('./Background/first_circle.svg')}/>
+                        <img className="circle-first" src={require('./Background/first_circle.png')}/>
                     </div>
                     <div className="circle-left__container">
-                        <img className="circle-left" src={require('./Background/kreis_links.svg')}/>
+                        <img className="circle-left" src={require('./Background/second_circle.svg')}/>
                     </div>
                 </div>
 
