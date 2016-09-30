@@ -15,38 +15,38 @@ class ModalView extends React.Component {
                     <fieldset className="fieldset">
                         <legend>Organizers</legend>
                         <div className="fieldset__container">
-                            <div className="fieldset__container-wrapper">
+                            <div className="fieldset__container-wrapper--big">
                                 <div className="circle-image__container">
                                     <img className="circle-image" src={require('./jury-head.png')}/>
                                     <p className="image-text-title">Frederik Chettouh</p>
                                     <p className="image-text">Sponsors, Service, Moderation</p>
                                 </div>
-                                <div className="circle-image__container">
+                                <div className="circle-image__container--big">
                                     <img className="circle-image" src={require('./jury-head.png')}/>
                                     <p className="image-text-title">Alexander Müller</p>
                                     <p className="image-text">Finance, Moderation, Planning</p>
                                 </div>
-                                <div className="circle-image__container">
+                                <div className="circle-image__container--big">
                                     <img className="circle-image" src={require('./jury-head.png')}/>
                                     <p className="image-text-title">Özden Gelgeç</p>
                                     <p className="image-text">Identity, Interior Design</p>
                                 </div>
-                                <div className="circle-image__container">
+                                <div className="circle-image__container--big">
                                     <img className="circle-image" src={require('./jury-head.png')}/>
                                     <p className="image-text-title">Sebastian Waschnick</p>
                                     <p className="image-text">Tech Partnerships, Website</p>
                                 </div>
-                                <div className="circle-image__container">
+                                <div className="circle-image__container--big">
                                     <img className="circle-image" src={require('./jury-head.png')}/>
                                     <p className="image-text-title">Iris Bröse</p>
                                     <p className="image-text">Sponsors, Planning, Interior, Catering</p>
                                 </div>
-                                <div className="circle-image__container">
+                                <div className="circle-image__container--big">
                                     <img className="circle-image" src={require('./jury-head.png')}/>
-                                    <p className="image-text-title">Niko Ring</p>
+                                    <p className="image-text-title">Nico Ring</p>
                                     <p className="image-text">Sponsors, Tech Partnerships, Infrastructure</p>
                                 </div>
-                                <div className="circle-image__container">
+                                <div className="circle-image__container--big">
                                     <img className="circle-image" src={require('./jury-head.png')}/>
                                     <p className="image-text-title">Daniel Seiler</p>
                                     <p className="image-text">Identity</p>
