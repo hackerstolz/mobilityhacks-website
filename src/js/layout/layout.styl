@@ -1,3 +1,5 @@
+@import "../../css/settings.styl"
+
 a
   text-decoration none
 
@@ -14,6 +16,40 @@ html, body, #app, .app-wrapper
   padding 30px
   margin-bottom $footer-height-lg
   margin-top 0
+
+html {
+  position: absolute;
+
+  // background: bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit;
+  background: url(./background.svg) black;
+  background-size: 240vw auto;
+  background-repeat: no-repeat;
+  //background-attachment: fixed;
+  background-position: 0 0;
+  //background-clip: border-box;
+  //background-position-y -40px;
+  //width: 300%;
+  //min-width: 300%;
+  //max-width: 300%;
+  //height: 300%;
+  //min-height: 300%;
+  //max-height: 300%;
+
+  z-index: -1;
+}
+
+.circle-left
+  position absolute
+  left 50vw
+  top 70vh
+  width 60vw
+  animation(spin 180s linear infinite)
+
+@keyframes spin {
+  100% {
+    vendor('transform', rotate(360deg));
+  }
+}
 
 .ticket-button
   padding 48px

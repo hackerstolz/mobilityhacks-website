@@ -18,33 +18,38 @@ class ModalView extends React.Component {
                             <div className="jury__fieldset__container-wrapper">
                                 <div className="jury-member">
                                     <img className="jury-head" src={require('./jury-head.png')}/>
-                                    <p className="jury-name">Ben Dover</p>
-                                    <p className="jury-text">IBM, University of berlin</p>
-                                    <p className="jury-text">Business judge</p>
+                                    <p className="jury-name">Frederik Chettouh</p>
+                                    <p className="jury-text">Sponsors, Service, Moderation</p>
                                 </div>
                                 <div className="jury-member">
                                     <img className="jury-head" src={require('./jury-head.png')}/>
-                                    <p className="jury-name">Ben Dover</p>
-                                    <p className="jury-text">IBM, University of berlin</p>
-                                    <p className="jury-text">Business judge</p>
+                                    <p className="jury-name">Alexander Müller</p>
+                                    <p className="jury-text">Finance, Moderation, Planning</p>
                                 </div>
                                 <div className="jury-member">
                                     <img className="jury-head" src={require('./jury-head.png')}/>
-                                    <p className="jury-name">Ben Dover</p>
-                                    <p className="jury-text">IBM, University of berlin</p>
-                                    <p className="jury-text">Business judge</p>
+                                    <p className="jury-name">Özden Gelgeç</p>
+                                    <p className="jury-text">Identity, Interior Design</p>
                                 </div>
                                 <div className="jury-member">
                                     <img className="jury-head" src={require('./jury-head.png')}/>
-                                    <p className="jury-name">Ben Dover</p>
-                                    <p className="jury-text">IBM, University of berlin</p>
-                                    <p className="jury-text">Business judge</p>
+                                    <p className="jury-name">Sebastian Waschnick</p>
+                                    <p className="jury-text">Tech Partnerships, Website</p>
                                 </div>
                                 <div className="jury-member">
                                     <img className="jury-head" src={require('./jury-head.png')}/>
-                                    <p className="jury-name">Ben Dover</p>
-                                    <p className="jury-text">IBM, University of berlin</p>
-                                    <p className="jury-text">Business judge</p>
+                                    <p className="jury-name">Iris Bröse</p>
+                                    <p className="jury-text">Sponsors, Planning, Interior, Catering</p>
+                                </div>
+                                <div className="jury-member">
+                                    <img className="jury-head" src={require('./jury-head.png')}/>
+                                    <p className="jury-name">Niko Ring</p>
+                                    <p className="jury-text">Sponsors, Tech Partnerships, Infrastructure</p>
+                                </div>
+                                <div className="jury-member">
+                                    <img className="jury-head" src={require('./jury-head.png')}/>
+                                    <p className="jury-name">Daniel Seiler</p>
+                                    <p className="jury-text">Identity</p>
                                 </div>
                             </div>
                         </div>

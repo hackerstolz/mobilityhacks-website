@@ -5,7 +5,7 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="mobility-hacks-website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard" transform="translate(-417.000000, -440.000000)" stroke="#3500FF">
+        <g id="Artboard" transform="translate(-417.000000, -440.000000)" stroke="#3500FF" stroke-width="2">
             <g id="koordinatensystem" transform="translate(418.000000, 439.000000)">
                 <g id="kreis-links" transform="translate(0.000000, 1.930000)">
                     <path d="M699.2245,585.0361 C699.2245,647.8881 648.2735,698.8391 585.4215,698.8391 C522.5705,698.8391 471.6185,647.8881 471.6185,585.0361 C471.6185,522.1841 522.5705,471.2331 585.4215,471.2331 C648.2735,471.2331 699.2245,522.1841 699.2245,585.0361 L699.2245,585.0361 Z" id="Stroke-66" stroke-dasharray="1,2"></path>
@@ -16,26 +16,26 @@
                     <path d="M1012.2418,585.0361 C1012.2418,820.7621 821.1478,1011.8561 585.4218,1011.8561 C349.6948,1011.8561 158.6018,820.7621 158.6018,585.0361 C158.6018,349.3101 349.6948,158.2161 585.4218,158.2161 C821.1478,158.2161 1012.2418,349.3101 1012.2418,585.0361 L1012.2418,585.0361 Z" id="Stroke-76" stroke-dasharray="1,2"></path>
                     <path d="M1075.6213,585.0361 C1075.6213,855.7661 856.1513,1075.2361 585.4213,1075.2361 C314.6913,1075.2361 95.2213,855.7661 95.2213,585.0361 C95.2213,314.3061 314.6913,94.8361 585.4213,94.8361 C856.1513,94.8361 1075.6213,314.3061 1075.6213,585.0361 L1075.6213,585.0361 Z" id="Stroke-78" stroke-dasharray="1,2"></path>
                     <path d="M1135.0835,585.0361 C1135.0835,888.6061 888.9915,1134.6981 585.4215,1134.6981 C281.8515,1134.6981 35.7595,888.6061 35.7595,585.0361 C35.7595,281.4661 281.8515,35.3741 585.4215,35.3741 C888.9915,35.3741 1135.0835,281.4661 1135.0835,585.0361 L1135.0835,585.0361 Z" id="Stroke-80" stroke-dasharray="1,2"></path>
-                    <path d="M1170.3855,585.0361 C1170.3855,908.1031 908.4885,1170.0001 585.4215,1170.0001 C262.3545,1170.0001 0.4575,908.1031 0.4575,585.0361 C0.4575,261.9691 262.3545,0.0721 585.4215,0.0721 C908.4885,0.0721 1170.3855,261.9691 1170.3855,585.0361 L1170.3855,585.0361 Z" id="Stroke-82" stroke-width="2"></path>
-                    <path d="M585.5,585.442 L585.5,35.442" id="Stroke-84" stroke-dasharray="1,2"></path>
+                    <path d="M1170.3855,585.0361 C1170.3855,908.1031 908.4885,1170.0001 585.4215,1170.0001 C262.3545,1170.0001 0.4575,908.1031 0.4575,585.0361 C0.4575,261.9691 262.3545,0.0721 585.4215,0.0721 C908.4885,0.0721 1170.3855,261.9691 1170.3855,585.0361 L1170.3855,585.0361 Z" id="Stroke-82"></path>
+                    <path d="M585,585.442 L585,35.442" id="Stroke-84" stroke-dasharray="1,2"></path>
                     <path d="M585.5,585.442 L443.15,54.183" id="Stroke-86" stroke-dasharray="1,2"></path>
                     <path d="M585.5,585.442 L310.5,109.128" id="Stroke-88" stroke-dasharray="1,2"></path>
                     <path d="M585.5,585.442 L196.591,196.533" id="Stroke-90" stroke-dasharray="1,2"></path>
                     <path d="M585.5,585.442 L109.186,310.442" id="Stroke-92" stroke-dasharray="1,2"></path>
                     <path d="M585.5,585.442 L54.241,443.092" id="Stroke-94" stroke-dasharray="1,2"></path>
-                    <path d="M310,310.942 L310,859.942" id="Stroke-106" stroke-dasharray="1,2" transform="translate(310.500000, 585.442000) rotate(-270.000000) translate(-310.500000, -585.442000) "></path>
+                    <path d="M310,310.942 L310,859.942" id="Stroke-106" stroke-dasharray="1,2" transform="translate(311.000000, 585.442000) rotate(-270.000000) translate(-311.000000, -585.442000) "></path>
                     <path d="M585.1464,586.0543 L54.8534,728.1463" id="Stroke-96" stroke-dasharray="1,2"></path>
                     <path d="M585.317,586.125 L109.869,860.625" id="Stroke-98" stroke-dasharray="1,2"></path>
                     <path d="M585.5,586.149 L197.298,974.351" id="Stroke-100" stroke-dasharray="1,2"></path>
                     <path d="M585.683,586.125 L311.183,1061.573" id="Stroke-102" stroke-dasharray="1,2"></path>
                     <path d="M585.8536,586.0543 L443.7616,1116.3473" id="Stroke-104" stroke-dasharray="1,2"></path>
-                    <path d="M585.5,586.442 L585.5,1135.442" id="Stroke-106" stroke-dasharray="1,2"></path>
+                    <path d="M585,586.442 L585,1135.442" id="Stroke-106" stroke-dasharray="1,2"></path>
                     <path d="M585.7588,586.4079 L727.8508,1116.7009" id="Stroke-108" stroke-dasharray="1,2"></path>
                     <path d="M586,586.308 L860.5,1061.756" id="Stroke-110" stroke-dasharray="1,2"></path>
                     <path d="M586.2071,586.149 L974.4091,974.351" id="Stroke-112" stroke-dasharray="1,2"></path>
                     <path d="M586.366,585.942 L1061.814,860.442" id="Stroke-114" stroke-dasharray="1,2"></path>
                     <path d="M586.4659,585.7008 L1116.7589,727.7928" id="Stroke-116" stroke-dasharray="1,2"></path>
-                    <path d="M859,309.942 L859,858.942" id="Stroke-106" stroke-dasharray="1,2" transform="translate(859.500000, 584.442000) rotate(-90.000000) translate(-859.500000, -584.442000) "></path>
+                    <path d="M859,309.942 L859,858.942" id="Stroke-106" stroke-dasharray="1,2" transform="translate(860.000000, 584.442000) rotate(-90.000000) translate(-860.000000, -584.442000) "></path>
                     <path d="M586.1124,585.7955 L1117.3714,443.4455" id="Stroke-118" stroke-dasharray="1,2"></path>
                     <path d="M586.183,585.625 L1062.497,310.625" id="Stroke-120" stroke-dasharray="1,2"></path>
                     <path d="M586.2071,585.442 L975.1161,196.533" id="Stroke-122" stroke-dasharray="1,2"></path>
