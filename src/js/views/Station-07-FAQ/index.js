@@ -3,19 +3,43 @@ import Modal from '../../layout/Modal/Modal';
 
 require('./main.styl');
 
-const titletext = 'Friday get together - Saturday Code Start<br />' +
-    'Sunday Presentations & Celebrations';
+const titletext = 'You still have some questions? Get in contact with us!';
 
 import data from'./faq-data.js';
 
-const OneFaq = ({data}) => {
-    return (
-        <div key={data.id} className="one-faq">
-            <p>{data.header}</p>
-            <p>{data.text}</p>
-        </div>
-    );
-};
+class OneFaq extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {visible: false};
+    }
+
+    toggle() {
+        console.info("TOGGLE");
+        if (this.state.visible == true) {
+            this.hide();
+        } else {
+            this.show();
+        }
+    }
+
+    show() {
+        this.setState({visible: true});
+    }
+
+    hide() {
+        this.setState({visible: false});
+    }
+
+    render() {
+        return (
+            <div key={this.props.data.id} className="faq-one">
+                <div className="faq-question" onClick={ this.toggle.bind(this) }>{this.props.data.header}</div>
+                <p className={"faq-text " + (this.state.visible ? "faq-text--visible " : "") }>{this.props.data.text}</p>
+            </div>
+        );
+    }
+}
+
 
 function renderFaq(datas) {
     if (datas.length > 0) {
@@ -37,6 +61,20 @@ class ModalView extends React.Component {
                     title='FAQ'
                     titletext={titletext}
                 >
+                    <p>
+                        <a href="https://www.facebook.com/events/842521752516067/"
+                           className="social-link"
+                           target="_blank">Facebook</a>
+                        <span> | </span>
+                        <a href="https://twitter.com/Hackerstolz"
+                           className="social-link"
+                           target="_blank">Twitter</a>
+                        <span> | </span>
+                        <a href="mailto:hackerstolz@hackerstolz.de"
+                           className="social-link"
+                           target="_blank">Mail</a>
+                    </p>
+
                     {elements}
                 </Modal>
             </div>

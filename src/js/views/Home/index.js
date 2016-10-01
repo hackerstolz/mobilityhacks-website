@@ -14,7 +14,7 @@ class Home extends React.Component {
                         <li>
                             date:<br />
                             saturday, 03/12/16<br />
-                            sunday, 03/12/16
+                            sunday, 04/12/16
                         </li>
                         <li>
                             location:<br />
