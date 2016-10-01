@@ -70,7 +70,7 @@ class ModalView extends React.Component {
                            className="social-link"
                            target="_blank">Twitter</a>
                         <span> | </span>
-                        <a href="mailto:hackerstolz@hackerstolz.de"
+                        <a href="mailto:info@hackerstolz.de"
                            className="social-link"
                            target="_blank">Mail</a>
                     </p>

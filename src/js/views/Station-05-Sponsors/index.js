@@ -26,9 +26,6 @@ class ModalView extends React.Component {
                                 <div className="full-image__container">
                                     <img className="full-image" src={require('./BVG.png')}/>
                                 </div>
-                                <div className="full-image__container">
-                                    <img className="full-image roland-berger-logo" src={require('./roland-berger-logo.png')}/>
-                                </div>
                             </div>
                         </div>
                     </fieldset>
@@ -55,7 +52,17 @@ class ModalView extends React.Component {
                         </div>
                     </fieldset>
                     <fieldset className="fieldset">
-                        <legend>travel buddies</legend>
+                        <legend>travel buddy</legend>
+                        <div className="fieldset__container">
+                            <div className="fieldset__container-wrapper">
+                                <div className="full-image__container">
+                                    <img className="full-image roland-berger-logo" src={require('./roland-berger-logo.png')}/>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset className="fieldset">
+                        <legend>location sponsor</legend>
                         <div className="fieldset__container">
                             <div className="fieldset__container-wrapper">
                                 <div className="full-image__container">
