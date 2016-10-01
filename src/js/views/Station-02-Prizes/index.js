@@ -52,11 +52,6 @@ class ModalView extends React.Component {
                                     <p className="image-text">BVG Challenge</p>
                                     <p className="image-text">TBA.</p>
                                 </div>
-                                <div className="full-image__container">
-                                    <img className="full-image" src={require('./SAP.png')}/>
-                                    <p className="image-text">SAP Challenge</p>
-                                    <p className="image-text">TBA.</p>
-                                </div>
                             </div>
                         </div>
                     </fieldset>

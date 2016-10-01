@@ -13,7 +13,7 @@ class GetYourTicket extends React.Component {
                     titletext='You need a ticket first. Talk to evenbrite at the counter.'
                 >
 
-                    <a href="//www.eventbrite.co.uk/e/mobilityhacks-hackathon-about-the-future-of-mobility-tickets-27795158066" target="_blank">
+                    <a href="//www.eventbrite.de/e/mobilityhacks-hackathon-about-the-future-of-mobility-tickets-27795158066" target="_blank">
                         <div className="small-button">Go to Eventbrite</div>
                     </a>
 
