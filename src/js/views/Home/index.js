@@ -19,7 +19,7 @@ class Home extends React.Component {
                         <li>
                             location:<br />
                             spielfeld digital hub<br />
-                            skalizuer str. 85/86<br />
+                            skalitzer str. 85/86<br />
                             10993 berlin
                         </li>
                         <li>

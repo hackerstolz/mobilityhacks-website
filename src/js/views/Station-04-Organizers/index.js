@@ -17,9 +17,15 @@ class ModalView extends React.Component {
                         <div className="fieldset__container">
                             <div className="fieldset__container-wrapper">
                                 <div className="circle-image__container--big">
-                                    <img className="circle-image" src={require('./frederik_chettouh_bw.png')}/>
-                                    <p className="image-text-title">Frederik Chettouh</p>
-                                    <p className="image-text">Sponsors, Service, Moderation</p>
+
+                                    <img className="circle-image" src={require('./iris_broese_bw.png')}/>
+                                    <p className="image-text-title">Iris Bröse</p>
+                                    <p className="image-text">Sponsors, Planning, Interior, Catering</p>
+                                </div>
+                                 <div className="circle-image__container--big">
+                                    <img className="circle-image" src={require('./oezden_gelgec_bw.png')}/>
+                                    <p className="image-text-title">Özden Gelgeç</p>
+                                    <p className="image-text">Identity, Interior Design</p>
                                 </div>
                                 <div className="circle-image__container--big">
                                     <img className="circle-image" src={require('./alex_bw.png')}/>
@@ -27,19 +33,14 @@ class ModalView extends React.Component {
                                     <p className="image-text">Finance, Moderation, Planning</p>
                                 </div>
                                 <div className="circle-image__container--big">
-                                    <img className="circle-image" src={require('./oezden_gelgec_bw.png')}/>
-                                    <p className="image-text-title">Özden Gelgeç</p>
-                                    <p className="image-text">Identity, Interior Design</p>
+                                    <img className="circle-image" src={require('./daniel_seiler_bw.png')}/>
+                                    <p className="image-text-title">Daniel Seiler</p>
+                                    <p className="image-text">Identity</p>
                                 </div>
                                 <div className="circle-image__container--big">
-                                    <img className="circle-image" src={require('./sebastian_waschnick_bw.png')}/>
-                                    <p className="image-text-title">Sebastian Waschnick</p>
-                                    <p className="image-text">Tech Partnerships, Website</p>
-                                </div>
-                                <div className="circle-image__container--big">
-                                    <img className="circle-image" src={require('./iris_broese_bw.png')}/>
-                                    <p className="image-text-title">Iris Bröse</p>
-                                    <p className="image-text">Sponsors, Planning, Interior, Catering</p>
+                                    <img className="circle-image" src={require('./frederik_chettouh_bw.png')}/>
+                                    <p className="image-text-title">Frederik Chettouh</p>
+                                    <p className="image-text">Sponsors, Service, Moderation</p>
                                 </div>
                                 <div className="circle-image__container--big">
                                     <img className="circle-image" src={require('./nico_ring_bw.png')}/>
@@ -47,10 +48,11 @@ class ModalView extends React.Component {
                                     <p className="image-text">Sponsors, Tech Partnerships, Infrastructure</p>
                                 </div>
                                 <div className="circle-image__container--big">
-                                    <img className="circle-image" src={require('./daniel_seiler_bw.png')}/>
-                                    <p className="image-text-title">Daniel Seiler</p>
-                                    <p className="image-text">Identity</p>
-                                </div>
+
+                                    <img className="circle-image" src={require('./sebastian_waschnick_bw.png')}/>
+                                    <p className="image-text-title">Sebastian Waschnick</p>
+                                    <p className="image-text">Tech Partnerships, Website</p>
+                                </div>                                
                             </div>
                         </div>
                     </fieldset>
