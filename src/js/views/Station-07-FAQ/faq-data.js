@@ -17,7 +17,7 @@ let data = [
     {
         id: 4,
         header: "Who is Hackerstolz?",
-        text: "One organisation to rule them all, no no just kidding. We are a non-profit that wants to contribute to an active IT community in Germany. You can find more info on "  
+        text: "One organisation to rule them all, no no just kidding. We are a non-profit that wants to contribute to an active IT community in Germany. You can find more info on hackerstolz.de"
     },
     {
         id: 5,
