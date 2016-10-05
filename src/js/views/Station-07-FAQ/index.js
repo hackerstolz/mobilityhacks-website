@@ -5,7 +5,7 @@ require('./main.styl');
 
 const titletext = 'You still have some questions? Get in contact with us!';
 
-import data from'./faq-data.js';
+import data from './faq-data.js';
 
 class OneFaq extends React.Component {
     constructor(props) {
@@ -42,12 +42,7 @@ class OneFaq extends React.Component {
 
 
 function renderFaq(datas) {
-    if (datas.length > 0) {
-        return datas.map((data, index) => (
-            <OneFaq key={index} data={data}/>
-        ));
-    }
-    else return [];
+    return datas.map((data, index) => <OneFaq key={index} data={data} />)
 }
 
 class ModalView extends React.Component {
