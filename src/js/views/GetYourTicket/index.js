@@ -10,7 +10,7 @@ class GetYourTicket extends React.Component {
                 <Modal
                     header='TICKET COUNTER'
                     title='TICKET COUNTER'
-                    titletext='You need a ticket first. Talk to evenbrite at the counter. <br /> You get 15 Euro cashback at the event!'
+                    titletext='You need a ticket first. Talk to evenbrite at the counter. <br /> <h4>Please note that you get 15€ cashback at the event!</h4>'
                 >
                     <a href="//www.eventbrite.de/e/mobilityhacks-hackathon-about-the-future-of-mobility-tickets-27795158066" target="_blank">
                         <div className="small-button">Go to Eventbrite</div>
