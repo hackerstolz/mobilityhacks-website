@@ -6,20 +6,20 @@ const titletext = 'Friday get together - Saturday Code Start<br />' +
 
 
 const fridayEvents = [
-  'Get Together 7:30pm'
+  'Get Together 7:30 pm'
 ];
 
 const saturdayEvents = [
-  'Registration starts at 8:30am',
-  'Kick-off and challenge pitches 10am',
-  'Workshops take place from 11am to 12am ',
-  'Hacking starts at 12pm'
+  'Registration starts at 8:30 am',
+  'Kick-off and challenge pitches 10 am',
+  'Workshops take place from 11 am to 12 am ',
+  'Hacking starts at 12 pm'
 ];
 
 const sundayEvents = [
-  'End of hacking at 12pm',
-  'Your pitches will between 13pm and 15pm',
-  'Price ceremony at 16pm'
+  'End of hacking at 12 pm',
+  'Your pitches will between 1 pm and 3 pm',
+  'Price ceremony at 4 pm'
 ];
 
 class ModalView extends React.Component {
