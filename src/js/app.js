@@ -4,6 +4,8 @@ import {browserHistory, Router, Route, IndexRoute} from 'react-router';
 
 // Assets
 require('./../index.html');
+require('./../google049656a27094fae8.html');
+
 require('!file?name=[path][name].[ext]?[hash]&context=./src/!./../.htaccess');
 require('!file?name=[path][name].[ext]?[hash]&context=./src/!./../favicon.ico');
 require('./../css/normalize.css');
