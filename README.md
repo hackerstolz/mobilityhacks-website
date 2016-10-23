@@ -1,7 +1,9 @@
-# mobility_hacks
+# mobility-hacks.de website
 ---
 
 ## Quickstart
+
+* Requires installed NodeJS
 
 ```bash
 npm install
@@ -20,12 +22,11 @@ open http://localhost:8080
 - npm as packager manager
 - Webpack for building
 - react
-- skeleton.css for grid
-- react-masonry-component for tiles, cf. https://github.com/eiriklv/react-masonry-component
+- skeleton.css for grid & reset
+
 ## Building
 
 [![Build Status](https://travis-ci.org/hackerstolz/mobilityhacks-website.svg?branch=master)](https://travis-ci.org/hackerstolz/mobilityhacks-website)
-
 
 ```bash
 npm run build

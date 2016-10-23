@@ -24,7 +24,21 @@ class Home extends React.Component {
                         </li>
                         <li>
                             this hackathon is<br />
-                            organized by <a href="http://www.hackerstolz.de" target="_blank">hackerstolz</a>.
+                            organized by <a href="http://www.hackerstolz.de" target="_blank">hackerstolz</a><br />
+                            <div className="home__social-icons">
+                                <a href="https://www.facebook.com/events/842521752516067/" target="_blank">
+                                    <img className="social-icon--facebook" src={require('./social-icons/facebook.svg')}/>
+                                </a>
+                                <a href="https://youtu.be/R8myY9XjiN0" target="_blank">
+                                    <img className="social-icon--youtube" src={require('./social-icons/youtube.svg')}/>
+                                </a>
+                                <a href="https://github.com/hackerstolz" target="_blank">
+                                    <img className="social-icon--github" src={require('./social-icons/github.svg')}/>
+                                </a>
+                                <a href="https://twitter.com/hackerstolz" target="_blank">
+                                    <img className="social-icon--twitter" src={require('./social-icons/twitter.svg')}/>
+                                </a>
+                            </div>
                         </li>
                     </ul>
                 </div>
