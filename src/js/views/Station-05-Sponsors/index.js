@@ -21,10 +21,10 @@ class ModalView extends React.Component {
                         <div className="fieldset__container">
                             <div className="fieldset__container-wrapper">
                                 <div className="full-image__container">
-                                    <img className="full-image" src={require('./IBM.png')}/>
+                                    <img className="full-image" style={{height: "140px"}} src={require('./img/IBM.png')}/>
                                 </div>
                                 <div className="full-image__container">
-                                    <img className="full-image" src={require('./BVG.png')}/>
+                                    <img className="full-image" src={require('./img/BVG.png')}/>
                                 </div>
                             </div>
                         </div>
@@ -56,7 +56,9 @@ class ModalView extends React.Component {
                         <div className="fieldset__container">
                             <div className="fieldset__container-wrapper">
                                 <div className="full-image__container">
-                                    <img className="full-image roland-berger-logo" src={require('./roland-berger-logo.png')}/>
+                                    <img className="full-image"
+                                         style={{"max-height": "80px"}}
+                                         src={require('./img/roland-berger-logo.png')}/>
                                 </div>
                             </div>
                         </div>
@@ -66,7 +68,19 @@ class ModalView extends React.Component {
                         <div className="fieldset__container">
                             <div className="fieldset__container-wrapper">
                                 <div className="full-image__container">
-                                    <img className="full-image" src={require('./Spielfeld.png')}/>
+                                    <img className="full-image" src={require('./img/Spielfeld.png')}/>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset className="fieldset">
+                        <legend>partner</legend>
+                        <div className="fieldset__container">
+                            <div className="fieldset__container-wrapper">
+                                <div className="full-image__container">
+                                    <img className="full-image"
+                                         style={{"max-height": "80px"}}
+                                         src={require('./img/bitkom.png')}/>
                                 </div>
                             </div>
                         </div>
