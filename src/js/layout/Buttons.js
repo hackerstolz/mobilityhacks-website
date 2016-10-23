@@ -6,7 +6,7 @@ class SendUsAMailButton extends React.Component {
     render() {
         return (
             <div className="button__email">
-                <a href="mailto:hackerstolz@hackerstolz.de">SEND US AN EMAIL</a>
+                <a href="mailto:hello@mobility-hacks.de">SEND US AN EMAIL</a>
             </div>
         );
     }
