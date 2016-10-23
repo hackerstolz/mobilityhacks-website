@@ -23,6 +23,10 @@ class AppLayout extends React.Component {
 
                 {this.props.children}
 
+                <div className="hackerstolz-logo">
+                    <img className="hackerstolz-logo__img" src={require('./Background/hackerstolz-logo.svg')}/>
+                </div>
+
                 <Footer />
             </div>
         );
