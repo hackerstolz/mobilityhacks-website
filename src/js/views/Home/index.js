@@ -6,8 +6,7 @@ class Home extends React.Component {
         return (
             <div className="home content-container">
                 <div className="home__hackathon-name">
-                    <p className="home__hackathon-name__line1">mobility</p>
-                    <p className="home__hackathon-name__line2">{'{hacks}'}</p>
+                    <img className="home__hackathon-name--image" src={require('./mobility_logo_white.svg')}/>
                 </div>
                 <div className="home__teaser-text">
                     <ul>
