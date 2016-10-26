@@ -24,7 +24,7 @@ html {
   position: absolute;
 
   // background: bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit;
-  background: url(./Background/background.jpg) black;
+  // FIXME background: url(./Background/background.jpg) black;
   background-size: 240vw auto;
   background-repeat: no-repeat;
   //background-attachment: fixed;
@@ -139,3 +139,9 @@ html {
     min-width 100px
   @media screen and (max-width: $breakPointMedium)
     bottom 0
+
+#map
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  height: 100%;

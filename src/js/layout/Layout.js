@@ -5,8 +5,24 @@ import Footer from './FooterMenu/Footer';
 import TicketButton from './TicketButton/ticket-button';
 
 require('./layout.styl');
+import BackgroundMap from './BackgroundMap/';
+// require('./Background/background.jpg');
 
 class AppLayout extends React.Component {
+
+    componentDidMount() {
+        this.BackgroundMap = BackgroundMap;
+        console.info(this.BackgroundMap);
+        this.BackgroundMap.init();
+        console.info("Did mount");
+    }
+
+    handleNavigation(event) {
+        var href = event.target.href;
+        var location = href.substring(href.indexOf('#') + 1, href.length);
+        this.Map.flyToOne(location);
+    }
+
     render() {
         return (
             <div className="app-wrapper">

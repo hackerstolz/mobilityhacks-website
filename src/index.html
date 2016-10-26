@@ -10,9 +10,9 @@
     <meta name="keywords" content="Hackathon, Berlin, December, Mobility, Hackerstolz, Mobility{Hacks}, mobility hacks, Hacks, hacking"/>
     <meta name="author" content="Hackerstolz e.V.">
 
-    <meta property="og:image" content="http://mobility-hacks.de/app/website_teaser.jpg" />
-    <meta property="og:title" content="Mobility{Hacks} - Berlin Hackathon in December" />
-    <meta property="og:description" content="Mobility{hacks} is open to all individual developers, designers and mobility enthusiasts as well as teams up to five members and will take place at Spielfeld Digital Hub in Berlin, December 2-4." />
+    <meta property="og:image" content="http://mobility-hacks.de/app/website_teaser.jpg"/>
+    <meta property="og:title" content="Mobility{Hacks} - Berlin Hackathon in December"/>
+    <meta property="og:description" content="Mobility{hacks} is open to all individual developers, designers and mobility enthusiasts as well as teams up to five members and will take place at Spielfeld Digital Hub in Berlin, December 2-4."/>
 
     <link rel="stylesheet" type="text/css" href="css/default.css">
 
@@ -39,6 +39,7 @@
 </head>
 
 <body>
+<div id="map"></div>
 <div id="app">
     <style type="text/css">
         #app {
@@ -238,6 +239,11 @@
 </div>
 
 <script src="js/bundle.js"></script>
+
+<!-- Load Leaflet -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+<!-- END load leaflet-->
 
 </body>
 </html>
