@@ -22,17 +22,22 @@ class ModalView extends React.Component {
                                 <div className="circle-image__container">
                                     <img className="circle-image" src={require('./prizes.png')}/>
                                     <p className="image-text">1. Prize</p>
-                                    <p className="image-text">???</p>
+                                    <p className="image-text">2000 €</p>
                                 </div>
                                 <div className="circle-image__container">
                                     <img className="circle-image" src={require('./prizes.png')}/>
                                     <p className="image-text">2. Prize</p>
-                                    <p className="image-text">???</p>
+                                    <p className="image-text">1000€</p>
                                 </div>
                                 <div className="circle-image__container">
                                     <img className="circle-image" src={require('./prizes.png')}/>
                                     <p className="image-text">3. Prize</p>
-                                    <p className="image-text">???</p>
+                                    <p className="image-text">500€</p>
+                                </div>
+                                <div className="circle-image__container">
+                                    <img className="circle-image" src={require('./prizes.png')}/>
+                                    <p className="image-text">Audience Award</p>
+                                    <p className="image-text">Best Goddies Ever</p>
                                 </div>
                             </div>
                         </div>
