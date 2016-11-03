@@ -12,7 +12,7 @@ class ModalView extends React.Component {
             <div className="prizes content-container">
                 <Modal
                     header='Station 2'
-                    title='Prizes & Criteria'
+                    title='Prizes & Jury'
                     titletext={titletext}
                 >
                     <fieldset className="fieldset">
@@ -20,22 +20,22 @@ class ModalView extends React.Component {
                         <div className="fieldset__container">
                             <div className="fieldset__container-wrapper">
                                 <div className="circle-image__container">
-                                    <img className="circle-image" src={require('./prizes.png')}/>
+                                    <img className="circle-image" src={require('./prizes/prizes.png')}/>
                                     <p className="image-text">1. Prize</p>
                                     <p className="image-text">2000 €</p>
                                 </div>
                                 <div className="circle-image__container">
-                                    <img className="circle-image" src={require('./prizes.png')}/>
+                                    <img className="circle-image" src={require('./prizes/prizes.png')}/>
                                     <p className="image-text">2. Prize</p>
                                     <p className="image-text">1000€</p>
                                 </div>
                                 <div className="circle-image__container">
-                                    <img className="circle-image" src={require('./prizes.png')}/>
+                                    <img className="circle-image" src={require('./prizes/prizes.png')}/>
                                     <p className="image-text">3. Prize</p>
                                     <p className="image-text">500€</p>
                                 </div>
                                 <div className="circle-image__container">
-                                    <img className="circle-image" src={require('./prizes.png')}/>
+                                    <img className="circle-image" src={require('./prizes/prizes.png')}/>
                                     <p className="image-text">Audience Award</p>
                                     <p className="image-text">Best Goddies Ever</p>
                                 </div>
@@ -48,14 +48,28 @@ class ModalView extends React.Component {
                         <div className="fieldset__container">
                             <div className="fieldset__container-wrapper">
                                 <div className="full-image__container">
-                                    <img className="full-image" src={require('./IBM.png')}/>
+                                    <img className="full-image" src={require('./prizes/IBM.png')}/>
                                     <p className="image-text">IBM Challenge</p>
                                     <p className="image-text">TBA.</p>
                                 </div>
                                 <div className="full-image__container">
-                                    <img className="full-image" src={require('./BVG.png')}/>
+                                    <img className="full-image" src={require('./prizes/BVG.png')}/>
                                     <p className="image-text">BVG Challenge</p>
                                     <p className="image-text">TBA.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <fieldset className="fieldset">
+                        <legend>Jury members</legend>
+                        <div className="fieldset__container">
+                            <div className="fieldset__container-wrapper">
+                                <div className="circle-image__container">
+                                    <img className="circle-image" src={require('./jury/jury-head.png')}/>
+                                    <p className="image-text-title">Max Mustermann</p>
+                                    <p className="image-text">Big Company, University of Berlin</p>
+                                    <p className="image-text">Business judge</p>
                                 </div>
                             </div>
                         </div>
