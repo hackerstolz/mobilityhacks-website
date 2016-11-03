@@ -1,5 +1,4 @@
 import React from 'react';
-import SensUsAMailButton from '../../layout/Buttons'
 require('./main.styl');
 
 
@@ -47,7 +46,7 @@ class BecomeASponsor extends React.Component {
                     <br />
                     <br />
 
-                    <SensUsAMailButton />
+                    <a href="mailto:hello@mobility-hacks.de">SEND US AN EMAIL</a>
                 </div>
             </div>
         );

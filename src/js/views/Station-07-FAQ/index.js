@@ -52,7 +52,7 @@ class ModalView extends React.Component {
         return (
             <div className="faq content-container">
                 <Modal
-                    header='Station 7'
+                    header='Station 6'
                     title='FAQ'
                     titletext={titletext}
                 >

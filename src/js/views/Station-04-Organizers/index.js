@@ -1,17 +1,21 @@
 import React from 'react';
 import Modal from '../../layout/Modal/Modal';
 
-const titletext = 'Why us, I don\'t know! We are all huge fans of Hackathons and want to share ' +
+const titletext = 'IF YOU HAVE ANY QUESTIONS OR SUGGESTIONS OR YOU NEED ANY FURTHER INFORMATION, ' +
+    'FEEL FREE TO CONTACT US. SHOOT US AN QUICK EMAIL AND WE WILL GET BACK TO YOU.' +
+    '<br /><br />' +
+    '<a href="mailto:hello@mobility-hacks.de">SEND US AN EMAIL</a>' +
+    '<br /><br />' +
+    'Why us, I don\'t know! We are all huge fans of Hackathons and want to share ' +
     'the joy we had at other events. So we decided to host our own. This is our 2nd Hackathon in Berlin, ' +
-    'we are Hackerstolz and we hope you like our super cool events.<br /><br /><a href="https://youtu.be/R8myY9XjiN0" target="_blank">' +
-    'You can watch a movie about our last Hackathon.</a>';
+    'we are Hackerstolz and we hope you like our super cool events.<br />';
 
 class ModalView extends React.Component {
     render() {
         return (
             <div className="organizers content-container">
                 <Modal
-                    header='Station 4'
+                    header='Station 7'
                     title='Organizers'
                     titletext={titletext}
                 >

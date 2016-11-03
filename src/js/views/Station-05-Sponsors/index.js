@@ -12,7 +12,7 @@ class ModalView extends React.Component {
         return (
             <div className="sponsors content-container">
                 <Modal
-                    header='Station 5'
+                    header='Station 3'
                     title='Sponsors'
                     titletext={titletext}
                 >
@@ -81,6 +81,11 @@ class ModalView extends React.Component {
                                     <img className="full-image"
                                          style={{"max-height": "80px"}}
                                          src={require('./img/bitkom.png')}/>
+                                </div>
+                                <div className="full-image__container">
+                                    <img className="full-image"
+                                         style={{"max-height": "80px"}}
+                                         src={require('./img/emio.png')}/>
                                 </div>
                             </div>
                         </div>

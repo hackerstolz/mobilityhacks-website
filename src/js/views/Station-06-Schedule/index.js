@@ -32,7 +32,7 @@ class ModalView extends React.Component {
         return (
             <div className="schedule content-container">
                 <Modal
-                    header='Station 6'
+                    header='Station 5'
                     title='Schedule'
                     titletext={titletext}
 
