@@ -40,6 +40,7 @@ class Footer extends React.Component {
                         <Link to="station-02-prizes-and-criteria" activeClassName="link--active">Prizes & Jury</Link>
                         <Link to="station-06-schedule" activeClassName="link--active">Schedule</Link>
                         <Link to="station-07-faq" activeClassName="link--active">FAQ</Link>
+                        <Link to="station-04-organizers" activeClassName="link--active">Organizers</Link>
                     </div>
                     <div className="offCanvasMenu__container-bottom"></div>
                 </Menu>
