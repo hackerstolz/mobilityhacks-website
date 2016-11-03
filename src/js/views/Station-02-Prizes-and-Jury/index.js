@@ -11,7 +11,7 @@ class ModalView extends React.Component {
         return (
             <div className="prizes content-container">
                 <Modal
-                    header='Station 2'
+                    header='Station 4'
                     title='Prizes & Jury'
                     titletext={titletext}
                 >
