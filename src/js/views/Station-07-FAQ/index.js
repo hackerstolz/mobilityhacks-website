@@ -56,6 +56,7 @@ class ModalView extends React.Component {
                     title='FAQ'
                     titletext={titletext}
                 >
+                    <h5><i>#</i>mobilityhacks</h5>
                     <p>
                         <a href="https://www.facebook.com/events/842521752516067/"
                            className="social-link"

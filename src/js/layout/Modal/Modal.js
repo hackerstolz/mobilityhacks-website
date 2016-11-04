@@ -30,7 +30,7 @@ class Modal extends React.Component {
                         </div>
                         <div className="modal__header__item right">
                             <Link to="home" activeClassName="link--active">
-                                <img src={ require('./star.svg') }/>
+                                <img className="not-xs" src={ require('./star.svg') }/>
                             </Link>
                         </div>
                     </div>

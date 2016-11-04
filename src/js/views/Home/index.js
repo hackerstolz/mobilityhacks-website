@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router';
 require('./main.styl');
 
 class Home extends React.Component {
@@ -28,6 +29,9 @@ class Home extends React.Component {
                                 spielfeld digital hub<br />
                                 skalitzer str. 85/86<br />
                                 10993 berlin
+                            </li>
+                            <li>
+                                <Link to="get-your-ticket">tickets</Link>:<br />
                             </li>
                             <li>
                                 this hackathon is<br />
