@@ -7,6 +7,7 @@ var initFunction = function () {
 
     var map = L.map('map', {
         crs: L.CRS.Simple,
+        zoom: 1,
         minZoom: 0,
         // Leaflet allows you to control how much the map resists being dragged out of bounds with the maxBoundsViscosity option (value: 0 to 1).
         // Setting it to maximum disables dragging out of bounds entirely.
