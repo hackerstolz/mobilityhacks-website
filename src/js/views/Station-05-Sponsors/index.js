@@ -52,8 +52,9 @@ class ModalView extends React.Component {
                         <div className="fieldset__container">
                             <div className="fieldset__container-wrapper">
                                 <div className="full-image__container">
+                                    tbd.
                                     <img className="full-image"
-                                         style={{"height": "120px"}}
+                                         style={{"height": "120px", display: "none"}}
                                          src={require('./img/porsche.svg')}/>
                                 </div>
                             </div>
