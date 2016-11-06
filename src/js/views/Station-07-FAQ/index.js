@@ -34,7 +34,7 @@ class OneFaq extends React.Component {
         return (
             <div key={this.props.data.id} className="faq-one">
                 <div className="faq-question" onClick={ this.toggle.bind(this) }>{this.props.data.header}</div>
-                <p className={"faq-text " + (this.state.visible ? "faq-text--visible " : "") }>{this.props.data.text}</p>
+                <p className={"faq-text " + (this.state.visible ? "faq-text--visible " : "") } dangerouslySetInnerHTML={{__html: this.props.data.text}}></p>
             </div>
         );
     }
@@ -42,7 +42,7 @@ class OneFaq extends React.Component {
 
 
 function renderFaq(datas) {
-    return datas.map((data, index) => <OneFaq key={index} data={data} />)
+    return datas.map((data, index) => <OneFaq key={index} data={data}/>)
 }
 
 class ModalView extends React.Component {
@@ -52,10 +52,11 @@ class ModalView extends React.Component {
         return (
             <div className="faq content-container">
                 <Modal
-                    header='Station 7'
+                    header='Station 6'
                     title='FAQ'
                     titletext={titletext}
                 >
+                    <h5><i>#</i>mobilityhacks</h5>
                     <p>
                         <a href="https://www.facebook.com/events/842521752516067/"
                            className="social-link"

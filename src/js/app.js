@@ -17,11 +17,10 @@ require('./../fonts/fonts.styl');
 import Layout from './layout/Layout';
 import Home from './views/Home/';
 import BecomeASponsor from './views/BecomeASponsor/';
-import Contact from './views/Contact/';
 import GetYourTicket from './views/GetYourTicket/';
 import PreviousHackathons from './views/PreviousHackathons/';
 import Station01 from './views/Station-01-Mobility/';
-import Station02 from './views/Station-02-Prizes';
+import Station02 from './views/Station-02-Prizes-and-Jury';
 import Station03 from './views/Station-03-Jury';
 import Station04 from './views/Station-04-Organizers';
 import Station05 from './views/Station-05-Sponsors';
@@ -36,7 +35,7 @@ ReactDom.render(
             <Route name="get-your-ticket" path="get-your-ticket" location="history" component={ GetYourTicket }/>
             <Route name="previous-hackathons" path="previous-hackathons" location="history" component={ PreviousHackathons }/>
             <Route name="become-a-sponsor" path="become-a-sponsor" location="history" component={ BecomeASponsor }/>
-            <Route name="contact" path="contact" location="history" component={ Contact }/>
+            <Route name="contact" path="contact" location="history" component={ Station04 }/>
             <Route name="station-01" path="station-01-why-mobility" location="station-01" component={ Station01 }/>
             <Route name="station-02" path="station-02-prizes-and-criteria" location="station-02" component={ Station02 }/>
             <Route name="station-03" path="station-03-jury" location="station-03" component={ Station03 }/>

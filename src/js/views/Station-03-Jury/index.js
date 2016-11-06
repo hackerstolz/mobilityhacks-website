@@ -20,12 +20,6 @@ class ModalView extends React.Component {
                         <legend>Jury members</legend>
                         <div className="fieldset__container">
                             <div className="fieldset__container-wrapper">
-                                <div className="circle-image__container">
-                                    <img className="circle-image" src={require('./jury-head.png')}/>
-                                    <p className="image-text-title">Max Mustermann</p>
-                                    <p className="image-text">Big Company, University of Berlin</p>
-                                    <p className="image-text">Business judge</p>
-                                </div>
                             </div>
                         </div>
                     </fieldset>

@@ -35,12 +35,12 @@ class Footer extends React.Component {
                     <div className="offCanvasMenu__container-content">
                         <Link to="home" activeClassName="link--active">#</Link>
                         <Link to="station-01-why-mobility" activeClassName="link--active">Why Mobility</Link>
-                        <Link to="station-02-prizes-and-criteria" activeClassName="link--active">Prizes</Link>
-                        <Link to="station-03-jury" activeClassName="link--active">Jury</Link>
-                        <Link to="station-04-organizers" activeClassName="link--active">Organizers</Link>
+                        <Link to="get-your-ticket" activeClassName="link--active">Tickets</Link>
                         <Link to="station-05-sponsors" activeClassName="link--active">Sponsors</Link>
+                        <Link to="station-02-prizes-and-criteria" activeClassName="link--active">Prizes & Jury</Link>
                         <Link to="station-06-schedule" activeClassName="link--active">Schedule</Link>
                         <Link to="station-07-faq" activeClassName="link--active">FAQ</Link>
+                        <Link to="station-04-organizers" activeClassName="link--active">Organizers</Link>
                     </div>
                     <div className="offCanvasMenu__container-bottom"></div>
                 </Menu>
@@ -51,15 +51,14 @@ class Footer extends React.Component {
                     <div className="app-footer--left">
                         <Link to="home" activeClassName="link--active">#</Link>
                         <Link to="station-01-why-mobility" activeClassName="link--active">Why Mobility</Link>
-                        <Link to="station-02-prizes-and-criteria" activeClassName="link--active">Prizes</Link>
-                        <Link to="station-03-jury" activeClassName="link--active">Jury</Link>
-                        <Link to="station-04-organizers" activeClassName="link--active">Organizers</Link>
+                        <Link to="get-your-ticket" activeClassName="link--active">Tickets</Link>
                         <Link to="station-05-sponsors" activeClassName="link--active">Sponsors</Link>
+                        <Link to="station-02-prizes-and-criteria" activeClassName="link--active">Prizes & Jury</Link>
                         <Link to="station-06-schedule" activeClassName="link--active">Schedule</Link>
                         <Link to="station-07-faq" activeClassName="link--active">FAQ</Link>
                     </div>
                     <div className="app-footer--right">
-                        <Link to="contact" activeClassName="link--active" className="last-link">Contact</Link>
+                        <Link to="station-04-organizers" activeClassName="link--active">Organizers</Link>
                     </div>
 
                 </div>
