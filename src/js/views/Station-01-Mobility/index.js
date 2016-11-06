@@ -14,6 +14,8 @@ class ModalView extends React.Component {
                     header='Station 1'
                     title='Why Mobility?'
                     titletext={titletext}
+                    left=""
+                    right=""
                 >
                     <div className="text">
                         <h4>Still not sure if this is something for you?</h4>

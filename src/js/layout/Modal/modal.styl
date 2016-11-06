@@ -14,6 +14,8 @@
   margin-top 60px
 
   color white
+  @media screen and (min-width: $breakPointMedium) and (max-width: $breakPointBig)
+    width 70vw
   @media screen and (max-width: $breakPointSmall)
     width 90%
     height 100%
@@ -25,15 +27,26 @@
     display flex
     .modal__header__item
       flex 1 0 auto
-    .left:hover, .right:hover
+      .left-arrow, .right-arrow
+        width 56px
+        padding 6px
+        display inline-block
+        @media screen and (max-width: $breakPointMedium)
+          width 30px
+        @media screen and (min-width: $breakPointMedium) and (max-width: $breakPointBig)
+          width 40px
+    .left-arrow:hover, .right-arrow:hover, .right:hover
       opacity 0.6
     .left
       text-align left
+      flex 1
     .center
       text-align center
       text-transform uppercase
+      flex 1
     .right
       text-align right
+      flex 1
 
   .modal__title
     font-family 'Stanley'

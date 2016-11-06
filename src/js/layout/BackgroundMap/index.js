@@ -3,10 +3,18 @@ var BackgroundMap = {};
 
 var initFunction = function () {
     console.info("Init background map");
+    var bounds = [[0, 0], [1800, 2880]];
 
     var map = L.map('map', {
         crs: L.CRS.Simple,
-        minZoom: 0
+        minZoom: 0,
+        // Leaflet allows you to control how much the map resists being dragged out of bounds with the maxBoundsViscosity option (value: 0 to 1).
+        // Setting it to maximum disables dragging out of bounds entirely.
+        maxBoundsViscosity: 1.0,
+        maxBounds: bounds,
+        //
+        // continuousWorld: 'false',
+        // tms: true
     });
 
     var yx = L.latLng;
@@ -20,7 +28,6 @@ var initFunction = function () {
 
     // HINT CRS.Simple take the form of [y, x] instead of [x, y], in the same way Leaflet uses [lat, lng] instead of [lng, lat].
     // Then we can just add a L.ImageOverlay with the starmap image and its approximate bounds:
-    var bounds = [[0, 0], [1800, 2880]];
     var image = L.imageOverlay(require('./background.jpg'), bounds).addTo(map);
 
     // And show the whole map:
@@ -56,7 +63,7 @@ var initFunction = function () {
 
 BackgroundMap.init = function () {
     function doOnInterval() {
-        if (L) {
+        if (typeof L !== 'undefined') {
             myStopFunction();
             initFunction();
         }
