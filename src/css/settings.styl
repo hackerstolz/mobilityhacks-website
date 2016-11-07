@@ -1,15 +1,19 @@
-$hacker-blue = #004EFB
+$hacker-blue = #3B00FF
+$blue-overlay-text = #5139F5
 $footer-height-lg = 55px;
-$dark-footer-gray = #222222;
+$footer-height-medium = 40px;
+$dark-footer-gray = #000000;
 
-$selected-link-gray = #C4C4C4;
+$selected-link-gray = #e3e3e3;
 $unselected-link-gray = #909090;
 
 $menu-width = 250px;
 
 // Responsive
 
+$breakPointSmall = 420px
 $breakPointMedium = 614px
+$breakPointBig = 1000px
 
 .only-small-screen
   display none
@@ -29,6 +33,9 @@ vendor(prop, args)
   -ms-{prop} args
   -o-{prop} args
   {prop} args
+
+animation()
+  vendor('animation', arguments)
 
 border-box()
   vendor('box-sizing', arguments)

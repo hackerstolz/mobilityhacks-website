@@ -10,8 +10,8 @@
   "scripts": {
     "start": "webpack-dev-server --inline --watch",
     "script": "webpack -p",
-    "build": "webpack",
-    "deploy": "node src/js/deploy.js",
+    "build": "webpack -p",
+    "deploy": "node deploy.js",
     "watch": "webpack -w"
   },
   "devDependencies": {
@@ -35,10 +35,9 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
-    "history": "^1.17.0",
     "react": "^0.14.8",
     "react-dom": "^0.14.8",
     "react-masonry-component": "^4.0.4",
-    "react-router": "^1.0.3"
+    "react-router": "^2.5.2"
   }
 }

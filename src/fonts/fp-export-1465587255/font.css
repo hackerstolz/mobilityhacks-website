@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'GT Pressura Trial Bold';
+  src: url('GT-Pressura-Trial-Bold-Italic.eot'); /* IE9 Compat Modes */
+  src: url('GT-Pressura-Trial-Bold-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('GT-Pressura-Trial-Bold-Italic.woff') format('woff'), /* Modern Browsers */
+       url('GT-Pressura-Trial-Bold-Italic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('GT-Pressura-Trial-Bold-Italic.svg#eb73918ea812a943be164660c1612480') format('svg'); /* Legacy iOS */
+       
+  font-style:   italic;
+  font-weight:  700;
+}
+
