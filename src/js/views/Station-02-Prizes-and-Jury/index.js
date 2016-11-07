@@ -53,7 +53,7 @@ class ModalView extends React.Component {
                                     <p className="image-text">TBA.</p>
                                 </div>
                                 <div className="full-image__container">
-                                    <img className="full-image" src={require('./prizes/BVG.png')}/>
+                                    <img className="full-image" src={require('./prizes/BVG-white-border.png')}/>
                                     <p className="image-text">BVG Challenge</p>
                                     <p className="image-text">TBA.</p>
                                 </div>

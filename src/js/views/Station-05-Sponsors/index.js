@@ -23,7 +23,7 @@ class ModalView extends React.Component {
                                 <div className="full-image__container">
                                     <img className="full-image"
                                          style={{"marginLeft": "20px", "height": "130px"}}
-                                         src={require('./img/BVG.png')}/>
+                                         src={require('./img/BVG-white-border.png')}/>
                                 </div>
 
                                 <div className="full-image__container">
@@ -40,7 +40,7 @@ class ModalView extends React.Component {
 
                                 <div className="full-image__container">
                                     <img className="full-image"
-                                         style={{"maxHeight": "70px"}}
+                                         style={{"maxHeight": "70px", display: "none"}}
                                          src={require('./img/ergo.svg')}/>
                                 </div>
                             </div>
@@ -80,7 +80,7 @@ class ModalView extends React.Component {
                                 <div className="full-image__container">
                                     <img className="full-image"
                                          style={{"maxHeight": "80px"}}
-                                         src={require('./img/roland-berger-logo.png')}/>
+                                         src={require('./img/roland-berger-logo-neg.png')}/>
                                 </div>
                             </div>
                         </div>
@@ -103,6 +103,11 @@ class ModalView extends React.Component {
                                     <img className="full-image"
                                          style={{"maxHeight": "80px"}}
                                          src={require('./img/bitkom.png')}/>
+                                </div>
+                                <div className="full-image__container">
+                                    <img className="full-image"
+                                         style={{"height": "80px", width: '100px'}}
+                                         src={require('./img/graph-cool.svg')}/>
                                 </div>
                                 <div className="full-image__container">
                                     <img className="full-image"
