@@ -67,7 +67,7 @@ class ModalView extends React.Component {
                             <div className="fieldset__container-wrapper">
                                 <div className="full-image__container">
                                     <img className="full-image"
-                                         style={{"height": "150px"}}
+                                         style={{"height": "160px"}}
                                          src={require('./img/vector.svg')}/>
                                 </div>
                             </div>
@@ -79,7 +79,7 @@ class ModalView extends React.Component {
                             <div className="fieldset__container-wrapper">
                                 <div className="full-image__container">
                                     <img className="full-image"
-                                         style={{"maxHeight": "80px"}}
+                                         style={{"height": "120px"}}
                                          src={require('./img/roland-berger-logo-neg.png')}/>
                                 </div>
                             </div>
@@ -101,12 +101,12 @@ class ModalView extends React.Component {
                             <div className="fieldset__container-wrapper">
                                 <div className="full-image__container">
                                     <img className="full-image"
-                                         style={{"maxHeight": "80px"}}
+                                         style={{"height": "80px"}}
                                          src={require('./img/bitkom.png')}/>
                                 </div>
                                 <div className="full-image__container">
                                     <img className="full-image"
-                                         style={{"height": "80px", width: '100px'}}
+                                         style={{"height": "50px"}}
                                          src={require('./img/graph-cool.svg')}/>
                                 </div>
                                 <div className="full-image__container">
@@ -121,7 +121,7 @@ class ModalView extends React.Component {
                                 </div>
                                 <div className="full-image__container">
                                     <img className="full-image"
-                                         style={{marginLeft: "20px", height: "120px"}}
+                                         style={{marginLeft: "20px", height: "140px"}}
                                          src={require('./img/veltins.svg')}/>
                                 </div>
                             </div>

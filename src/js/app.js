@@ -5,6 +5,7 @@ import {browserHistory, Router, Route, IndexRoute} from 'react-router';
 // Assets
 require('./../index.html');
 require('./../sitemap.xml');
+require('./../robots.txt');
 require('./../website_teaser.jpg');
 
 require('!file?name=[path][name].[ext]?[hash]&context=./src/!./../.htaccess');
