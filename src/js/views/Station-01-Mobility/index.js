@@ -19,11 +19,11 @@ class ModalView extends React.Component {
                         <h4>Still not sure if this is something for you?</h4>
                         <p>
                             Just watch the aftermovie of our last hackathon
-                            <br />
-                            <div className="aftermovie">
-                                <iframe width="480" height="300" src="https://www.youtube.com/embed/R8myY9XjiN0" frameBorder="0" allowFullScreen></iframe>
-                            </div>
                         </p>
+                        <br />
+                        <div className="aftermovie">
+                            <iframe src="https://www.youtube.com/embed/R8myY9XjiN0" frameBorder="0" allowFullScreen></iframe>
+                        </div>
                         <p>
                             You want to know how it feels to be at a Hackathon?
                             <br />
