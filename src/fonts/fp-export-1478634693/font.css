@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'GT Pressura';
+  src: url('../GT Pressura-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../GT Pressura-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../GT Pressura-Regular.woff') format('woff'), /* Modern Browsers */
+       url('../GT Pressura-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../GT Pressura-Regular.svg#794d90b5e05386f96770ece72f92a411') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+

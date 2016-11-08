@@ -17,6 +17,7 @@ require('./../fonts/fonts.styl');
 // Views (if you have an index.js you can import folders)
 import Layout from './layout/Layout';
 import Home from './views/Home/';
+import Home2 from './views/Home2/';
 import BecomeASponsor from './views/BecomeASponsor/';
 import GetYourTicket from './views/GetYourTicket/';
 import PreviousHackathons from './views/PreviousHackathons/';
@@ -31,8 +32,8 @@ import Station07 from './views/Station-07-FAQ';
 ReactDom.render(
     <Router history={ browserHistory }>
         <Route name="root" path="/" component={ Layout }>
-            <IndexRoute name="home" component={ Home }/>
-            <Route name="home" path="home" location="history" component={ Home }/>
+            <IndexRoute name="home" component={ Home2 }/>
+            <Route name="home" path="home" location="history" component={ Home2 }/>
             <Route name="get-your-ticket" path="get-your-ticket" location="history" component={ GetYourTicket }/>
             <Route name="previous-hackathons" path="previous-hackathons" location="history" component={ PreviousHackathons }/>
             <Route name="become-a-sponsor" path="become-a-sponsor" location="history" component={ BecomeASponsor }/>

@@ -1,9 +1,9 @@
 @import "../../../css/settings.styl"
 
 //.footer-container
-.app-footer {
+.app-footer
   position: fixed;
-  bottom: 0;
+  top: 0;
   left: 0;
   box-sizing: border-box;
   padding 0 10px
@@ -19,19 +19,17 @@
   align-items: center;
   flex-wrap nowrap
 
-  .app-footer--left {
+  .app-footer--left
     flex 1
     align-content: flex-start;
     vendor('justify-content', flex-start);
     display: flex;
-  }
 
-  .app-footer--right {
+  .app-footer--right
     align-content: flex-end;
     vendor('justify-content', flex-end);
-  }
 
-  a {
+  a
     font-size 18px
     letter-spacing 0.3px
     text-transform uppercase
@@ -40,15 +38,17 @@
     margin-right 16px
     color $unselected-link-gray
 
-    &.last-link {
-      // does the contact link need extra styling?
-    }
-  }
-
-  .link--active {
+  .link--active
     color: $selected-link-gray;
-  }
-}
+
+  .hackerstolz-logo
+    width 100px
+    padding 10px
+    margin-right 40px
+    .hackerstolz-logo__img
+      width 100px
+    @media screen and (max-width: $breakPointMedium)
+      bottom 0
 
 @media screen and (min-width: $breakPointMedium) and (max-width $breakPointBig)
   .app-footer

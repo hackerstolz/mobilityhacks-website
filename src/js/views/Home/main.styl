@@ -1,27 +1,47 @@
-$fancy-font-blue = #004EFB;
-$footer-height-lg = 100px;
 @import '../../../css/settings.styl'
 
-body
-  min-height 100%
-
 .home
-  //position fixed
-  //bottom $footer-height-lg
-  //margin 60px
-  //height 100%
-  //width 100%
-  // above(1200px)
-  //   margin 30px 80px
-
+  width 100%
+  text-align left
+  height 100vh
+  background: url(./img/berlin_mosaic.jpg) black;
+  //background-size: 240vw auto;
+  //background-repeat: no-repeat;
+  ////background-attachment: fixed;
+  //background-position: 0 0;
+  background-repeat no-repeat
+  //background-attachment: fixed;
+  background-size cover
+  background-position center center
   color white
+
+  .startseite-logo__container
+    position relative
+    margin auto
+    width 100%
+    text-align center
+    top 25%
+    //left: 50%;
+    //margin: auto;
+    //top: 0;
+    //left: 0;
+    //right: 0;
+    //bottom: 0;
+    .startseite-logo__img
+      //position: absolute;
+      //left: 50%;
+      //top: 50%;
+      //margin: auto;
+      width 35vw
+  //height 40vh
 
   .home__hackathon-name
     .home__hackathon-name--image
       width 40vw
 
   .home__teaser-text
-    margin-top 40px
+    bottom 0
+    position absolute
     font-size 24px
     ul
       position relative
@@ -71,41 +91,4 @@ body
     .home__teaser-text
       font-size 20px
 
-.aftermovie
-  iframe
-    width 480px
-    height 300px
-    @media screen and (min-width: $breakPointSmall) and (max-width $breakPointBig)
-      width 100%
-      height 320px
-    @media screen and (max-width: $breakPointSmall)
-      width 100%
-      height 240px
 
-.food-hacks-aftermovie
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 50;
-  animation(hide 5s ease-in 17s forwards)
-
-  img
-    width: 150px;
-    opacity: 0;
-    animation(show 2s ease-in 4s forwards)
-
-@keyframes show {
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes hide {
-  to {
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    visibility: hidden;
-    opacity: 0;
-  }
-}
