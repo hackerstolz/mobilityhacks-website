@@ -10,12 +10,14 @@ import Station04 from './../Station-04-Organizers';
 import Station05 from './../Station-05-Sponsors';
 import Station06 from './../Station-06-Schedule';
 import Station07 from './../Station-07-FAQ';
+import StayAway from './../StayAway';
 
 class Home2 extends React.Component {
     render() {
         return (
             <div className="content-wrapper">
                 <Home />
+                <StayAway />
                 <GetYourTicket />
                 <Station01 />
                 <Station05 />
