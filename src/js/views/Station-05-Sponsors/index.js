@@ -8,12 +8,7 @@ class ModalView extends React.Component {
         return (
             <div className="sponsors content-container">
                 <div className="textbox">
-                    <h1>Check out our fantastic sponsors!</h1>
-                    <p className="small-para">
-                        In younger days they were the big brothers buying
-                        us alcohol because we were too young. Now we call
-                        them Sponsors because we’re too broke.
-                    </p>
+                    <h1>Sponsors</h1>
                 </div>
                 <div className="sponsor-logos">
                     <div className="full-image__container">

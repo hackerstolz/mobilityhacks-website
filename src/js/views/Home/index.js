@@ -6,7 +6,7 @@ class Home extends React.Component {
     render() {
         return (
             <div className="content-container home">
-                <div className="startseite-logo__container">
+                <div  className="startseite-logo__container">
                         <img className="startseite-logo__img_br" src={require('./img/splash_icon_background.svg')}/>
                         <div className="startseite-logo__img_wrap">
                             <img className="startseite-logo__img" src={require('./img/mobility_logo.svg')}/>
