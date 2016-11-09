@@ -20,12 +20,12 @@ class ModalView extends React.Component {
                 </div>
                 <div className="stayaway-item">
                     <img src={require('./img/beer.svg')}/>
-                    <div className="stayaway-desc">Hacker 
+                    <div className="stayaway-desc">Unhealthy Hacker 
 craft beer + tasting</div>
                 </div>
                 <div className="stayaway-item">
                     <img src={require('./img/prize.svg')}/>
-                    <div className="stayaway-desc">Self-Made Challenge
+                    <div className="stayaway-desc">Badly made Challenge
 Prize Trophies</div>
                 </div>
             </div>
