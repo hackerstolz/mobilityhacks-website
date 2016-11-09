@@ -6,7 +6,7 @@
   top: 0;
   left: 0;
   box-sizing: border-box;
-  padding 0 10px
+  padding 10px 10px 10px 0
   width: 100%;
   height: $footer-height-lg;
   z-index: 100;
@@ -22,6 +22,7 @@
   .app-footer--left
     flex 1
     align-content: flex-start;
+    align-items: center;
     vendor('justify-content', flex-start);
     display: flex;
 
@@ -30,23 +31,29 @@
     vendor('justify-content', flex-end);
 
   a
-    font-size 18px
-    letter-spacing 0.3px
+    font-size 16px
+    letter-spacing 0.6px
     text-transform uppercase
     font-weight 400
     padding 12px
-    margin-right 16px
+    margin-right 10px
     color $unselected-link-gray
+    transition: 0.17s ease-in all
+    &:hover
+      opacity 0.6
 
   .link--active
     color: $selected-link-gray;
 
   .hackerstolz-logo
-    width 100px
-    padding 10px
-    margin-right 40px
+    display flex
+    align-items center
+    width 25px
+    height 28px
+    padding 0 0 0 10px
     .hackerstolz-logo__img
-      width 100px
+      margin-top -5px
+      height 28px
     @media screen and (max-width: $breakPointMedium)
       bottom 0
 
