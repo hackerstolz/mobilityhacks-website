@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router';
+import TicketButton from '../../layout/FooterMenu/TicketButton'
 require('./main.styl');
 
 class Home extends React.Component {
@@ -10,6 +11,9 @@ class Home extends React.Component {
                         <img className="startseite-logo__img_br" src={require('./img/splash_icon_background.svg')}/>
                         <div className="startseite-logo__img_wrap">
                             <img className="startseite-logo__img" src={require('./img/mobility_logo.svg')}/>
+                            <div className="startseite-logo__button">
+                              <TicketButton />
+                            </div>
                         </div>
                 </div>
 

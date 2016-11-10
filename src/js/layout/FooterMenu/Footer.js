@@ -5,11 +5,34 @@ import TicketButton from './TicketButton/';
 
 require('./footer.styl');
 
+const WINDOW_HEIGHT = window.innerHeight;
 
 class Footer extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {visible: false};
+        this.state = {
+          visible: false,
+          isButtonVisible: false
+        };
+        this.onScroll = this.onScroll.bind(this)
+    }
+
+    componentDidMount(){
+      window.addEventListener('scroll',this.onScroll);
+    }
+
+    componentWillUnmount(){
+      window.removeEventListener('scroll',this.onScroll);
+    }
+
+    onScroll() {
+      console.log("onScroll")
+      const { isButtonVisible } = this.state;
+      if (window.scrollY > WINDOW_HEIGHT) {
+        !isButtonVisible && this.setState({isButtonVisible: true})
+      } else {
+        isButtonVisible && this.setState({isButtonVisible: false})
+      }
     }
 
     toggleMenu() {
@@ -66,7 +89,7 @@ class Footer extends React.Component {
                         <Link to="station-04-organizers" activeClassName="link--active">Organizers</Link>
                     </div>
                     <div className="app-footer--right">
-                        <TicketButton />
+                        { this.state.isButtonVisible ? <TicketButton /> : null }
                     </div>
 
                 </div>
