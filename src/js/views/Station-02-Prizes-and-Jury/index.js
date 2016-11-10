@@ -48,13 +48,18 @@ class ModalView extends React.Component {
                         <div className="fieldset__container">
                             <div className="fieldset__container-wrapper">
                                 <div className="full-image__container">
-                                    <img className="full-image" src={require('./prizes/IBM.png')}/>
+                                    <img className="full-image" src={require('./prizes/IBM.svg')}/>
                                     <p className="image-text">IBM Challenge</p>
                                     <p className="image-text">TBA.</p>
                                 </div>
                                 <div className="full-image__container">
                                     <img className="full-image" src={require('./prizes/BVG-white-border.png')}/>
                                     <p className="image-text">BVG Challenge</p>
+                                    <p className="image-text">TBA.</p>
+                                </div>
+                                <div className="full-image__container">
+                                    <img className="full-image" width="160px" src={require('./prizes/ergo.svg')}/>
+                                    <p className="image-text">Ergo Challenge</p>
                                     <p className="image-text">TBA.</p>
                                 </div>
                             </div>
