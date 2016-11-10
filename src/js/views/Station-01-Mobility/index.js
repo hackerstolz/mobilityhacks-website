@@ -20,11 +20,13 @@ class ModalView extends React.Component {
 
                 <div className="picture-box__container">
                     <div className="picture-box__item">
-                        <div className="picture-box__image-container">
-                            <img src={require('./img/002.jpg')}/>
-                        </div>
-                        <h3>42 Hours at a Hackathon</h3>
-                        <p>Hey! I’m Sebastian, a newly member of Hackerstolz and a huge fan of Hackathons. This is a short story about my last Hackathon. It was not your most typical Hackathon, as it was kind of a corporate one about new ideas some business units, but you still will get the idea how a Hackathon works.</p>
+                        <a href="https://medium.com/@Hackerstolz/42-hours-at-a-hackathon-4f6444a3c3bd" target="_blank">
+                            <div className="picture-box__image-container">
+                                <img src={require('./img/002.jpg')}/>
+                            </div>
+                            <h3>42 Hours at a Hackathon</h3>
+                            <p>Hey! I’m Sebastian, a newly member of Hackerstolz and a huge fan of Hackathons. This is a short story about my last Hackathon. It was not your most typical Hackathon, as it was kind of a corporate one about new ideas some business units, but you still will get the idea how a Hackathon works.</p>
+                        </a>
                     </div>
 
                     <div className="picture-box__item">
@@ -37,23 +39,23 @@ class ModalView extends React.Component {
                     </div>
 
                     <div className="picture-box__item">
-                        <div className="picture-box__image-container">
-                            <img src={require('./img/001.jpg')}/>
-                        </div>
-                        <h3>7 Reasons why You Schould Go to a Hackathon</h3>
-                        <p>Hey! I’m Sebastian, a newly member of Hackerstolz and a huge fan of Hackathons. This is a short story about my last Hackathon. It was not your most typical Hackathon, as it was kind of a corporate one about new ideas some business units, but you still will get the idea how a Hackathon works.</p>
+                        <a href="https://medium.com/@Hackerstolz/7-reasons-why-you-should-go-to-a-hackathon-5242c092e2c4" target="_blank">
+                            <div className="picture-box__image-container">
+                                <img src={require('./img/001.jpg')}/>
+                            </div>
+                            <h3>7 Reasons why You Schould Go to a Hackathon</h3>
+                            <p>Hey! I’m Sebastian, a newly member of Hackerstolz and a huge fan of Hackathons. This is a short story about my last Hackathon. It was not your most typical Hackathon, as it was kind of a corporate one about new ideas some business units, but you still will get the idea how a Hackathon works.</p>
+                        </a>
                     </div>
                 </div>
 
                 <p className="hidden">
                     You want to know how it feels to be at a Hackathon?
                     <br />
-                    <a href="https://medium.com/@Hackerstolz/42-hours-at-a-hackathon-4f6444a3c3bd" target="_blank">We wrote something about it.</a>
                 </p>
                 <p className="hidden">
                     And if you are still unsure if a Hackathon is something for you, we got
                     <br />
-                    <a href="https://medium.com/@Hackerstolz/7-reasons-why-you-should-go-to-a-hackathon-5242c092e2c4" target="_blank">7 reasons for you to go.</a>
                 </p>
             </div>
         );

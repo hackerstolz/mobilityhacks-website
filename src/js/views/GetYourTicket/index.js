@@ -20,8 +20,6 @@ class GetYourTicket extends React.Component {
 
                 <iframe src="//eventbrite.co.uk/tickets-external?eid=27795158066&ref=etckt"
                         frameBorder="1"
-                        Vspace="0"
-                        Hspace="0"
                         marginHeight="5"
                         marginWidth="5"
                         scrolling="auto"

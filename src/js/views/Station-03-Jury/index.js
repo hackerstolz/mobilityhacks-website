@@ -9,7 +9,13 @@ class ModalView extends React.Component {
                 <h1>Jury Members</h1>
                 <p>
                     A little less fatal than in circus maximus.<br />
-                    But berely a pinch.
+                    But berely a pinch. You will need:
+                    <div><span className="percent-text">20%</span> Skill</div>
+                    <div><span className="percent-text">15%</span> Concentrated Power of Will</div>
+                    <div><span className="percent-text">5%</span> Pleasure</div>
+                    <div><span className="percent-text">50%</span> Pain</div>
+                    <div><span className="percent-text">100%</span> Reason to join Hackerstolz</div>
+
                 </p>
 
 
@@ -50,20 +56,6 @@ class ModalView extends React.Component {
                         <p className="image-text-2">He’s not only a renowned professor for design, but also a former Creative Director and holder of quite some international design awards. You want to know anything about design? He’s your man.</p>
                     </div>
                 </div>
-
-                <fieldset className="fieldset">
-                    <legend>Criteria</legend>
-                    <div className="fieldset__container fieldset__container--criteria">
-                        <div className="fieldset__container-wrapper">
-                            <p><span className="percent-text">10%</span> Luck</p>
-                            <p><span className="percent-text">20%</span> Skill</p>
-                            <p><span className="percent-text">15%</span> Concentrated Power of Will</p>
-                            <p><span className="percent-text">5%</span> Pleasure</p>
-                            <p><span className="percent-text">50%</span> Pain</p>
-                            <p><span className="percent-text">100%</span> Reason to join Hackerstolz</p>
-                        </div>
-                    </div>
-                </fieldset>
             </div>
         );
     }
