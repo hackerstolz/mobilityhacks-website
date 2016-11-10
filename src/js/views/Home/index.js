@@ -6,8 +6,11 @@ class Home extends React.Component {
     render() {
         return (
             <div className="content-container home">
-                <div className="startseite-logo__container">
-                        <img className="startseite-logo__img" src={require('./img/startseite_logo.svg')}/>
+                <div  className="startseite-logo__container">
+                        <img className="startseite-logo__img_br" src={require('./img/splash_icon_background.svg')}/>
+                        <div className="startseite-logo__img_wrap">
+                            <img className="startseite-logo__img" src={require('./img/mobility_logo.svg')}/>
+                        </div>
                 </div>
 
                 <div className="home__teaser-text">
@@ -23,10 +26,11 @@ class Home extends React.Component {
                             skalitzer str. 85/86<br />
                             10993 berlin
                         </li>
-                        <li>
+
+                        <li className="hidden">
                             <Link to="get-your-ticket">tickets</Link>:<br />
                         </li>
-                        <li>
+                        <li className="hidden">
                             this hackathon is<br />
                             organized by <a href="http://www.hackerstolz.de" target="_blank">hackerstolz</a><br />
                             <div className="home__social-icons">
