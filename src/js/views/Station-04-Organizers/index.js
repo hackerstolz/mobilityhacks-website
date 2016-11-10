@@ -13,7 +13,7 @@ const titletext = 'IF YOU HAVE ANY QUESTIONS OR SUGGESTIONS OR YOU NEED ANY FURT
 class ModalView extends React.Component {
     render() {
         return (
-            <div className="organizers content-container">
+            <div id="organizers" className="organizers content-container">
                 <Modal
                     header='Station 7'
                     title='Organizers'
