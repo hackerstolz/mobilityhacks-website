@@ -50,7 +50,7 @@ class ModalView extends React.Component {
         const elements = renderFaq(data);
 
         return (
-            <div className="faq content-container">
+            <div id="faq" className="faq content-container">
                 <Modal
                     header='Station 6'
                     title='FAQ'

@@ -1,11 +1,11 @@
 import React from 'react';
-import {Link} from 'react-router';
+import { Link } from 'react-scroll';
 require('./main.styl');
 
 class Home extends React.Component {
     render() {
         return (
-            <div className="content-container home">
+            <div id="home" className="content-container home">
                 <div  className="startseite-logo__container">
                         <img className="startseite-logo__img_br" src={require('./img/splash_icon_background.svg')}/>
                         <div className="startseite-logo__img_wrap">
