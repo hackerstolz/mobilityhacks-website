@@ -1,16 +1,20 @@
 import React from 'react';
-import { Link } from 'react-scroll';
+import {Link} from 'react-scroll';
+import TicketButton from '../../layout/FooterMenu/TicketButton'
 require('./main.styl');
 
 class Home extends React.Component {
     render() {
         return (
             <div id="home" className="content-container home">
-                <div  className="startseite-logo__container">
-                        <img className="startseite-logo__img_br" src={require('./img/splash_icon_background.svg')}/>
-                        <div className="startseite-logo__img_wrap">
-                            <img className="startseite-logo__img" src={require('./img/mobility_logo.svg')}/>
+                <div className="startseite-logo__container">
+                    <img className="startseite-logo__img_br" src={require('./img/splash_icon_background.svg')}/>
+                    <div className="startseite-logo__img_wrap">
+                        <img className="startseite-logo__img" src={require('./img/mobility_logo.svg')}/>
+                        <div className="startseite-logo__button">
+                            <TicketButton />
                         </div>
+                    </div>
                 </div>
 
                 <div className="home__teaser-text">
