@@ -1,3 +1,36 @@
+.why-mobility
+  .picture-box__container
+    display flex
+    justify-content center
+    flex-wrap wrap
+    .picture-box__item
+      flex 0 0 auto
+      margin 1vw
+      width 400px
+      .picture-box__image-container
+        height 280px
+      img
+        width 400px
+      iframe
+        width 400px
+        height 230px
+    @media screen and (min-width: $breakPointSmall) and (max-width $breakPointMedium)
+      .picture-box__item
+        flex 1 0 100%
+        width 400px
+        max-width none
+        img, iframe
+          width 400px
+          max-width none
+    @media screen and (max-width: $breakPointSmall)
+      .picture-box__item
+        flex 1 0 100%
+        width 100%
+        max-width none
+        img, iframe
+          width 100%
+          max-width none
+
 .aftermovie
   iframe
     width 480px
