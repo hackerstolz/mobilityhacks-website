@@ -27,7 +27,6 @@ class Footer extends React.Component {
     }
 
     onScroll() {
-      console.log("onScroll")
       const { isButtonVisible } = this.state;
       if (window.scrollY > WINDOW_HEIGHT) {
         !isButtonVisible && this.setState({isButtonVisible: true})
