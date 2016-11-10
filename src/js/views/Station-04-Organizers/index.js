@@ -16,38 +16,37 @@ class ModalView extends React.Component {
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./pictures/iris_broese_bw.png')}/>
                         <p className="image-text-title">Iris Bröse</p>
-                        <p className="image-text">Sponsors, Planning, Interior, Catering</p>
+                        <p className="image-text not-xs">Sponsors, Planning, Interior, Catering</p>
                     </div>
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./pictures/oezden_gelgec_bw.png')}/>
                         <p className="image-text-title">Özden Gelgeç</p>
-                        <p className="image-text">Identity, Interior Design</p>
+                        <p className="image-text not-xs">Identity, Interior Design</p>
                     </div>
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./pictures/alex_bw.png')}/>
                         <p className="image-text-title">Alexander Müller</p>
-                        <p className="image-text">Finance, Moderation, Planning</p>
+                        <p className="image-text not-xs">Finance, Moderation, Planning</p>
                     </div>
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./pictures/daniel_seiler_bw.png')}/>
                         <p className="image-text-title">Daniel Seiler</p>
-                        <p className="image-text">Identity</p>
+                        <p className="image-text not-xs">Identity</p>
                     </div>
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./pictures/frederik_chettouh_bw.png')}/>
                         <p className="image-text-title">Frederik Chettouh</p>
-                        <p className="image-text">Sponsors, Service, Moderation</p>
+                        <p className="image-text not-xs">Sponsors, Service, Moderation</p>
                     </div>
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./pictures/nico_ring_bw.png')}/>
                         <p className="image-text-title">Nico Ring</p>
-                        <p className="image-text">Sponsors, Tech Partnerships, Infrastructure</p>
+                        <p className="image-text not-xs">Sponsors, Tech Partnerships, Infrastructure</p>
                     </div>
                     <div className="circle-image__item">
-
                         <img className="circle-image" src={require('./pictures/sebastian_waschnick_bw.png')}/>
                         <p className="image-text-title">Sebastian Waschnick</p>
-                        <p className="image-text">Tech Partnerships, Website</p>
+                        <p className="image-text not-xs">Tech Partnerships, Website</p>
                     </div>
                 </div>
             </div>
