@@ -6,20 +6,20 @@ require('./main.styl');
 class ModalView extends React.Component {
     render() {
         return (
-            <div className="sponsors content-container">
+            <div id="sponsors" className="sponsors content-container">
                 <div className="textbox">
                     <h1>Sponsors</h1>
                 </div>
                 <div className="sponsor-logos">
                     <div className="full-image__container">
                         <p>first class</p>
-                        
+
                         <div className="full-image-wrap">
                         <img className="full-image"
                              style={{"marginLeft": "20px", "height": "130px"}}
                              src={require('./img/BVG-white-border.png')}/>
                         </div>
-                        
+
                     </div>
                     <div className="full-image__container" style={{"maxHeight": "80px", display: "none"}}                    >
                         <p>first class</p>

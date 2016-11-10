@@ -5,7 +5,7 @@ require('./main.styl');
 class GetYourTicket extends React.Component {
     render() {
         return (
-            <div className="content-container get-your-ticket">
+            <div id="get-your-ticket" className="content-container get-your-ticket">
                 <div className="textbox">
                     <h1>Get your ticket now!</h1>
                     <br />

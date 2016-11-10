@@ -9,15 +9,15 @@ const titletext = 'Watching the change driving by while waiting for<br />' +
 class ModalView extends React.Component {
     render() {
         return (
-            <div className="content-container wide why-mobility">
-                
-            <div className="textbox">
-                <h1>Watching the change driving by while waiting for
-                    the bus is not as good as changing mobility itself.
-                    Hop on and create incredible prototypes that help
-                    forming the vision of furture mobility!
+            <div id="why-mobility" className="content-container wide why-mobility">
+              <div className="textbox">
+                <h1>
+                  Watching the change driving by while waiting for
+                  the bus is not as good as changing mobility itself.
+                  Hop on and create incredible prototypes that help
+                  forming the vision of furture mobility!
                 </h1>
-            </div>
+              </div>
                 <br />
                 <div className="aftermovie">
                     <iframe src="https://www.youtube.com/embed/R8myY9XjiN0" frameBorder="0" allowFullScreen></iframe>

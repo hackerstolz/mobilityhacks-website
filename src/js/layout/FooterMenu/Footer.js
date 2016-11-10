@@ -1,7 +1,7 @@
 import React from 'react';
-import {Link} from 'react-router';
 import {BurgerMenuButton, Menu} from './BurgerMenu/';
 import TicketButton from './TicketButton/';
+import { Link } from 'react-scroll';
 
 require('./footer.styl');
 
@@ -34,13 +34,13 @@ class Footer extends React.Component {
                 <Menu ref="offCanvasMenu" visible={ this.state.visible } clickHandler={ this.toggleMenu.bind(this) }>
                     <div className="offCanvasMenu__container-top"></div>
                     <div className="offCanvasMenu__container-content">
-                        <Link to="home" activeClassName="link--active">#</Link>
-                        <Link to="station-01-why-mobility" activeClassName="link--active">Why Mobility</Link>
-                        <Link to="get-your-ticket" activeClassName="link--active">Tickets</Link>
-                        <Link to="station-05-sponsors" activeClassName="link--active">Sponsors</Link>
-                        <Link to="station-02-prizes-and-criteria" activeClassName="link--active">Prizes & Jury</Link>
-                        <Link to="station-06-schedule" activeClassName="link--active">Schedule</Link>
-                        <Link to="station-07-faq" activeClassName="link--active">FAQ</Link>
+                        <Link spy={true} smooth={true} to="home" >#</Link>
+                        <Link spy={true} smooth={true} to="why-mobility" activeClass="link--active">Why Mobility</Link>
+                        <Link spy={true} smooth={true} to="get-your-ticket" activeClass="link--active">Tickets</Link>
+                        <Link spy={true} smooth={true} to="sponsors" activeClass="link--active">Sponsors</Link>
+                        <Link spy={true} smooth={true} to="prizes" activeClass="link--active">Prizes & Jury</Link>
+                        <Link spy={true} smooth={true} to="schedule" activeClass="link--active">Schedule</Link>
+                        <Link spy={true} smooth={true} to="faq" activeClass="link--active">FAQ</Link>
                     </div>
                     <div className="offCanvasMenu__container-bottom"></div>
                 </Menu>
@@ -50,20 +50,18 @@ class Footer extends React.Component {
 
                 <div className="app-footer only-big-screen" ref="appFooter">
                     <div className="app-footer--left">
-                        <Link to="home" activeClassName="link--active">
+                        <Link spy={true} smooth={true} to="home" activeClass="link--active">
                         <div className="hackerstolz-logo">
                             <img className="hackerstolz-logo__img" src={require('./hackerstolz_icon.svg')}/>
                         </div>
                         </Link>
-
-
-                        <Link to="get-your-ticket" activeClassName="link--active">Tickets</Link>
-                        <Link to="station-01-why-mobility" activeClassName="link--active">Why Mobility</Link>
-                        <Link to="station-05-sponsors" activeClassName="link--active">Sponsors</Link>
-                        <Link to="station-02-prizes-and-criteria" activeClassName="link--active">Prizes / Jury</Link>
-                        <Link to="station-06-schedule" activeClassName="link--active">Schedule</Link>
-                        <Link to="station-07-faq" activeClassName="link--active">FAQ</Link>
-                        <Link to="station-04-organizers" activeClassName="link--active">Organizers</Link>
+                        <Link spy={true} smooth={true} to="home" >#</Link>
+                        <Link spy={true} smooth={true} to="get-your-ticket" activeClass="link--active">Tickets</Link>
+                        <Link spy={true} smooth={true} to="why-mobility" activeClass="link--active">Why Mobility</Link>
+                        <Link spy={true} smooth={true} to="sponsors" activeClass="link--active">Sponsors</Link>
+                        <Link spy={true} smooth={true} to="prizes" activeClass="link--active">Prizes & Jury</Link>
+                        <Link spy={true} smooth={true} to="schedule" activeClass="link--active">Schedule</Link>
+                        <Link spy={true} smooth={true} to="faq" activeClass="link--active">FAQ</Link>
                     </div>
                     <div className="app-footer--right">
                         <TicketButton />
