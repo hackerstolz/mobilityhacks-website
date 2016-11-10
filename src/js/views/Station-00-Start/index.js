@@ -1,9 +1,42 @@
-import React from 'react';
-import {Link} from 'react-scroll';
-import TicketButton from '../../layout/FooterMenu/TicketButton'
+import React from "react";
+import {Link} from "react-scroll";
+import TicketButton from "../../layout/FooterMenu/TicketButton";
 require('./main.styl');
 
 class Home extends React.Component {
+    componentDidMount() {
+
+        function windowWidth() {
+            var docElemProp = window.document.documentElement.clientWidth,
+                body = window.document.body;
+            return window.document.compatMode === "CSS1Compat" && docElemProp || body && body.clientWidth || docElemProp;
+        }
+
+        function windowHeight() {
+            var docElemProp = window.document.documentElement.clientHeight,
+                body = window.document.body;
+            return window.document.compatMode === "CSS1Compat" && docElemProp || body && body.clientHeight || docElemProp;
+        }
+
+        var windowHeight = windowHeight();
+        var windowWidth = windowWidth();
+        var movementStrength = 25;
+        var height = movementStrength / windowHeight;
+        var width = movementStrength / windowWidth;
+
+        var homeDiv = document.getElementById('home');
+        var mousemove = function (e) {
+            var pageX = e.pageX - (windowWidth / 2);
+            var pageY = e.pageY - (windowHeight / 2);
+            var newvalueX = width * pageX * -1 - 25;
+            var newvalueY = height * pageY * -1 - 50;
+            homeDiv.style.backgroundPosition = newvalueX + "px " + newvalueY + "px";
+        };
+        homeDiv.addEventListener("mousemove", mousemove, false);
+
+    }
+
+
     render() {
         return (
             <div id="home" className="content-container home">
