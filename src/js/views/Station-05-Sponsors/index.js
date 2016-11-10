@@ -35,7 +35,7 @@ class ModalView extends React.Component {
                                 <div className="full-image__container">
                                     <img className="full-image"
                                          style={{height: "140px"}}
-                                         src={require('./img/IBM.png')}/>
+                                         src={require('./img/IBM.svg')}/>
                                 </div>
 
                                 <div className="full-image__container">
@@ -44,7 +44,7 @@ class ModalView extends React.Component {
                                          src={require('./img/ergo.svg')}/>
                                 </div>
                             </div>
-                        </div>
+                            </div>
                     </fieldset>
 
                     <fieldset className="fieldset">
