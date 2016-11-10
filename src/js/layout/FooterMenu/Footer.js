@@ -15,6 +15,7 @@ class Footer extends React.Component {
           isButtonVisible: false
         };
         this.onScroll = this.onScroll.bind(this)
+        this.initalView =  true
     }
 
     componentDidMount(){
@@ -52,6 +53,13 @@ class Footer extends React.Component {
     }
 
     render() {
+        let buttonWrapperClass = "app-footer--right"
+        if (this.state.isButtonVisible) {
+          this.initialView = false
+          buttonWrapperClass += ' show'
+        } else if (this.initialView) {
+          buttonWrapperClass += ' hide'
+        }
         return (
             <div className="footer-container">
                 <Menu ref="offCanvasMenu" visible={ this.state.visible } clickHandler={ this.toggleMenu.bind(this) }>
@@ -86,8 +94,8 @@ class Footer extends React.Component {
                         <Link spy={true} smooth={true} to="schedule" activeClass="link--active">Schedule</Link>
                         <Link spy={true} smooth={true} to="faq" activeClass="link--active">FAQ</Link>
                     </div>
-                    <div className="app-footer--right">
-                        { this.state.isButtonVisible ? <TicketButton /> : null }
+                    <div className={buttonWrapperClass}>
+                        <TicketButton />
                     </div>
 
                 </div>

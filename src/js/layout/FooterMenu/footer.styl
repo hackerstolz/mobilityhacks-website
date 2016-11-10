@@ -27,8 +27,26 @@
     display: flex;
 
   .app-footer--right
+    &.hide
+      opacity: 0
+      animation: fadeout 0.5s;
+    &.show
+      opacity: 1
+      animation: fadein 0.5s;
+
+    opacity: 0
     align-content: flex-end;
     vendor('justify-content', flex-end);
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
 
   a
     font-size 16px
