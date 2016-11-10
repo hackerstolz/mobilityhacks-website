@@ -8,6 +8,7 @@ import Station04 from "./../Station-04-Organizers";
 import Station05 from "./../Station-05-Sponsors";
 import Station06 from "./../Station-06-Schedule";
 import Station07 from "./../Station-07-FAQ";
+import Station08 from "./../Station-08-Footer";
 import StayAway from "./../StayAway";
 require('./main.styl');
 
@@ -26,6 +27,7 @@ class Home extends React.Component {
                 <Station06 />
                 <Station07 />
                 <Station04 />
+                <Station08 />
             </div>
         );
     }

@@ -1,11 +1,7 @@
-import React from 'react';
-import Modal from '../../layout/Modal/Modal';
+import React from "react";
+import data from "./faq-data.js";
 
 require('./main.styl');
-
-const titletext = 'You still have some questions? Get in contact with us!';
-
-import data from './faq-data.js';
 
 class OneFaq extends React.Component {
     constructor(props) {
@@ -50,29 +46,27 @@ class ModalView extends React.Component {
         const elements = renderFaq(data);
 
         return (
-            <div id="faq" className="faq content-container">
-                <Modal
-                    header='Station 6'
-                    title='FAQ'
-                    titletext={titletext}
-                >
-                    <h5><i>#</i>mobilityhacks</h5>
-                    <p>
-                        <a href="https://www.facebook.com/events/842521752516067/"
-                           className="social-link"
-                           target="_blank">Facebook</a>
-                        <span> | </span>
-                        <a href="https://twitter.com/Hackerstolz"
-                           className="social-link"
-                           target="_blank">Twitter</a>
-                        <span> | </span>
-                        <a href="mailto:hello@mobility-hacks.de"
-                           className="social-link"
-                           target="_blank">Mail</a>
-                    </p>
+            <div id="faq" className="faq wide content-container">
+                <h1>FAQ</h1>
+                <p>You still have some questions? Get in contact with us!</p>
+                <h5><i>#</i>mobilityhacks</h5>
+                <p>
+                    <a href="https://www.facebook.com/events/842521752516067/"
+                       className="social-link"
+                       target="_blank">Facebook</a>
+                    <span> | </span>
+                    <a href="https://twitter.com/Hackerstolz"
+                       className="social-link"
+                       target="_blank">Twitter</a>
+                    <span> | </span>
+                    <a href="mailto:hello@mobility-hacks.de"
+                       className="social-link"
+                       target="_blank">Mail</a>
+                </p>
 
+                <div className="faq__container">
                     {elements}
-                </Modal>
+                </div>
             </div>
         );
     }
