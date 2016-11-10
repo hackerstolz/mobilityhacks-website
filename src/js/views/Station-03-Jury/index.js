@@ -9,7 +9,7 @@ const titletext = 'A little less fatal than in circus maximus.<br />' +
 class ModalView extends React.Component {
     render() {
         return (
-            <div className="jury content-container">
+            <div id="jury" className="jury content-container">
                 <Modal
                     header='Station 3'
                     title='Jury'
