@@ -21,6 +21,16 @@ class ModalView extends React.Component {
                         </div>
 
                     </div>
+
+                    <div className="full-image__container" style={{"maxHeight": "80px"}}>
+                        <p>first class</p>
+                        <div className="full-image-wrap">
+                        <img className="full-image"
+                             style={{"maxHeight": "70px"}}
+                             src={require('./img/ergo.svg')}/>
+                        </div>
+                    </div>
+
                     <div className="full-image__container" style={{"maxHeight": "80px", display: "none"}}                    >
                         <p>first class</p>
                         <div className="full-image-wrap">
@@ -34,19 +44,11 @@ class ModalView extends React.Component {
                         <p>first class</p>
                         <div className="full-image-wrap">
                         <img className="full-image"
-                             style={{height: "140px"}}
-                             src={require('./img/IBM.png')}/>
+                             style={{height: "160px"}}
+                             src={require('./img/IBM.svg')}/>
                         </div>
                     </div>
 
-                    <div className="full-image__container" style={{"maxHeight": "80px"}}>
-                        <p>first class</p>
-                        <div className="full-image-wrap">
-                        <img className="full-image"
-                             style={{"maxHeight": "70px"}}
-                             src={require('./img/ergo.svg')}/>
-                        </div>
-                    </div>
                     <div className="full-image__container" style={{"maxHeight": "80px", display: "none"}}>
                         tbd.
                         <div className="full-image-wrap">
