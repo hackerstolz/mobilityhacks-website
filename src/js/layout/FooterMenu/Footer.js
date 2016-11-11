@@ -18,12 +18,12 @@ class Footer extends React.Component {
         this.initalView =  true
     }
 
-    componentDidMount(){
-      window.addEventListener('scroll',this.onScroll);
+    componentDidMount() {
+      window.addEventListener('scroll', this.onScroll);
     }
 
-    componentWillUnmount(){
-      window.removeEventListener('scroll',this.onScroll);
+    componentWillUnmount() {
+      window.removeEventListener('scroll', this.onScroll);
     }
 
     onScroll() {
