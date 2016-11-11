@@ -42,7 +42,7 @@ let data = [
     {
         id: 8,
         header: "Who is Hackerstolz?",
-        text: "One organisation to rule them all, no no just kidding. We are a non-profit that wants to contribute to an active IT community in Germany. You can find more info on hackerstolz.de"
+        text: "One organisation to rule them all, no no just kidding. We are a non-profit that wants to contribute to an active IT community in Germany. You can find more info on <a href='http://www.hackerstolz.de'>www.hackerstolz.de</a>"
     },
     {
         id: 10,
@@ -52,7 +52,7 @@ let data = [
     {
         id: 11,
         header: "Where can I find the full rules?",
-        text: "Check out our page on <a href='https://mobility-hacks.devpost.com/' target='_blank'> devpost</a>, we will have the rules their on time."
+        text: "Check out our page on <a href='https://mobility-hacks.devpost.com/' target='_blank'> devpost</a>, we will have the rules there on time."
     },
 ];
 

@@ -11,7 +11,7 @@ class ModalView extends React.Component {
                         Watching the change driving by while waiting for
                         the bus is not as good as changing mobility itself.
                         Hop on and create incredible prototypes that help
-                        forming the vision of furture mobility!
+                        forming the vision of future mobility!
                     </p>
                     <h2>
 
