@@ -79,7 +79,7 @@ class ModalView extends React.Component {
                             <div className="fieldset__container-wrapper">
                                 <div className="full-image__container">
                                     <img className="full-image"
-                                         style={{"maxHeight": "80px"}}
+                                         style={{"height": "150px"}}
                                          src={require('./img/roland-berger-logo.png')}/>
                                 </div>
                             </div>
