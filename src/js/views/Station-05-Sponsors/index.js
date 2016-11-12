@@ -13,14 +13,12 @@ class Sponsors extends React.Component {
                 <div className="sponsor-logos">
                     <div className="full-image__container">
                         <p className="sponsor-class">first class</p>
-
                         <a href="http://www.bvg.de" target="_blank">
                             <div className="full-image-wrap">
                                 <img className="full-image"
                                      src={require('./img/BVG-white-border.png')}/>
                             </div>
                         </a>
-
                     </div>
 
                     <div className="full-image__container">
@@ -122,6 +120,15 @@ class Sponsors extends React.Component {
                             <div className="full-image-wrap">
                                 <img className="full-image"
                                      src={require('./img/minodes_logo.png')}/>
+                            </div>
+                        </a>
+                    </div>
+                    <div className="full-image__container">
+                        <p className="sponsor-class">flight partner</p>
+                        <a href="http://www.otp.systems/" target="_blank">
+                            <div className="full-image-wrap">
+                                <img className="full-image"
+                                     src={require('./img/otp-logo.png')}/>
                             </div>
                         </a>
                     </div>

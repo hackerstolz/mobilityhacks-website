@@ -38,7 +38,7 @@ class Footer extends React.Component {
                             <a href="http://www.spielfeld.com" target="_blank">Spielfeld Digital Hub</a>
                             <a href="https://www.bitkom.org" target="_blank">Bitkom</a>
                             <a href="https://graph.cool" target="_blank">GraphCool</a>
-                            <a href="" target="_blank">otp</a>
+                            <a href="http://www.otp.systems" target="_blank">open telematic platform</a>
                             <a href="https://www.emio-sharing.de" target="_blank">Emio</a>
                             <a href="https://minodes.com" target="_blank">Minodes</a>
                             <a href="http://www.veltins.de" target="_blank">Veltins</a>
