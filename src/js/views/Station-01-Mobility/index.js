@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 require('./main.styl');
 
 class ModalView extends React.Component {
@@ -31,7 +31,7 @@ class ModalView extends React.Component {
 
                     <div className="picture-box__item">
                         <div className="picture-box__image-container">
-                            <iframe src="https://www.youtube.com/embed/R8myY9XjiN0" frameBorder="0" allowFullScreen></iframe>
+                            <iframe src="//www.youtube.com/embed/R8myY9XjiN0" frameBorder="0" allowFullScreen></iframe>
                         </div>
                         <h3>Food Hacks Aftermovie by HackerStolz</h3>
                         <p>Get some impression about our last hackathon with this aftermovie! It was a great location, we had fantastic food, outstanding prototypes and of course genuis participants.

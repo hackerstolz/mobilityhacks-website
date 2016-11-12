@@ -28,25 +28,32 @@
       height auto
       top 100px
 
+    .startseite-logo__background-image
+      display inline-block
+      width 580px
+      animation(youspinmeround 15s linear infinite)
+      @media screen and (max-width: $breakPointMedium)
+        width 300px
     .startseite-logo__img_wrap
+      display inline-block
       position absolute
+      margin auto
       margin-top 6px
+
+      left 0
+      right 0
+      top 36%
+      bottom 0
 
       .startseite-logo__logo-img
         width 336px
         @media screen and (max-width: $breakPointMedium)
           width 180px
-    .startseite-logo__background-image
-      width 580px
-      animation(youspinmeround 15s linear infinite) /* IE 10+, Fx 29+ */
-      @media screen and (max-width: $breakPointMedium)
-        width 300px
-
-    .startseite-logo__button
-      padding-top 60px
-      width 100%
-      display flex
-      justify-content center
+      .startseite-logo__button
+        padding-top 60px
+        width 100%
+        display flex
+        justify-content center
 
     @keyframes youspinmeround {
       0% {
