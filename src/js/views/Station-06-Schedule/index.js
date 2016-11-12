@@ -1,69 +1,70 @@
 import React from 'react';
-import Modal from '../../layout/Modal/Modal';
 
-const titletext = 'Friday get together - Saturday Code Start<br />' +
-    'Sunday Presentations & Celebrations';
+require('./main.styl');
 
-
-const fridayEvents = [
-    'Get Together 7:30 pm'
+const fridayItems = [
+    ['19:30', 'Get Together'],
+    ['20:00', 'Teambuilding and Ideation']
 ];
 
-const saturdayEvents = [
-    'Registration starts at 8:30 am',
-    'Kick-off and challenge pitches 10 am',
-    'Workshops take place from 11 am to 12 am ',
-    'Hacking starts at 12 pm'
+const saturdayItems = [
+    ['08:30', 'Registration and Breakfast'],
+    ['10:00', 'Kick Off and Challenge Presentations'],
+    ['11:00', 'Various Workshops'],
+    ['11:30', 'Start Hacking!'],
+    ['12:00', 'Yummy Lunch'],
+    ['19:00', 'Dinner'],
+    ['22:00', 'Mario Kart Championship'],
+    ['24:00', 'Late Night Snack']
 ];
 
-const sundayEvents = [
-    'End of hacking at 12 pm',
-    'Your pitches will between 1 pm and 3 pm',
-    'Price ceremony at 4 pm'
+const sundayItems = [
+    ['08:30', 'Breakfast'],
+    ['09:00', 'Coding Finale'],
+    ['12:00', 'DEADLINE and Lunch'],
+    ['13:00', 'Pitches'],
+    ['15:00', 'Craft Beer Testing'],
+    ['16:00', 'Prize Ceremony']
 ];
+
 
 class Schedule extends React.Component {
 
-    eventTags(eventNames) {
-        return eventNames.map((name, i) => <p key={i}>{name}</p>)
+    scheduleItem(time, text, key) {
+      return (
+        <div key={key} className="schedule-item">
+          <span className="schedule-item__time">{time}</span><br/>
+          <span className="schedule-item__text">{text}</span>
+        </div>
+      )
+    }
+
+    scheduleItems(items) {
+        return items.map((data, i) => this.scheduleItem(data[0], data[1], i))
     }
 
     render() {
         return (
-            <div id="schedule" className="schedule content-container">
-                <Modal
-                    header='Station 5'
-                    title='Schedule'
-                    titletext={titletext}
-
-                >
-                    <fieldset className="jury__fieldset">
-                        <legend>Friday Dec 2</legend>
-                        <div className="jury__fieldset__container">
-                            <div className="jury__fieldset__container-wrapper">
-                                {this.eventTags(fridayEvents)}
-                            </div>
-                        </div>
-                    </fieldset>
-
-                    <fieldset className="jury__fieldset">
-                        <legend>Saturday Dec 3</legend>
-                        <div className="jury__fieldset__container">
-                            <div className="jury__fieldset__container-wrapper">
-                                {this.eventTags(saturdayEvents)}
-                            </div>
-                        </div>
-                    </fieldset>
-
-                    <fieldset className="jury__fieldset">
-                        <legend>Sunday Dec 4</legend>
-                        <div className="jury__fieldset__container">
-                            <div className="jury__fieldset__container-wrapper">
-                                {this.eventTags(sundayEvents)}
-                            </div>
-                        </div>
-                    </fieldset>
-                </Modal>
+            <div id="schedule" className="content-container">
+              <h1>Schedule</h1>
+              <p>
+                Friday get together - Saturday Code Start<br />
+                Sunday Presentations & Celebrations
+              </p>
+              <div className="circle-image__container">
+                <div className="circle-image__item schedule-column">
+                  <h4>FRIDAY<br/>01.12.2016</h4>
+                  {this.scheduleItems(fridayItems)}
+                </div>
+                <div className="circle-image__item schedule-column">
+                  <h4>SATURDAY<br/>01.12.2016</h4>
+                  {this.scheduleItems(saturdayItems)}
+                </div>
+                <div className="circle-image__item schedule-column">
+                  <h4>SUNDAY<br/>01.12.2016</h4>
+                  {this.scheduleItems(sundayItems)}
+                </div>
+              </div>
             </div>
         );
     }
