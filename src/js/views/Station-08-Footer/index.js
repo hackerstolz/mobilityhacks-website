@@ -2,7 +2,7 @@ import React from "react";
 import {Link} from 'react-scroll';
 require('./main.styl');
 
-class ModalView extends React.Component {
+class Footer extends React.Component {
     render() {
         return (
             <div id="footer" className="footer wide content-container">
@@ -62,4 +62,4 @@ class ModalView extends React.Component {
     }
 }
 
-export default ModalView;
+export default Footer;

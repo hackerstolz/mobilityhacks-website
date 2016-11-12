@@ -6,26 +6,26 @@ const titletext = 'Friday get together - Saturday Code Start<br />' +
 
 
 const fridayEvents = [
-  'Get Together 7:30 pm'
+    'Get Together 7:30 pm'
 ];
 
 const saturdayEvents = [
-  'Registration starts at 8:30 am',
-  'Kick-off and challenge pitches 10 am',
-  'Workshops take place from 11 am to 12 am ',
-  'Hacking starts at 12 pm'
+    'Registration starts at 8:30 am',
+    'Kick-off and challenge pitches 10 am',
+    'Workshops take place from 11 am to 12 am ',
+    'Hacking starts at 12 pm'
 ];
 
 const sundayEvents = [
-  'End of hacking at 12 pm',
-  'Your pitches will between 1 pm and 3 pm',
-  'Price ceremony at 4 pm'
+    'End of hacking at 12 pm',
+    'Your pitches will between 1 pm and 3 pm',
+    'Price ceremony at 4 pm'
 ];
 
-class ModalView extends React.Component {
+class Schedule extends React.Component {
 
     eventTags(eventNames) {
-      return eventNames.map((name, i) => <p key={i}>{name}</p>)
+        return eventNames.map((name, i) => <p key={i}>{name}</p>)
     }
 
     render() {
@@ -69,4 +69,4 @@ class ModalView extends React.Component {
     }
 }
 
-export default ModalView;
+export default Schedule;

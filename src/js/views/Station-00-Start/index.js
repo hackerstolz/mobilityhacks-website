@@ -6,6 +6,7 @@ require('./main.styl');
 class Home extends React.Component {
     componentDidMount() {
 
+
         function calcWindowWidth() {
             var docElemProp = window.document.documentElement.clientWidth,
                 body = window.document.body;
@@ -23,8 +24,9 @@ class Home extends React.Component {
         var movementStrength = 25;
         var height = movementStrength / windowHeight;
         var width = movementStrength / windowWidth;
-
         var homeDiv = document.getElementById('home');
+        homeDiv.style.height = '' + (windowHeight + 60) + 'px';
+
         var mousemove = function (e) {
             var pageX = e.pageX - (windowWidth / 2);
             var pageY = e.pageY - (windowHeight / 2);

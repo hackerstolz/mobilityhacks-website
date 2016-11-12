@@ -41,7 +41,7 @@ function renderFaq(datas) {
     return datas.map((data, index) => <OneFaq key={index} data={data}/>)
 }
 
-class ModalView extends React.Component {
+class FAQ extends React.Component {
     render() {
         const elements = renderFaq(data);
 
@@ -72,4 +72,4 @@ class ModalView extends React.Component {
     }
 }
 
-export default ModalView;
+export default FAQ;

@@ -2,22 +2,22 @@ import React from "react";
 
 require('./main.styl');
 
-class ModalView extends React.Component {
+class Jury extends React.Component {
     render() {
         return (
-            <div id="prizes" className="prizes content-container">
+            <div id="jury" className="jury content-container">
                 <h1>Jury Members</h1>
                 <p>
                     A little less fatal than in circus maximus.<br />
                     But berely a pinch. That's what you need:
-                    <div className="what-you-need">
-                        <div><span className="percent-text">20%</span> Skill</div>
-                        <div><span className="percent-text">15%</span> Concentrated Power of Will</div>
-                        <div><span className="percent-text">5%</span> Pleasure</div>
-                        <div><span className="percent-text">50%</span> Pain</div>
-                        <div><span className="percent-text">100%</span> Reason to join Hackerstolz</div>
-                    </div>
                 </p>
+                <div className="what-you-need">
+                    <div><span className="percent-text">20%</span> Skill</div>
+                    <div><span className="percent-text">15%</span> Concentrated Power of Will</div>
+                    <div><span className="percent-text">5%</span> Pleasure</div>
+                    <div><span className="percent-text">50%</span> Pain</div>
+                    <div><span className="percent-text">100%</span> Reason to join Hackerstolz</div>
+                </div>
 
 
                 <div className="circle-image__container">
@@ -62,4 +62,4 @@ class ModalView extends React.Component {
     }
 }
 
-export default ModalView;
+export default Jury;

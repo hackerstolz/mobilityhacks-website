@@ -3,7 +3,7 @@ import React from 'react';
 require('./main.styl');
 
 
-class ModalView extends React.Component {
+class Sponsors extends React.Component {
     render() {
         return (
             <div id="sponsors" className="sponsors content-container">
@@ -126,4 +126,4 @@ class ModalView extends React.Component {
     }
 }
 
-export default ModalView;
+export default Sponsors;
