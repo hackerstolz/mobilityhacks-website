@@ -1,6 +1,10 @@
 @import "../../../css/settings.styl"
 
 .jury
+  &.content-container
+    @media screen and (max-width: $breakPointSmall)
+      padding-left 0
+      padding-right 0
   .what-you-need
     width 300px
     margin auto
@@ -13,7 +17,11 @@
   .image-text-name
     font-size 24px
     margin 0
+    @media screen and (max-width: $breakPointSmall)
+      font-size 16px
   .image-text-job
     font-size 16px
+    @media screen and (max-width: $breakPointSmall)
+      font-size 12px
   .image-text-desc
     padding 12px

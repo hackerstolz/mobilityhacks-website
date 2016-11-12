@@ -10,7 +10,7 @@ class Footer extends React.Component {
                     <div className="footer__column col1">
                         <img src={require('./images/mobility-hacks-ci-logo.svg')}/>
                     </div>
-                    <div className="footer__column col2">
+                    <div className="footer__column col2 col-with-text not-xs">
                         <h1>sitemap</h1>
                         <div className="footer__list">
                             <Link spy={true} smooth={true} to="home">Home</Link>
@@ -25,7 +25,7 @@ class Footer extends React.Component {
                             <a href="http://www.hackerstolz.de/impressum/">Impressum</a>
                         </div>
                     </div>
-                    <div className="footer__column col3">
+                    <div className="footer__column col3 col-with-text not-xs">
                         <h1>partners</h1>
                         <div className="footer__list">
                             <a href="http://www.bvg.de" target="_blank">BVG</a>
@@ -44,7 +44,7 @@ class Footer extends React.Component {
                             <a href="http://www.veltins.de" target="_blank">Veltins</a>
                         </div>
                     </div>
-                    <div className="footer__column col4">
+                    <div className="footer__column col4 col-with-text not-xs">
                         <h1>initiators</h1>
                         <div className="footer__list">
                             <a href="http://www.hackerstolz.de" target="_blank">HackerStolz e.V.</a>
@@ -55,6 +55,14 @@ class Footer extends React.Component {
                 <div className="">
                     <div className="footer__second-row">
                         <h1>Join us at Spielfeld Digital Hub in Berlin on dec 03 - 04 and create awesome hacks to lead in the digital direction.</h1>
+                    </div>
+                </div>
+                <div className="only-xs">
+                    <div className="footer__third-row">
+                        <div className="footer__list">
+                            <a href="http://www.hackerstolz.de" className="left" target="_blank">HackerStolz e.V.</a>
+                            <a href="mailto:info@hackerstolz.de" className="right">info@hackerstolz.de</a>
+                        </div>
                     </div>
                 </div>
             </div>

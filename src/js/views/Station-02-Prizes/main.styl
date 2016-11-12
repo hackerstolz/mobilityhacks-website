@@ -1,3 +1,11 @@
+@import '../../../css/settings.styl'
+
+.prizes
+  &.content-container
+    @media screen and (max-width: $breakPointSmall)
+      padding-left 0
+      padding-right 0
+
 .circle-image__container
   display flex
   justify-content center
@@ -11,13 +19,19 @@
     padding 24px
     background #151515
     flex 0 0 auto
+    @media screen and (max-width: $breakPointSmall)
+      min-width auto
+      width 120px
+      max-width auto
+      padding 14px
+      margin 6px
     .circle-image
       width 120px
       height 120px
       border-radius 50%
+      @media screen and (max-width: $breakPointSmall)
+        width 90px
+        height 90px
       .image-text
       .image-text--line2
         color white
-
-//.circle-image
-//  .image-text
