@@ -6,20 +6,20 @@ require('./main.styl');
 class Home extends React.Component {
     componentDidMount() {
 
-        function windowWidth() {
+        function calcWindowWidth() {
             var docElemProp = window.document.documentElement.clientWidth,
                 body = window.document.body;
             return window.document.compatMode === "CSS1Compat" && docElemProp || body && body.clientWidth || docElemProp;
         }
 
-        function windowHeight() {
+        function calcWindowHeight() {
             var docElemProp = window.document.documentElement.clientHeight,
                 body = window.document.body;
             return window.document.compatMode === "CSS1Compat" && docElemProp || body && body.clientHeight || docElemProp;
         }
 
-        var windowHeight = windowHeight();
-        var windowWidth = windowWidth();
+        var windowHeight = calcWindowHeight();
+        var windowWidth = calcWindowWidth();
         var movementStrength = 25;
         var height = movementStrength / windowHeight;
         var width = movementStrength / windowWidth;
@@ -44,7 +44,7 @@ class Home extends React.Component {
                     <img className="startseite-logo__img_br" src={require('./img/splash_icon_background.svg')}/>
                     <div className="startseite-logo__img_wrap">
                         <img className="startseite-logo__img" src={require('./img/mobility_logo.svg')}/>
-                        <div className="startseite-logo__button">
+                        <div className="startseite-logo__button only-lg">
                             <TicketButton />
                         </div>
                     </div>

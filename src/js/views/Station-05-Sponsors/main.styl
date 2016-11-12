@@ -1,6 +1,6 @@
 .sponsors
   width 85vw
-  
+
   .sponsor-logos
     display flex
     flex-direction row
@@ -11,6 +11,12 @@
       padding 12px
       display inline-block
       text-align center
+      @media screen and (max-width: $breakPointMedium)
+        margin-top 30px
+      .sponsor-class
+        @media screen and (max-width: $breakPointMedium)
+          padding 0
+          margin 0
       .full-image-wrap
         height 140px
         display flex
@@ -19,12 +25,11 @@
       .full-image
         color white
         height 100px
+        @media screen and (max-width: $breakPointBig)
+          max-width 200px !important
       .image-text-title
         color white
       .image-text
         color white
       .image-text-2
         font-family 'Letter Gothic Std'
-      @media screen and (max-width: $breakPointBig)
-        .full-image
-          max-width 200px !important

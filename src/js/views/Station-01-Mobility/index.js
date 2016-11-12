@@ -44,7 +44,7 @@ class ModalView extends React.Component {
                                 <img src={require('./img/001.jpg')}/>
                             </div>
                             <h3>7 Reasons why You Schould Go to a Hackathon</h3>
-                            <p>Hey! I’m Sebastian, a newly member of Hackerstolz and a huge fan of Hackathons. This is a short story about my last Hackathon. It was not your most typical Hackathon, as it was kind of a corporate one about new ideas some business units, but you still will get the idea how a Hackathon works.</p>
+                            <p>A hackathon is any event of any duration where people come together to solve problems with digital means and present them to each other. That’s it, really simple. In most cases a hackathon is on two days and you get 24 hours time for the hacking. But why should you even bother to invest two of your precious days? Well, here are at least seven reasons!</p>
                         </a>
                     </div>
                 </div>

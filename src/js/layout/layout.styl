@@ -16,20 +16,23 @@ html, body, #app, .app-wrapper
   width 100%
   min-height 100%
   background #1C1B1B
+  max-width 100vw
 
 .content-container
   padding 30px
-  padding-top 60px
-  //width 70vw
   text-align center
   margin auto
-  margin-top 50px
   margin-bottom 50px
+  @media screen and (max-width: $breakPointMedium)
+    padding-top 4px
+    padding-bottom 4px
 
   .textbox
     margin-top 50px
     margin-bottom 50px
-
+    @media screen and (max-width: $breakPointMedium)
+      margin-top 24px
+      margin-bottom 24px
   h1
     text-transform uppercase
     font-family 'GT Pressura Regular'
@@ -61,7 +64,7 @@ html, body, #app, .app-wrapper
   //padding 50px 150px
   padding 50px 30px
   @media screen and (max-width: $breakPointSmall)
-    padding 30px
+    padding 0
 
 .hidden
   display none
@@ -86,8 +89,15 @@ html, body, #app, .app-wrapper
 
 @media screen and (max-width: $breakPointSmall)
   .not-xs
-    visibility hidden
+    visibility hidden !important
+    display none !important
 
-@media screen and (mmin-width: $breakPointSmall)
+@media screen and (min-width: $breakPointSmall)
   .only-xs
-    display hidden
+    display none !important
+    visibility hidden !important
+
+@media screen and (max-width: $breakPointMedium)
+  .only-lg
+    display none !important
+    visibility hidden !important

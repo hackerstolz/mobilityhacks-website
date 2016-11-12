@@ -8,11 +8,11 @@ class ModalView extends React.Component {
         return (
             <div id="sponsors" className="sponsors content-container">
                 <div className="textbox">
-                    <h1>Sponsors</h1>
+                    <h1>Check out our fantastic spo</h1>
                 </div>
                 <div className="sponsor-logos">
                     <div className="full-image__container">
-                        <p>first class</p>
+                        <p className="sponsor-class">first class</p>
 
                         <div className="full-image-wrap">
                         <img className="full-image"
@@ -23,7 +23,7 @@ class ModalView extends React.Component {
                     </div>
 
                     <div className="full-image__container" style={{"maxHeight": "80px"}}>
-                        <p>first class</p>
+                        <p className="sponsor-class">first class</p>
                         <div className="full-image-wrap">
                         <img className="full-image"
                              style={{"maxHeight": "70px"}}
@@ -32,7 +32,7 @@ class ModalView extends React.Component {
                     </div>
 
                     <div className="full-image__container" style={{"maxHeight": "80px", display: "none"}}                    >
-                        <p>first class</p>
+                        <p className="sponsor-class">first class</p>
                         <div className="full-image-wrap">
                         <img className="full-image"
                              style={{"maxHeight": "80px", display: "none"}}
@@ -41,7 +41,7 @@ class ModalView extends React.Component {
                     </div>
 
                     <div className="full-image__container">
-                        <p>first class</p>
+                        <p className="sponsor-class">first class</p>
                         <div className="full-image-wrap">
                         <img className="full-image"
                              style={{height: "160px"}}
@@ -58,7 +58,7 @@ class ModalView extends React.Component {
                         </div>
                     </div>
                     <div className="full-image__container">
-                        <p>economy class</p>
+                        <p className="sponsor-class">economy class</p>
                         <div className="full-image-wrap">
                         <img className="full-image"
                              style={{"height": "160px"}}
@@ -66,7 +66,7 @@ class ModalView extends React.Component {
                         </div>
                     </div>
                     <div className="full-image__container">
-                        <p>travel buddy</p>
+                        <p className="sponsor-class">travel buddy</p>
                         <div className="full-image-wrap">
                         <img className="full-image"
                              style={{"height": "120px"}}
@@ -74,14 +74,14 @@ class ModalView extends React.Component {
                         </div>
                     </div>
                     <div className="full-image__container">
-                        <p>location sponsor</p>
+                        <p className="sponsor-class">location sponsor</p>
                         <div className="full-image-wrap">
                         <img className="full-image"
                              src={require('./img/Spielfeld.png')}/>
                     </div>
             </div>
                     <div className="full-image__container">
-                        <p>flight partner</p>
+                        <p className="sponsor-class">flight partner</p>
                         <div className="full-image-wrap">
                         <img className="full-image"
                              style={{"height": "80px"}}
@@ -89,7 +89,7 @@ class ModalView extends React.Component {
                         </div>
                     </div>
                     <div className="full-image__container">
-                        <p>flight partner</p>
+                        <p className="sponsor-class">flight partner</p>
                         <div className="full-image-wrap">
                         <img className="full-image"
                              style={{"height": "50px"}}
@@ -97,7 +97,7 @@ class ModalView extends React.Component {
                         </div>
                     </div>
                     <div className="full-image__container">
-                        <p>flight partner</p>
+                        <p className="sponsor-class">flight partner</p>
                         <div className="full-image-wrap">
                         <img className="full-image"
                              style={{marginLeft: "20px", height: "100px"}}
@@ -105,7 +105,7 @@ class ModalView extends React.Component {
                         </div>
                     </div>
                     <div className="full-image__container">
-                        <p>flight partner</p>
+                        <p className="sponsor-class">flight partner</p>
                         <div className="full-image-wrap">
                         <img className="full-image"
                              style={{marginLeft: "20px", height: "50px"}}
@@ -113,7 +113,7 @@ class ModalView extends React.Component {
                         </div>
                     </div>
                     <div className="full-image__container">
-                        <p>flight partner</p>
+                        <p className="sponsor-class">flight partner</p>
                         <div className="full-image-wrap">
                         <img className="full-image"
                              style={{marginLeft: "20px", height: "140px"}}

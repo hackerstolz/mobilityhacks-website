@@ -24,37 +24,37 @@ class ModalView extends React.Component {
 
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./jury/andreas_frank.jpg')}/>
-                        <p className="image-text-title">Andreas Frank</p>
-                        <p className="image-text">Partner, Davidson Capital GmbH</p>
-                        <p className="image-text-2 not-xs">Our investor. No, he will not invest in your hackathon idea. He will only judge it.</p>
+                        <p className="image-text-name">Andreas Frank</p>
+                        <p className="image-text-job">Partner, Davidson Capital GmbH</p>
+                        <p className="image-text-desc not-xs">Our investor. No, he will not invest in your hackathon idea. He will only judge it.</p>
                     </div>
 
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./jury/eberhart_wolff.jpg')}/>
-                        <p className="image-text-title">Eberhart Wolff</p>
-                        <p className="image-text">Fellow at innoQ</p>
-                        <p className="image-text-2 not-xs">A Java Champion. This is the person you consult about software architecture and technology. He writes books and authors a blog at heise developer.</p>
+                        <p className="image-text-name">Eberhart Wolff</p>
+                        <p className="image-text-job">Fellow at innoQ</p>
+                        <p className="image-text-desc not-xs">A Java Champion. This is the person you consult about software architecture and technology. He writes books and authors a blog at heise developer.</p>
                     </div>
 
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./jury/hauke_feldvoss.jpg')}/>
-                        <p className="image-text-title">Hauke Feldvoss</p>
-                        <p className="image-text">CTO and co-founder, E-Mio</p>
-                        <p className="image-text-2 not-xs">Berlin Schöneberg instead of Palo Alto. As co-founder of eMio he is a visionary in everything about mobility.</p>
+                        <p className="image-text-name">Hauke Feldvoss</p>
+                        <p className="image-text-job">CTO and co-founder, E-Mio</p>
+                        <p className="image-text-desc not-xs">Berlin Schöneberg instead of Palo Alto. As co-founder of eMio he is a visionary in everything about mobility.</p>
                     </div>
 
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./jury/michael_kollig.jpg')}/>
-                        <p className="image-text-title">Michael Kollig</p>
-                        <p className="image-text">CIO, Theo Müller Group</p>
-                        <p className="image-text-2 not-xs">His title may sound scary, but he is an expert in building modern organizations and teams with non hierarchical leadership.</p>
+                        <p className="image-text-name">Michael Kollig</p>
+                        <p className="image-text-job">CIO, Theo Müller Group</p>
+                        <p className="image-text-desc not-xs">His title may sound scary, but he is an expert in building modern organizations and teams with non hierarchical leadership.</p>
                     </div>
 
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./jury/uwe_vock.jpg')}/>
-                        <p className="image-text-title">Uwe Vock</p>
-                        <p className="image-text">Professor for Design, UdK</p>
-                        <p className="image-text-2 not-xs">He’s not only a renowned professor for design, but also a former Creative Director and holder of quite some international design awards. You want to know anything about design? He’s your man.</p>
+                        <p className="image-text-name">Uwe Vock</p>
+                        <p className="image-text-job">Professor for Design, UdK</p>
+                        <p className="image-text-desc not-xs">He’s not only a renowned professor for design, but also a former Creative Director and holder of quite some international design awards. You want to know anything about design? He’s your man.</p>
                     </div>
                 </div>
             </div>

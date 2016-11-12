@@ -7,12 +7,7 @@
   height 100vh
   box-sizing border-box
   background: url(./img/berlin_mosaic.jpg) black;
-  //background-size: 240vw auto;
-  //background-repeat: no-repeat;
-  ////background-attachment: fixed;
-  //background-position: 0 0;
   background-repeat no-repeat
-  //background-attachment: fixed;
   background-size cover
   background-position center center
   color white
@@ -29,22 +24,25 @@
     display flex
     align-items center
     justify-content center
-    //left: 50%;
-    //margin: auto;
-    //top: 0;
-    //left: 0;
-    //right: 0;
-    //bottom: 0;
+    @media screen and (max-width: $breakPointMedium)
+      height auto
+      top 100px
+
     .startseite-logo__img_wrap
       position absolute
+      margin-top 6px
       .startseite-logo__img
         width 336px
+        @media screen and (max-width: $breakPointMedium)
+          width 180px
     .startseite-logo__img_br
       width 580px
       -webkit-animation youspinmeround 15s linear infinite /* Safari 4+ */
-      -moz-animation    youspinmeround 15s linear infinite /* Fx 5+ */
-      -o-animation      youspinmeround 15s linear infinite /* Opera 12+ */
-      animation         youspinmeround 15s linear infinite /* IE 10+, Fx 29+ */
+      -moz-animation youspinmeround 15s linear infinite /* Fx 5+ */
+      -o-animation youspinmeround 15s linear infinite /* Opera 12+ */
+      animation youspinmeround 15s linear infinite /* IE 10+, Fx 29+ */
+      @media screen and (max-width: $breakPointMedium)
+        width 300px
 
     .startseite-logo__button
       padding-top 60px
@@ -53,11 +51,13 @@
       justify-content center
 
     @-webkit-keyframes youspinmeround {
-      0%   { transform: rotate(0deg); }
-      100% { transform: rotate(-360deg); }
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(-360deg);
+      }
     }
-    
-  //height 40vh
 
   .home__hackathon-name
     .home__hackathon-name--image
@@ -67,18 +67,19 @@
     bottom 0
     position absolute
     font-size 16px
-    
+    @media screen and (max-width: $breakPointMedium)
+      width 100%
+      text-align center
+      left 0
+      margin 0
+      padding 0
     ul
       position relative
       list-style none
       margin-left 0
       padding-left 1.2em
-    // ul li:before
-    //   content "+"
-    //   position absolute
-    //   font-weight 800
-    //   left 0
-    //   color $hacker-blue
+      @media screen and (max-width: $breakPointMedium)
+        padding 0
     a
       color white
       text-decoration underline
