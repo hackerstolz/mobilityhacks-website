@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 require('./main.styl');
 
 class StayAway extends React.Component {
@@ -20,7 +20,7 @@ class StayAway extends React.Component {
                 </div>
                 <div className="stayaway-item">
                     <img src={require('./img/beer.svg')}/>
-                    <div className="stayaway-desc">Unhealthy Hacker
+                    <div className="stayaway-desc">Unhealthy
                         craft beer + tasting
                     </div>
                 </div>
