@@ -14,111 +14,137 @@ class Sponsors extends React.Component {
                     <div className="full-image__container">
                         <p className="sponsor-class">first class</p>
 
-                        <div className="full-image-wrap">
-                            <img className="full-image"
-                                 style={{"marginLeft": "20px", "height": "130px"}}
-                                 src={require('./img/BVG-white-border.png')}/>
-                        </div>
+                        <a href="http://www.bvg.de" target="_blank">
+                          <div className="full-image-wrap">
+                              <img className="full-image"
+                                   style={{"marginLeft": "20px", "height": "130px"}}
+                                   src={require('./img/BVG-white-border.png')}/>
+                          </div>
+                        </a>
 
                     </div>
 
                     <div className="full-image__container" style={{"maxHeight": "80px"}}>
                         <p className="sponsor-class">first class</p>
-                        <div className="full-image-wrap">
-                            <img className="full-image"
-                                 style={{"maxHeight": "70px"}}
-                                 src={require('./img/ergo.svg')}/>
-                        </div>
+                        <a href="https://www.ergo.de" target="_blank">
+                          <div className="full-image-wrap">
+                              <img className="full-image"
+                                   style={{"maxHeight": "70px"}}
+                                   src={require('./img/ergo.svg')}/>
+                          </div>
+                        </a>
                     </div>
 
                     <div className="full-image__container" style={{"maxHeight": "80px", display: "none"}}>
                         <p className="sponsor-class">first class</p>
-                        <div className="full-image-wrap">
-                            <img className="full-image"
-                                 style={{"maxHeight": "80px", display: "none"}}
-                                 src={require('./img/europcar.svg')}/>
-                        </div>
+                        <a href="https://www.europcar.com" target="_blank">
+                          <div className="full-image-wrap">
+                              <img className="full-image"
+                                   style={{"maxHeight": "80px", display: "none"}}
+                                   src={require('./img/europcar.svg')}/>
+                          </div>
+                        </a>
                     </div>
 
                     <div className="full-image__container">
                         <p className="sponsor-class">first class</p>
-                        <div className="full-image-wrap">
-                            <img className="full-image"
-                                 style={{height: "160px"}}
-                                 src={require('./img/IBM.svg')}/>
-                        </div>
+                        <a href="http://www.ibm.com" target="_blank">
+                          <div className="full-image-wrap">
+                              <img className="full-image"
+                                   style={{height: "160px"}}
+                                   src={require('./img/IBM.svg')}/>
+                          </div>
+                        </a>
                     </div>
 
                     <div className="full-image__container" style={{"maxHeight": "80px", display: "none"}}>
                         tbd.
-                        <div className="full-image-wrap">
-                            <img className="full-image"
-                                 style={{"height": "120px", display: "none"}}
-                                 src={require('./img/porsche.svg')}/>
-                        </div>
+                        <a href="http://www.porsche.com/" target="_blank">
+                          <div className="full-image-wrap">
+                              <img className="full-image"
+                                   style={{"height": "120px", display: "none"}}
+                                   src={require('./img/porsche.svg')}/>
+                          </div>
+                        </a>
                     </div>
                     <div className="full-image__container">
                         <p className="sponsor-class">economy class</p>
-                        <div className="full-image-wrap">
-                            <img className="full-image"
-                                 style={{"height": "160px"}}
-                                 src={require('./img/vector.svg')}/>
-                        </div>
+                        <a href="https://vector.com" target="_blank">
+                          <div className="full-image-wrap">
+                              <img className="full-image"
+                                   style={{"height": "160px"}}
+                                   src={require('./img/vector.svg')}/>
+                          </div>
+                        </a>
                     </div>
                     <div className="full-image__container">
                         <p className="sponsor-class">travel buddy</p>
-                        <div className="full-image-wrap">
-                            <img className="full-image"
-                                 style={{"height": "120px"}}
-                                 src={require('./img/roland-berger-logo-neg.png')}/>
-                        </div>
+                        <a href="https://www.rolandberger.com" target="_blank">
+                          <div className="full-image-wrap">
+                              <img className="full-image"
+                                   style={{"height": "120px"}}
+                                   src={require('./img/roland-berger-logo-neg.png')}/>
+                          </div>
+                        </a>
                     </div>
                     <div className="full-image__container">
                         <p className="sponsor-class">location sponsor</p>
-                        <div className="full-image-wrap">
-                            <img className="full-image"
-                                 src={require('./img/Spielfeld.png')}/>
-                        </div>
+                        <a href="http://www.spielfeld.com" target="_blank">
+                          <div className="full-image-wrap">
+                              <img className="full-image"
+                                   src={require('./img/Spielfeld.png')}/>
+                          </div>
+                          </a>
+                      </div>
+                    <div className="full-image__container">
+                        <p className="sponsor-class">flight partner</p>
+                        <a href="https://www.bitkom.org" target="_blank">
+                          <div className="full-image-wrap">
+                              <img className="full-image"
+                                   style={{"height": "80px"}}
+                                   src={require('./img/bitkom.png')}/>
+                          </div>
+                        </a>
                     </div>
                     <div className="full-image__container">
                         <p className="sponsor-class">flight partner</p>
-                        <div className="full-image-wrap">
-                            <img className="full-image"
-                                 style={{"height": "80px"}}
-                                 src={require('./img/bitkom.png')}/>
-                        </div>
+                        <a href="https://graph.cool" target="_blank">
+                          <div className="full-image-wrap">
+                              <img className="full-image"
+                                   style={{"height": "50px"}}
+                                   src={require('./img/graph-cool.svg')}/>
+                          </div>
+                        </a>
                     </div>
                     <div className="full-image__container">
                         <p className="sponsor-class">flight partner</p>
-                        <div className="full-image-wrap">
-                            <img className="full-image"
-                                 style={{"height": "50px"}}
-                                 src={require('./img/graph-cool.svg')}/>
-                        </div>
+                        <a href="https://www.emio-sharing.de" target="_blank">
+                          <div className="full-image-wrap">
+                              <img className="full-image"
+                                   style={{marginLeft: "20px", height: "100px"}}
+                                   src={require('./img/emio.png')}/>
+                          </div>
+                        </a>
                     </div>
                     <div className="full-image__container">
                         <p className="sponsor-class">flight partner</p>
-                        <div className="full-image-wrap">
-                            <img className="full-image"
-                                 style={{marginLeft: "20px", height: "100px"}}
-                                 src={require('./img/emio.png')}/>
-                        </div>
+                        <a href="https://minodes.com" target="_blank">
+                          <div className="full-image-wrap">
+                              <img className="full-image"
+                                   style={{marginLeft: "20px", height: "50px"}}
+                                   src={require('./img/minodes_logo.png')}/>
+                          </div>
+                        </a>
                     </div>
                     <div className="full-image__container">
                         <p className="sponsor-class">flight partner</p>
-                        <div className="full-image-wrap">
-                            <img className="full-image"
-                                 style={{marginLeft: "20px", height: "50px"}}
-                                 src={require('./img/minodes_logo.png')}/>
-                        </div>
-                    </div>
-                    <div className="full-image__container">
-                        <p className="sponsor-class">flight partner</p>
-                        <div className="full-image-wrap">
-                            <img className="full-image"
-                                 style={{marginLeft: "20px", height: "140px"}}
-                                 src={require('./img/veltins.svg')}/>
-                        </div>
+                        <a href="http://www.veltins.de" target="_blank">
+                          <div className="full-image-wrap">
+                              <img className="full-image"
+                                   style={{marginLeft: "20px", height: "140px"}}
+                                   src={require('./img/veltins.svg')}/>
+                          </div>
+                        </a>
                     </div>
                 </div>
             </div>
