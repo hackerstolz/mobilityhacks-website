@@ -28,26 +28,26 @@ class Footer extends React.Component {
                     <div className="footer__column col3">
                         <h1>partners</h1>
                         <div className="footer__list">
-                            <a href="" target="_blank">BVG</a>
-                            <a href="" target="_blank" style={{display: "none"}}>Ergo</a>
-                            <a href="" target="_blank" style={{display: "none"}}>Europcar</a>
-                            <a href="" target="_blank">IBM</a>
-                            <a href="" target="_blank" style={{display: "none"}}>Porsche</a>
-                            <a href="" target="_blank">Vector</a>
-                            <a href="" target="_blank">Roland Berger</a>
-                            <a href="" target="_blank">Spielfeld Digital Hub</a>
-                            <a href="" target="_blank">Bitkom</a>
-                            <a href="" target="_blank">GraphCool</a>
+                            <a href="http://www.bvg.de" target="_blank">BVG</a>
+                            <a href="https://www.ergo.de" target="_blank">Ergo</a>
+                            {/* <a href="https://www.europcar.com" target="_blank">Europcar</a> */}
+                            <a href="http://www.ibm.com" target="_blank">IBM</a>
+                            {/* <a href="http://www.porsche.com/" target="_blank">Porsche</a> */}
+                            <a href="https://vector.com" target="_blank">Vector</a>
+                            <a href="https://www.rolandberger.com" target="_blank">Roland Berger</a>
+                            <a href="http://www.spielfeld.com" target="_blank">Spielfeld Digital Hub</a>
+                            <a href="https://www.bitkom.org" target="_blank">Bitkom</a>
+                            <a href="https://graph.cool" target="_blank">GraphCool</a>
                             <a href="" target="_blank">otp</a>
-                            <a href="" target="_blank">Emio</a>
-                            <a href="" target="_blank">Minodes</a>
-                            <a href="" target="_blank">Veltins</a>
+                            <a href="https://www.emio-sharing.de" target="_blank">Emio</a>
+                            <a href="https://minodes.com" target="_blank">Minodes</a>
+                            <a href="http://www.veltins.de" target="_blank">Veltins</a>
                         </div>
                     </div>
                     <div className="footer__column col4">
                         <h1>initiators</h1>
                         <div className="footer__list">
-                            <a href="http:">HackerStolz e.V.</a>
+                            <a href="http://www.hackerstolz.de" target="_blank">HackerStolz e.V.</a>
                             <a href="mailto:info@hackerstolz.de">info@hackerstolz.de</a>
                         </div>
                     </div>
