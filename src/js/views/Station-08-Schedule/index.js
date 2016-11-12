@@ -45,7 +45,7 @@ class Schedule extends React.Component {
 
     render() {
         return (
-            <div id="schedule" className="content-container">
+            <div id="schedule" className="content-container schedule">
               <h1>Schedule</h1>
               <div className="schedule__text-wrapper">
                 <p className="schedule__text">

@@ -1,13 +1,13 @@
-#schedule
-  margin-bottom: 150px
+@import '../../../css/settings.styl'
 
-.schedule-container
-  margin-top: 50px
-  display flex
-  justify-content center
-  flex-wrap wrap
-  align-content flex-start
-  .schedule-column
+.schedule
+  margin-bottom: 100px
+  .schedule-container
+    display flex
+    justify-content center
+    flex-wrap wrap
+    align-content flex-start
+    .schedule-column
       min-width 250px
       width 25vw
       max-width 350px
@@ -15,15 +15,25 @@
       padding 24px
       background #151515
       flex 1 0 auto
-
+      @media screen and (max-width: $breakPointMedium)
+        min-width auto
+        width 100%
+        max-width auto
       h4
         font-weight: 600
       .schedule-item
         margin-bottom: 20px
         .schedule-item__time
           font-size: 17px
+          @media screen and (max-width: $breakPointMedium)
+            font-size: 16px
+            line-height 1
         .schedule-item__text
           font-size: 20px
+          @media screen and (max-width: $breakPointMedium)
+            margin 0
+            padding 0
+            line-height 1
 
 .schedule__text-wrapper
   display: flex;
