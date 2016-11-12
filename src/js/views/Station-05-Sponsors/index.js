@@ -121,7 +121,7 @@ class Sponsors extends React.Component {
                         <a href="https://www.emio-sharing.de" target="_blank">
                           <div className="full-image-wrap">
                               <img className="full-image"
-                                   style={{marginLeft: "20px", height: "100px"}}
+                                   style={{height: "100px"}}
                                    src={require('./img/emio.png')}/>
                           </div>
                         </a>
@@ -131,8 +131,18 @@ class Sponsors extends React.Component {
                         <a href="https://minodes.com" target="_blank">
                           <div className="full-image-wrap">
                               <img className="full-image"
-                                   style={{marginLeft: "20px", height: "50px"}}
+                                   style={{height: "50px"}}
                                    src={require('./img/minodes_logo.png')}/>
+                          </div>
+                        </a>
+                    </div>
+                    <div className="full-image__container">
+                        <p className="sponsor-class">flight partner</p>
+                        <a href="http://www.otp.systems/" target="_blank">
+                          <div className="full-image-wrap">
+                              <img className="full-image"
+                                   style={{height: "140px"}}
+                                   src={require('./img/otp-logo.png')}/>
                           </div>
                         </a>
                     </div>
@@ -141,7 +151,7 @@ class Sponsors extends React.Component {
                         <a href="http://www.veltins.de" target="_blank">
                           <div className="full-image-wrap">
                               <img className="full-image"
-                                   style={{marginLeft: "20px", height: "140px"}}
+                                   style={{height: "140px"}}
                                    src={require('./img/veltins.svg')}/>
                           </div>
                         </a>
