@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from 'react-scroll';
+import {Link} from "react-scroll";
 require('./main.styl');
 
 class Footer extends React.Component {
@@ -29,10 +29,10 @@ class Footer extends React.Component {
                         <h1>partners</h1>
                         <div className="footer__list">
                             <a href="" target="_blank">BVG</a>
-                            <a href="" target="_blank">Ergo</a>
-                            <a href="" target="_blank">Europcar</a>
+                            <a href="" target="_blank" style={{display: "none"}}>Ergo</a>
+                            <a href="" target="_blank" style={{display: "none"}}>Europcar</a>
                             <a href="" target="_blank">IBM</a>
-                            <a href="" target="_blank">Porsche</a>
+                            <a href="" target="_blank" style={{display: "none"}}>Porsche</a>
                             <a href="" target="_blank">Vector</a>
                             <a href="" target="_blank">Roland Berger</a>
                             <a href="" target="_blank">Spielfeld Digital Hub</a>
