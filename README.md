@@ -25,8 +25,11 @@ open http://localhost:8080
 - skeleton.css for grid & reset
 
 ## Building
-
+Master/Live:
 [![Build Status](https://travis-ci.org/hackerstolz/mobilityhacks-website.svg?branch=master)](https://travis-ci.org/hackerstolz/mobilityhacks-website)
+
+Stage/Dev:
+[![Build Status](https://travis-ci.org/hackerstolz/mobilityhacks-website.svg?branch=dev)](https://travis-ci.org/hackerstolz/mobilityhacks-website)
 
 ```bash
 npm run build

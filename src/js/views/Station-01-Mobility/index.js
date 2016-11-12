@@ -1,41 +1,62 @@
 import React from 'react';
-import Modal from '../../layout/Modal/Modal';
-
-const titletext = 'Watching the change driving by while waiting for<br />' +
-    'the bus is not as good as changing mobility itself.<br />' +
-    'Hop on and create incredible prototypes that help<br />' +
-    'forming the vision of furture mobility!';
+require('./main.styl');
 
 class ModalView extends React.Component {
     render() {
         return (
-            <div className="modal content-container">
-                <Modal
-                    header='Station 1'
-                    title='Why Mobility?'
-                    titletext={titletext}
-                >
-                    <div className="text">
-                        <h4>Still not sure if this is something for you?</h4>
-                        <p>
-                            Just watch the aftermovie of our last hackathon
-                            <br />
-                            <div className="aftermovie">
-                                <iframe width="480" height="300" src="https://www.youtube.com/embed/R8myY9XjiN0" frameBorder="0" allowFullScreen></iframe>
+            <div id="why-mobility" className="content-container wide why-mobility">
+                <div className="textbox">
+                    <h1>WHY MOBILITY HACKS?</h1>
+                    <p className="small-para">
+                        Watching the change driving by while waiting for
+                        the bus is not as good as changing mobility itself.
+                        Hop on and create incredible prototypes that help
+                        forming the vision of future mobility!
+                    </p>
+                    <h2>
+
+                    </h2>
+                </div>
+
+                <div className="picture-box__container">
+                    <div className="picture-box__item">
+                        <a href="https://medium.com/@Hackerstolz/42-hours-at-a-hackathon-4f6444a3c3bd" target="_blank">
+                            <div className="picture-box__image-container">
+                                <img src={require('./img/002.jpg')}/>
                             </div>
-                        </p>
-                        <p>
-                            You want to know how it feels to be at a Hackathon?
-                            <br />
-                            <a href="https://medium.com/@Hackerstolz/42-hours-at-a-hackathon-4f6444a3c3bd" target="_blank">We wrote something about it.</a>
-                        </p>
-                        <p>
-                            And if you are still unsure if a Hackathon is something for you, we got
-                            <br />
-                            <a href="https://medium.com/@Hackerstolz/7-reasons-why-you-should-go-to-a-hackathon-5242c092e2c4" target="_blank">7 reasons for you to go.</a>
-                        </p>
+                            <h3>42 Hours at a Hackathon</h3>
+                            <p>Hey! I’m Sebastian, a newly member of Hackerstolz and a huge fan of Hackathons. This is a short story about my last Hackathon. It was not your most typical Hackathon, as it was kind of a corporate one about new ideas some business units, but you still will get the idea how a Hackathon works.</p>
+                        </a>
                     </div>
-                </Modal>
+
+                    <div className="picture-box__item">
+                        <div className="picture-box__image-container">
+                            <iframe src="https://www.youtube.com/embed/R8myY9XjiN0" frameBorder="0" allowFullScreen></iframe>
+                        </div>
+                        <h3>Food Hacks Aftermovie by HackerStolz</h3>
+                        <p>Get some impression about our last hackathon with this aftermovie! It was a great location, we had fantastic food, outstanding prototypes and of course genuis participants.
+                            Thank you all for making this event unforgettable! </p>
+                    </div>
+
+                    <div className="picture-box__item">
+                        <a href="https://medium.com/@Hackerstolz/7-reasons-why-you-should-go-to-a-hackathon-5242c092e2c4" target="_blank">
+                            <div className="picture-box__image-container">
+                                <img src={require('./img/001.jpg')}/>
+                            </div>
+                            <h3>7 Reasons why You Schould Go to a Hackathon</h3>
+                            <p>A hackathon is any event of any duration where people come together to solve problems with digital means and present them to each other. That’s it, really simple. In most cases a hackathon is on two days and you get 24 hours time for the hacking. But why should you even bother to invest two of your precious days? Well, here are at least seven reasons!</p>
+                        </a>
+                    </div>
+                </div>
+
+                <p className="hidden">
+                    You want to know how it feels to be at a Hackathon?
+                    <br />
+                </p>
+                <p className="hidden">
+                    And if you are still unsure if a Hackathon is something for you, we got
+                    <br />
+                </p>
             </div>
         );
     }

@@ -1,59 +1,33 @@
-import React from 'react';
-import {Link} from 'react-router';
+import React from "react";
+import GetYourTicket from "./../GetYourTicket/";
+import Station00 from "./../Station-00-Start/";
+import Station01 from "./../Station-01-Mobility/";
+import Station02 from "./../Station-02-Prizes";
+import Station03 from "./../Station-03-Jury";
+import Station04 from "./../Station-04-Organizers";
+import Station05 from "./../Station-05-Sponsors";
+import Station06 from "./../Station-06-Schedule";
+import Station07 from "./../Station-07-FAQ";
+import Station08 from "./../Station-08-Footer";
+import StayAway from "./../StayAway";
 require('./main.styl');
+
 
 class Home extends React.Component {
     render() {
         return (
-            <div>
-                <div className="food-hacks-aftermovie">
-                    <a href="https://youtu.be/R8myY9XjiN0" target="_blank">
-                        <img src={require('./stoerer.png')} alt="foodhacks aftermovie"/>
-                    </a>
-                </div>
-
-                <div className="home content-container">
-
-                    <div className="home__hackathon-name">
-                        <img className="home__hackathon-name--image" src={require('./mobility_logo_white.svg')}/>
-                    </div>
-                    <div className="home__teaser-text">
-                        <ul>
-                            <li>
-                                date:<br />
-                                saturday, 03/12/16<br />
-                                sunday, 04/12/16
-                            </li>
-                            <li>
-                                location:<br />
-                                spielfeld digital hub<br />
-                                skalitzer str. 85/86<br />
-                                10993 berlin
-                            </li>
-                            <li>
-                                <Link to="get-your-ticket">tickets</Link>:<br />
-                            </li>
-                            <li>
-                                this hackathon is<br />
-                                organized by <a href="http://www.hackerstolz.de" target="_blank">hackerstolz</a><br />
-                                <div className="home__social-icons">
-                                    <a href="https://www.facebook.com/events/842521752516067/" target="_blank">
-                                        <img className="social-icon--facebook" src={require('./social-icons/facebook.svg')}/>
-                                    </a>
-                                    <a href="https://youtu.be/R8myY9XjiN0" target="_blank">
-                                        <img className="social-icon--youtube" src={require('./social-icons/youtube.svg')}/>
-                                    </a>
-                                    <a href="https://github.com/hackerstolz" target="_blank">
-                                        <img className="social-icon--github" src={require('./social-icons/github.svg')}/>
-                                    </a>
-                                    <a href="https://twitter.com/hackerstolz" target="_blank">
-                                        <img className="social-icon--twitter" src={require('./social-icons/twitter.svg')}/>
-                                    </a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+            <div className="content-wrapper">
+                <Station00 />
+                <StayAway />
+                <GetYourTicket />
+                <Station01 />
+                <Station05 />
+                <Station02 />
+                <Station03 />
+                <Station06 />
+                <Station07 />
+                <Station04 />
+                <Station08 />
             </div>
         );
     }

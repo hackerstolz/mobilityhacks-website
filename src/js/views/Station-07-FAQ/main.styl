@@ -9,18 +9,20 @@
     font-family 'Stanley'
     font-size 12px
     color white
+  .faq__container
+    width 70vw
+    max-width 900px
+    text-align center
+    margin auto
   .faq-one
     border-top 1px solid #797979
     padding 12px
     overflow: hidden;
     .faq-question
-      color $hacker-blue
-      font-family 'Stanley'
       font-size 28px
       cursor: pointer
     .faq-text
       color white
-      font-family 'Letter Gothic Std'
       line-height 1.5
       height 0
       overflow: hidden;
@@ -35,5 +37,8 @@
         margin-bottom 4px
 
   @media screen and (max-width: $breakPointSmall)
+    .faq__container
+      width 90%
+
     .faq-question
       font-size 24px !important

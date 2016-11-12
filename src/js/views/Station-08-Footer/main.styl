@@ -1,0 +1,35 @@
+@import '../../../css/settings.styl'
+
+.footer
+  padding-bottom 60px
+  margin-bottom 0
+  &.wide
+    margin-bottom null
+
+  .footer__row
+    display flex
+    flex-wrap wrap
+    .footer__column
+      text-align left
+      .footer__list
+        a
+          display block
+          padding-left 0
+          text-transform none
+      &.col1
+        flex 0 0 auto
+        width 450px
+        padding-left 20px
+      &.col2
+        flex 1 0 auto
+      &.col3
+        flex 1 0 auto
+      &.col4
+        flex 2 0 auto
+  .footer__second-row
+    text-align left
+    margin-top 60px
+    margin-left 470px
+    padding-right 40px
+    h1
+      font-size 26px

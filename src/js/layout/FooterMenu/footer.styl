@@ -1,12 +1,12 @@
 @import "../../../css/settings.styl"
 
 //.footer-container
-.app-footer {
+.app-footer
   position: fixed;
-  bottom: 0;
+  top: 0;
   left: 0;
   box-sizing: border-box;
-  padding 0 10px
+  padding 10px 10px 10px 0
   width: 100%;
   height: $footer-height-lg;
   z-index: 100;
@@ -19,36 +19,61 @@
   align-items: center;
   flex-wrap nowrap
 
-  .app-footer--left {
+  .app-footer--left
     flex 1
     align-content: flex-start;
+    align-items: center;
     vendor('justify-content', flex-start);
     display: flex;
-  }
 
-  .app-footer--right {
+  .app-footer--right
+    &.hide
+      opacity: 0
+      animation: fadeout 0.5s;
+    &.show
+      opacity: 1
+      animation: fadein 0.5s;
+
+    opacity: 0
     align-content: flex-end;
     vendor('justify-content', flex-end);
-  }
 
-  a {
-    font-size 18px
-    letter-spacing 0.3px
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+
+  a
+    font-size 16px
+    letter-spacing 0.6px
     text-transform uppercase
     font-weight 400
     padding 12px
-    margin-right 16px
+    margin-right 10px
     color $unselected-link-gray
+    transition: 0.17s ease-in all
+    &:hover
+      opacity 0.6
 
-    &.last-link {
-      // does the contact link need extra styling?
-    }
-  }
-
-  .link--active {
+  .link--active
     color: $selected-link-gray;
-  }
-}
+
+  .hackerstolz-logo
+    display flex
+    align-items center
+    width 25px
+    height 28px
+    padding 0 0 0 10px
+    .hackerstolz-logo__img
+      margin-top -5px
+      height 28px
+    @media screen and (max-width: $breakPointMedium)
+      bottom 0
 
 @media screen and (min-width: $breakPointMedium) and (max-width $breakPointBig)
   .app-footer

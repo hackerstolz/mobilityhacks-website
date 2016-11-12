@@ -5,147 +5,99 @@ a
 
 *
   -webkit-font-smoothing antialiased
+  cursor: url(img/cursor.png), auto;
 
 body
-  font-family 'GT Pressura Mono Trial'
+  font-family 'GT Pressura Regular'
+  color white
+  overflow-x hidden
 
 html, body, #app, .app-wrapper
   width 100%
   min-height 100%
+  background #1C1B1B
+  max-width 100vw
 
 .content-container
   padding 30px
-  margin-bottom $footer-height-lg
-  margin-top 0
+  text-align center
+  margin auto
+  margin-bottom 50px
+  @media screen and (max-width: $breakPointMedium)
+    padding-top 4px
+    padding-bottom 4px
+
+  .textbox
+    margin-top 50px
+    margin-bottom 50px
+    @media screen and (max-width: $breakPointMedium)
+      margin-top 24px
+      margin-bottom 24px
+  h1
+    text-transform uppercase
+    font-family 'GT Pressura Regular'
+    font-size 42px
+    color rgba(255, 255, 255, 0.95)
+    letter-spacing 1.92px
+    margin-bottom 40px
+  h2
+    margin-top 28px
+    margin-bottom 12px
+    font-size 24px
+    font-family 'GT Pressura Regular'
+  .small-para
+    text-align center
+    margin auto
+    width 50%
+    min-width 300px
+    max-width 600px
+  p
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.9);
+    letter-spacing: 0px;
+
+.wide
+  width 100vw
+  background #151515
+  box-sizing border-box
+  overflow-x hidden
+  //padding 50px 150px
+  padding 50px 30px
   @media screen and (max-width: $breakPointSmall)
     padding 0
 
-html {
-  position: absolute;
+.hidden
+  display none
 
-  // background: bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit;
-  background: url(./Background/background.jpg) black;
-  background-size: 240vw auto;
-  background-repeat: no-repeat;
-  //background-attachment: fixed;
-  background-position: 0 0;
-  //background-clip: border-box;
-  //background-position-y -40px;
-  //width: 300%;
-  //min-width: 300%;
-  //max-width: 300%;
-  //height: 300%;
-  //min-height: 300%;
-  //max-height: 300%;
+//@media screen and (max-width: $breakPointSmall)
+//  padding 0
 
-  z-index: -1;
+::-webkit-scrollbar {
+  width: 12px;
+  background #444
+  border-left 5px solid #1C1B1B
+  border-right 5px solid #1C1B1B
 }
 
-.circle__container
-  width 100%
-  height 100%
-  overflow hidden
-  position absolute
-
-.circle-first__container
-  position absolute
-  left 42%
-  top 16vw
-  width 35vw
-  .circle-first
-    animation(flash 4s ease-in-out infinite)
-    width 35vw
-
-.circle-left__container
-  //.circle-left
-  position absolute
-  overflow hidden
-  left 50vw
-  top 70vh
-  width 60vw
-  .circle-left
-    animation(spin 180s linear infinite)
-
-@keyframes spin {
-  100% {
-    vendor('transform', rotate(360deg));
-  }
+::-webkit-scrollbar-track {
 }
 
-@keyframes flash {
-  0%, 50%, 100% {
-    opacity: 1;
-    vendor('transform', scale(1));
-  }
-  25%, 75% {
-    opacity: 0.7;
-    vendor('transform', scale(1.02));
-  }
+::-webkit-scrollbar-thumb {
+  background: url(./img/arrow.svg) #1C1B1B no-repeat;
+  border-top 25px solid #1C1B1B
 }
-
-@keyframes pulse {
-  0% {
-    vendor('transform', scale(1));
-  }
-  30% {
-    vendor('transform', scale(1));
-  }
-  40% {
-    vendor('transform', scale(1.08));
-  }
-  50% {
-    vendor('transform', scale(1));
-  }
-  60% {
-    vendor('transform', scale(1));
-  }
-  70% {
-    vendor('transform', scale(1.05));
-  }
-  80% {
-    vendor('transform', scale(1));
-  }
-  100% {
-    vendor('transform', scale(1));
-  }
-}
-
-.ticket-button
-  padding 48px
-  position absolute
-  margin auto auto
-  right 0
-  :hover
-    opacity 0.9
-  .ticket-button__image
-    min-width 150px
-    width 10vw
-    max-width 300px
-  @media screen and (max-width: $breakPointMedium)
-    padding 12px
-    .circle-left__container
-      display none
-  @media screen and (min-width: $breakPointMedium) and (max-width $breakPointBig)
-    padding 24px
-  @media screen and (max-width: $breakPointSmall)
-    display none
-
-.hackerstolz-logo
-  position absolute
-  padding 10px
-  margin auto
-  right 0
-  bottom $footer-height-medium
-  .hackerstolz-logo__img
-    width 10vw
-    min-width 100px
-  @media screen and (max-width: $breakPointMedium)
-    bottom 0
 
 @media screen and (max-width: $breakPointSmall)
   .not-xs
-    visibility hidden
+    visibility hidden !important
+    display none !important
 
-@media screen and (mmin-width: $breakPointSmall)
+@media screen and (min-width: $breakPointSmall)
   .only-xs
-    display hidden
+    display none !important
+    visibility hidden !important
+
+@media screen and (max-width: $breakPointMedium)
+  .only-lg
+    display none !important
+    visibility hidden !important
