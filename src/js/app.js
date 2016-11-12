@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import {browserHistory, Router, Route, IndexRoute, Redirect} from 'react-router';
+import {browserHistory, Router, Route, IndexRoute, Redirect, DefaultRoute} from 'react-router';
 
 // Assets
 require('./../index.html');
@@ -32,6 +32,7 @@ ReactDom.render(
             <Redirect from="station-05-sponsors" to="home#sponsors"/>
             <Redirect from="station-06-schedule" to="home#schedule"/>
             <Redirect from="station-07-faq" to="home#faq"/>
+            <Redirect from="*" to="/" />
         </Route>
     </Router>,
     document.getElementById('app')
