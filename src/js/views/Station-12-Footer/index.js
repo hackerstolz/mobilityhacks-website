@@ -54,7 +54,7 @@ class Footer extends React.Component {
                 </div>
                 <div className="">
                     <div className="footer__second-row">
-                        <h1>Join us at Spielfeld Digital Hub in Berlin on dec 03 - 04 and create awesome hacks to lead in the digital direction.</h1>
+                        <h1>Join us at Spielfeld Digital Hub in Berlin on dec 03 - 04 and create awesome hacks to lead mobility in the right direction.</h1>
                     </div>
                 </div>
                 <div className="only-xs">
