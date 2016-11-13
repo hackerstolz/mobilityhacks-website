@@ -30,19 +30,27 @@ class Prizes extends React.Component {
                         <p className="image-text--line2">500€</p>
                     </div>
                     <div className="circle-image__item">
-                        <img className="circle-image" src={require('./prizes/logo_prizeaudience.svg')}/>
+                        <img className="circle-image" src={require('./prizes/logo_prize_audienceaward.svg')}/>
                         <p className="image-text">Audience Award</p>
                         <p className="image-text--line2">Best Goddies Ever</p>
                     </div>
                     <div className="circle-image__item">
-                        <img className="circle-image" src={require('./prizes/logo_prizechallenge.svg')}/>
-                        <p className="image-text">Challenge Prize</p>
+                        <img className="circle-image" src={require('./prizes/logo_prize_bvg.svg')}/>
+                        <p className="image-text">BVG Challenge Prize</p>
                         <p className="image-text--line2">TBA</p>
+                        <img className="challenge-sponsor-image" src={require('./prizes/BVG-white-border.png')}/>
                     </div>
                     <div className="circle-image__item">
-                        <img className="circle-image" src={require('./prizes/logo_prizechallenge.svg')}/>
-                        <p className="image-text">Challenge Prize</p>
+                        <img className="circle-image" src={require('./prizes/logo_prize_ibm.svg')}/>
+                        <p className="image-text">IBM Challenge Prize</p>
                         <p className="image-text--line2">TBA</p>
+                        <img className="challenge-sponsor-image" src={require('./prizes/IBM.svg')}/>
+                    </div>
+                    <div className="circle-image__item">
+                        <img className="circle-image" src={require('./prizes/logo_prize_ergo.svg')}/>
+                        <p className="image-text">ERGO Challenge Prize</p>
+                        <p className="image-text--line2">TBA</p>
+                        <img className="challenge-sponsor-image" src={require('./prizes/ergo.svg')}/>
                     </div>
                 </div>
             </div>
