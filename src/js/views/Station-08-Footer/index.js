@@ -30,13 +30,15 @@ class Footer extends React.Component {
                         <div className="footer__list">
                             <a href="http://www.bvg.de" target="_blank">BVG</a>
                             <a href="https://www.ergo.de" target="_blank">Ergo</a>
-                            {/* <a href="https://www.europcar.com" target="_blank">Europcar</a> */}
+                            <a href="https://www.europcar.com" target="_blank">Europcar</a>
                             <a href="http://www.ibm.com" target="_blank">IBM</a>
                             {/* <a href="http://www.porsche.com/" target="_blank">Porsche</a> */}
                             <a href="https://vector.com" target="_blank">Vector</a>
                             <a href="https://www.rolandberger.com" target="_blank">Roland Berger</a>
                             <a href="http://www.spielfeld.com" target="_blank">Spielfeld Digital Hub</a>
                             <a href="https://www.bitkom.org" target="_blank">Bitkom</a>
+                            <a href="http://data.deutschebahn.com/" target="_blank">DB OpenData</a>
+                            <a href="http://hub.lh.com" target="_blank">Lufthansa Innovation Hub</a>
                             <a href="https://graph.cool" target="_blank">GraphCool</a>
                             <a href="http://www.otp.systems" target="_blank">open telematic platform</a>
                             <a href="https://www.emio-sharing.de" target="_blank">Emio</a>
