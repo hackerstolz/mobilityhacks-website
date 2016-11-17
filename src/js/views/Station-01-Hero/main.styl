@@ -1,0 +1,127 @@
+@import '../../../css/settings.styl'
+
+.home
+  width 100vw
+  overflow-x hidden
+  text-align left
+  min-height 700px
+  box-sizing border-box
+  background: url(./img/berlin_mosaic.jpg) black;
+  background-repeat no-repeat
+  background-size cover
+  background-position center center
+  color white
+
+  .startseite-logo__container
+    position absolute
+    top 55px
+    left 0
+    margin auto
+    box-sizing border-box
+    width 100%
+    height calc(100% - 55px)
+    text-align center
+    display flex
+    align-items center
+    justify-content center
+    overflow hidden
+    @media screen and (max-width: $breakPointMedium)
+      height auto
+      top 100px
+    @media screen and (max-width: $breakPointSmall)
+      top 20px
+    .startseite-logo__background-image
+      display inline-block
+      width 580px
+      animation(youspinmeround 15s linear infinite)
+      @media screen and (max-width: $breakPointMedium)
+        width 300px
+    .startseite-logo__img_wrap
+      display inline-block
+      position absolute
+      margin auto
+      margin-top 6px
+
+      left 0
+      right 0
+      top 42%
+      bottom 0
+
+      .startseite-logo__logo-img
+        width 336px
+        @media screen and (max-width: $breakPointMedium)
+          width 180px
+      .startseite-logo__button
+        padding-top 60px
+        width 100%
+        display flex
+        justify-content center
+
+    @keyframes youspinmeround {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(-360deg);
+      }
+    }
+
+  .home__hackathon-name
+    .home__hackathon-name--image
+      width 40vw
+
+  .home__teaser-text
+    bottom 0
+    position absolute
+    font-size 16px
+    @media screen and (max-width: $breakPointMedium)
+      width 100%
+      text-align center
+      left 0
+      margin 0
+      padding 0
+    ul
+      position relative
+      list-style none
+      margin-left 0
+      padding-left 1.2em
+      @media screen and (max-width: $breakPointMedium)
+        padding 0
+    a
+      color white
+      text-decoration underline
+  .home__social-icons
+    margin-top 10px
+    a
+      padding 6px
+    .social-icon--facebook
+      width 22px
+    .social-icon--youtube
+      width 30px
+    .social-icon--github
+      width 24px
+    .social-icon--twitter
+      width 24px
+
+    //@media screen and (max-width: $breakPointSmall)
+    //  .home__teaser-text
+    //    margin-left 12px
+
+    .home__hackathon-name
+      padding: 12px;
+  @media screen and (max-width: $breakPointMedium)
+    .home__hackathon-name
+      .home__hackathon-name--image
+        width 50vw
+
+    .home__teaser-text
+      font-size 16px
+      margin-top 60px
+  @media screen and (min-width: $breakPointMedium) and (max-width $breakPointBig)
+    .home__hackathon-name
+      font-size: 6vw;
+
+    .home__teaser-text
+      font-size 16px
+
+

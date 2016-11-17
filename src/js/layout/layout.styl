@@ -49,8 +49,10 @@ html, body, #app, .app-wrapper
     font-size 24px
     font-family 'GT Pressura Regular'
   h3
-    padding-left 24px
-    padding-right 24px
+    margin auto
+    max-width 90vw
+    @media screen and (max-width: $breakPointSmall)
+      margin-bottom 50px
   .small-para
     text-align center
     margin auto
