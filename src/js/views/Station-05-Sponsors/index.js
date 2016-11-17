@@ -110,15 +110,6 @@ class Sponsors extends React.Component {
                     </div>
                     <div className="full-image__container">
                         <p className="sponsor-class">flight partner</p>
-                        <a href="https://www.bitkom.org" target="_blank">
-                            <div className="full-image-wrap">
-                                <img className="full-image"
-                                     src={require('./img/bitkom.png')}/>
-                            </div>
-                        </a>
-                    </div>
-                    <div className="full-image__container">
-                        <p className="sponsor-class">flight partner</p>
                         <a href="https://graph.cool" target="_blank">
                             <div className="full-image-wrap">
                                 <img className="full-image"
