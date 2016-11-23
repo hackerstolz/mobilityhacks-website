@@ -4,11 +4,13 @@ require('./main.styl');
 
 const fridayItems = [
     ['19:30', 'Get Together'],
-    ['20:00', 'Teambuilding and Ideation']
+    ['20:00', 'Teambuilding and Ideation'],
+    ['', 'Moderation Michael Metzger <a href="http://www.michaelmetzger.de" target="_blank">www.michaelmetzger.de</a>']
+
 ];
 
 const saturdayItems = [
-    ['08:30', 'Registration and Breakfast'],
+    ['08:30', 'Registration and Snacks'],
     ['10:00', 'Kick Off and Challenge Presentations'],
     ['11:00', 'Various Workshops'],
     ['11:30', 'Start Hacking!'],
@@ -31,12 +33,12 @@ const sundayItems = [
 class Schedule extends React.Component {
 
     scheduleItem(time, text, key) {
-      return (
-        <div key={key} className="schedule-item">
-          <span className="schedule-item__time">{time}</span><br/>
-          <span className="schedule-item__text">{text}</span>
-        </div>
-      )
+        return (
+            <div key={key} className="schedule-item">
+                <span className="schedule-item__time">{time}</span><br/>
+                <span className="schedule-item__text" dangerouslySetInnerHTML={{__html: text}}></span>
+            </div>
+        )
     }
 
     scheduleItems(items) {
@@ -46,27 +48,27 @@ class Schedule extends React.Component {
     render() {
         return (
             <div id="schedule" className="content-container schedule">
-              <h1>Schedule</h1>
-              <div className="schedule__text-wrapper">
-                <p className="schedule__text">
-                  Friday get together - Saturday Start Coding
-                  Sunday Presentations & Celebrations
-                </p>
-              </div>
-              <div className="schedule-container">
-                <div className="schedule-column">
-                  <h4>FRIDAY<br/>02.12.2016</h4>
-                  {this.scheduleItems(fridayItems)}
+                <h1>Schedule</h1>
+                <div className="schedule__text-wrapper">
+                    <p className="schedule__text">
+                        Friday get together - Saturday Start Coding
+                        Sunday Presentations & Celebrations
+                    </p>
                 </div>
-                <div className="schedule-column">
-                  <h4>SATURDAY<br/>03.12.2016</h4>
-                  {this.scheduleItems(saturdayItems)}
+                <div className="schedule-container">
+                    <div className="schedule-column">
+                        <h4>FRIDAY<br/>02.12.2016</h4>
+                        {this.scheduleItems(fridayItems)}
+                    </div>
+                    <div className="schedule-column">
+                        <h4>SATURDAY<br/>03.12.2016</h4>
+                        {this.scheduleItems(saturdayItems)}
+                    </div>
+                    <div className="schedule-column">
+                        <h4>SUNDAY<br/>04.12.2016</h4>
+                        {this.scheduleItems(sundayItems)}
+                    </div>
                 </div>
-                <div className="schedule-column">
-                  <h4>SUNDAY<br/>04.12.2016</h4>
-                  {this.scheduleItems(sundayItems)}
-                </div>
-              </div>
             </div>
         );
     }

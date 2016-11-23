@@ -21,8 +21,8 @@ class Mobility extends React.Component {
                 <div className="picture-box__container">
                     <div className="picture-box__item">
                         <a href="https://medium.com/@Hackerstolz/42-hours-at-a-hackathon-4f6444a3c3bd" target="_blank">
-                            <div className="picture-box__image-container">
-                                <img src={require('./img/002.jpg')}/>
+                            <div className="picture-box__image-container picture-box__image-container--img">
+                                <img className="picture-small" src={require('./img/002.jpg')}/>
                             </div>
                             <h3>42 Hours at a Hackathon</h3>
                             <p className="picture-box__image-desc not-xs">Hey! I’m Sebastian, a newly member of Hackerstolz and a huge fan of Hackathons. This is a short story about my last Hackathon. It was not your most typical Hackathon, as it was kind of a corporate one about new ideas some business units, but you still will get the idea how a Hackathon works.</p>
@@ -40,8 +40,8 @@ class Mobility extends React.Component {
 
                     <div className="picture-box__item">
                         <a href="https://medium.com/@Hackerstolz/7-reasons-why-you-should-go-to-a-hackathon-5242c092e2c4" target="_blank">
-                            <div className="picture-box__image-container">
-                                <img src={require('./img/001.jpg')}/>
+                            <div className="picture-box__image-container picture-box__image-container--img">
+                                <img className="picture-small" src={require('./img/001.jpg')}/>
                             </div>
                             <h3>7 Reasons why You Schould Go to a Hackathon</h3>
                             <p className="picture-box__image-desc not-xs">A hackathon is any event of any duration where people come together to solve problems with digital means and present them to each other. That’s it, really simple. In most cases a hackathon is on two days and you get 24 hours time for the hacking. But why should you even bother to invest two of your precious days? Well, here are at least seven reasons!</p>

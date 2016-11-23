@@ -7,17 +7,22 @@
       flex 0 0 auto
       margin 1vw
       width 400px
+
       .picture-box__image-container
         height 280px
       img
         width 400px
+        &.picture-small
+          width 380px
         @media screen and (min-width: $breakPointSmall) and (max-width $breakPointMedium)
           flex 1 0 100%
           width 100vw
           max-width none
+
       iframe
         width 400px
-        height 230px
+        height 260px
+        margin-top -4px
         @media screen and (max-width: $breakPointSmall)
           width 100vw
       a
