@@ -55,15 +55,15 @@ class Schedule extends React.Component {
               </div>
               <div className="schedule-container">
                 <div className="schedule-column">
-                  <h4>FRIDAY<br/>01.12.2016</h4>
+                  <h4>FRIDAY<br/>02.12.2016</h4>
                   {this.scheduleItems(fridayItems)}
                 </div>
                 <div className="schedule-column">
-                  <h4>SATURDAY<br/>01.12.2016</h4>
+                  <h4>SATURDAY<br/>03.12.2016</h4>
                   {this.scheduleItems(saturdayItems)}
                 </div>
                 <div className="schedule-column">
-                  <h4>SUNDAY<br/>01.12.2016</h4>
+                  <h4>SUNDAY<br/>04.12.2016</h4>
                   {this.scheduleItems(sundayItems)}
                 </div>
               </div>

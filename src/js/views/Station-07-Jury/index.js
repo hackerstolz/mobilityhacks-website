@@ -7,18 +7,11 @@ class Jury extends React.Component {
         return (
             <div id="jury" className="jury content-container">
                 <h1>Jury Members</h1>
-                <p>
+                <p className="small-para">
                     A little less fatal than in circus maximus.<br />
-                    But berely a pinch. That's what you need:
+                    But berely a pinch. That's what you need: 20% Skill, 15% Concentrated Power of Will,
+                    5% Pleasure, 50% Pain and 100% Reason to join Hackerstolz.
                 </p>
-                <div className="what-you-need">
-                    <div><span className="percent-text">20%</span> Skill</div>
-                    <div><span className="percent-text">15%</span> Concentrated Power of Will</div>
-                    <div><span className="percent-text">5%</span> Pleasure</div>
-                    <div><span className="percent-text">50%</span> Pain</div>
-                    <div><span className="percent-text">100%</span> Reason to join Hackerstolz</div>
-                </div>
-
 
                 <div className="circle-image__container">
 

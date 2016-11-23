@@ -31,13 +31,14 @@ class Sponsors extends React.Component {
                         </a>
                     </div>
 
-                    <div className="full-image__container" style={{display: "none"}}>
+                    <div className="full-image__container" style={{"maxHeight": "80px"}}>
                         <p className="sponsor-class">first class</p>
                         <a href="https://www.europcar.com" target="_blank">
-                            <div className="full-image-wrap">
-                                <img className="full-image"
-                                     src={require('./img/europcar.svg')}/>
-                            </div>
+                          <div className="full-image-wrap">
+                              <img className="full-image"
+                                   style={{"maxHeight": "80px"}}
+                                   src={require('./img/europcar.svg')}/>
+                          </div>
                         </a>
                     </div>
 
@@ -89,11 +90,22 @@ class Sponsors extends React.Component {
                     </div>
                     <div className="full-image__container">
                         <p className="sponsor-class">flight partner</p>
-                        <a href="https://www.bitkom.org" target="_blank">
-                            <div className="full-image-wrap">
-                                <img className="full-image"
-                                     src={require('./img/bitkom.png')}/>
-                            </div>
+                        <a href="http://data.deutschebahn.com/" target="_blank">
+                          <div className="full-image-wrap">
+                              <img className="full-image"
+                                   style={{"height": "130px"}}
+                                   src={require('./img/DB.svg')}/>
+                          </div>
+                        </a>
+                    </div>
+                    <div className="full-image__container">
+                        <p className="sponsor-class">flight partner</p>
+                        <a href="http://hub.lh.com" target="_blank">
+                          <div className="full-image-wrap">
+                              <img className="full-image"
+                                   style={{"height": "150px"}}
+                                   src={require('./img/lufthansa.png')}/>
+                          </div>
                         </a>
                     </div>
                     <div className="full-image__container">
@@ -121,6 +133,16 @@ class Sponsors extends React.Component {
                                 <img className="full-image"
                                      src={require('./img/minodes_logo.png')}/>
                             </div>
+                        </a>
+                    </div>
+                    <div className="full-image__container">
+                        <p className="sponsor-class">flight partner</p>
+                        <a href="https://www.bitkom.org" target="_blank">
+                          <div className="full-image-wrap">
+                              <img className="full-image"
+                                   style={{"height": "80px"}}
+                                   src={require('./img/bitkom.png')}/>
+                          </div>
                         </a>
                     </div>
                     <div className="full-image__container">
