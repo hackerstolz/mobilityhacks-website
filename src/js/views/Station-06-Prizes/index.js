@@ -32,7 +32,7 @@ class Prizes extends React.Component {
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./prizes/logo_prize_audienceaward.svg')}/>
                         <p className="image-text">Audience Award</p>
-                        <p className="image-text--line2">Best Goddies Ever</p>
+                        <p className="image-text--line2">Best Goodies Ever</p>
                     </div>
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./prizes/logo_prize_bvg.svg')}/>
