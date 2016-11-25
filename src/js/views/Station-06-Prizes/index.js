@@ -37,25 +37,25 @@ class Prizes extends React.Component {
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./prizes/logo_prize_bvg.svg')}/>
                         <p className="image-text">BVG Challenge Prize</p>
-                        <p className="image-text--line2">TBA</p>
+                        <p className="image-text--line2">500€ Media-Saturn voucher</p>
                         <img className="challenge-sponsor-image" src={require('./prizes/BVG-white-border.png')}/>
                     </div>
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./prizes/logo_prize_ergo.svg')}/>
                         <p className="image-text">ERGO Challenge Prize</p>
-                        <p className="image-text--line2">TBA</p>
+                        <p className="image-text--line2">500€</p>
                         <img className="challenge-sponsor-image" style={{width: '150px'}} src={require('./prizes/ergo.svg')}/>
                     </div>
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./prizes/logo_prize_europcar.svg')}/>
                         <p className="image-text">Europcar Challenge Prize</p>
-                        <p className="image-text--line2">TBA</p>
+                        <p className="image-text--line2">UBEEQO and car rental vouchers</p>
                         <img className="challenge-sponsor-image" src={require('./prizes/europcar.svg')}/>
                     </div>
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./prizes/logo_prize_ibm.svg')}/>
                         <p className="image-text">IBM Challenge Prize</p>
-                        <p className="image-text--line2">TBA</p>
+                        <p className="image-text--line2">Particle Maker Kits including<br/>a 6 months Bluemix Code</p>
                         <img className="challenge-sponsor-image" src={require('./prizes/IBM-Bluemix-logo-text_horizontal_transparent.png')}/>
                     </div>
                 </div>
