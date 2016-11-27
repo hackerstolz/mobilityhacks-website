@@ -24,7 +24,7 @@ class Mobility extends React.Component {
                             <div className="picture-box__image-container picture-box__image-container--img">
                                 <img className="picture-small" src={require('./img/002.jpg')}/>
                             </div>
-                            <h3>42 Hours at a Hackathon</h3>
+                            <h3>42 Hours <br/> at a Hackathon</h3>
                             <p className="picture-box__image-desc not-xs">Hey! I’m Sebastian, a newly member of Hackerstolz and a huge fan of Hackathons. This is a short story about my last Hackathon. It was not your most typical Hackathon, as it was kind of a corporate one about new ideas some business units, but you still will get the idea how a Hackathon works.</p>
                         </a>
                     </div>

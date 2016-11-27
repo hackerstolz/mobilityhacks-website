@@ -6,12 +6,12 @@ class Jury extends React.Component {
     render() {
         return (
             <div id="jury" className="jury content-container">
-                <h1>Jury Members</h1>
-                <p className="small-para">
-                    A little less fatal than in circus maximus.<br />
-                    But berely a pinch. That's what you need: 20% Skill, 15% Concentrated Power of Will,
-                    5% Pleasure, 50% Pain and 100% Reason to join Hackerstolz.
-                </p>
+                <div className="textbox">
+                    <h1>Jury Members</h1>
+                    <p className="small-para">
+                        A little less fatal than in circus maximus.<br />
+                    </p>
+                </div>
 
                 <div className="circle-image__container">
 
@@ -19,7 +19,7 @@ class Jury extends React.Component {
                         <img className="circle-image" src={require('./jury/andreas_frank_sw.jpg')}/>
                         <p className="image-text-name">Andreas Frank</p>
                         <p className="image-text-job">Partner, Davidson Capital GmbH</p>
-                        <p className="image-text-desc not-xs">Our investor. No, he will not invest in your hackathon idea. He will only judge it.</p>
+                        <p className="image-text-desc not-xs">VC / Investor at Davidson Capital</p>
                     </div>
 
                     <div className="circle-image__item">

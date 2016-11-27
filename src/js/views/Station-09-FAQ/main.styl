@@ -16,15 +16,17 @@
     text-align center
     margin auto
   .faq-one
-    border-top 1px solid #797979
-    padding 12px
+    border-top 2px solid rgba(255,255,255,0.05)
+    padding 30px
     overflow: hidden;
     .faq-question
       font-size 28px
       cursor: pointer
     .faq-text
       color white
+      
       line-height 1.5
+      opacity 0.6
       height 0
       overflow: hidden;
       margin-top 0
@@ -32,6 +34,8 @@
       transition-property: all
       transition-duration: 1s
       transition-timing-function: cubic-bezier(0, 1, 0.5, 1)
+      @media screen and (min-width: $breakPointSmall)
+        padding 0 100px
       &.faq-text--visible
         height auto
         margin-top 14px

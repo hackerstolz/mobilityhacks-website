@@ -47,7 +47,6 @@ class Home extends React.Component {
                     <div className="startseite-logo__img_wrap">
                         <img className="startseite-logo__logo-img" src={require('./img/mobility_logo.svg')}/>
                         <div className="startseite-logo__button only-lg">
-                            <TicketButton />
                         </div>
                     </div>
                 </div>

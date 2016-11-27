@@ -6,10 +6,10 @@ class Prizes extends React.Component {
     render() {
         return (
             <div id="prizes" className="prizes content-container">
+                
                 <h1>Awesome Prizes</h1>
-                <p>
-                    The reason you're coming for - the money.<br />
-                    Who are we to judge. Oh sh*t we have to judge.
+                <p className="textbox">
+                    The good Stuff. Also a bunch of trophies!
                 </p>
 
 
@@ -17,17 +17,17 @@ class Prizes extends React.Component {
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./prizes/logo_prize1.svg')}/>
                         <p className="image-text">1st Prize</p>
-                        <p className="image-text--line2">2000 €</p>
+                        <p className="image-text--line2">2.000 EUR</p>
                     </div>
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./prizes/logo_prize2.svg')}/>
                         <p className="image-text">2nd Prize</p>
-                        <p className="image-text--line2">1000€</p>
+                        <p className="image-text--line2">1.000 EUR</p>
                     </div>
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./prizes/logo_prize3.svg')}/>
                         <p className="image-text">3rd Prize</p>
-                        <p className="image-text--line2">500€</p>
+                        <p className="image-text--line2">500 EUR</p>
                     </div>
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./prizes/logo_prize_audienceaward.svg')}/>

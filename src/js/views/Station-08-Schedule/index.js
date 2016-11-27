@@ -48,12 +48,8 @@ class Schedule extends React.Component {
     render() {
         return (
             <div id="schedule" className="content-container schedule">
-                <h1>Schedule</h1>
-                <div className="schedule__text-wrapper">
-                    <p className="schedule__text">
-                        Friday get together - Saturday Start Coding
-                        Sunday Presentations & Celebrations
-                    </p>
+                <div className="textbox">
+                    <h1>Schedule</h1>
                 </div>
                 <div className="schedule-container">
                     <div className="schedule-column">
