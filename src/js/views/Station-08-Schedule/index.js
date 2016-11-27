@@ -14,7 +14,7 @@ const saturdayItems = [
     ['10:00', 'Kick Off and Challenge Presentations'],
     ['11:00', 'Various Workshops'],
     ['11:30', 'Start Hacking!'],
-    ['12:00', 'Yummy Lunch'],
+    ['13:00', 'Yummy Lunch'],
     ['19:00', 'Dinner'],
     ['22:00', 'Mario Kart Championship'],
     ['24:00', 'Late Night Snack']
