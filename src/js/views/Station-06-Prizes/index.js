@@ -50,13 +50,13 @@ class Prizes extends React.Component {
                         <img className="circle-image" src={require('./prizes/logo_prize_europcar.svg')}/>
                         <p className="image-text">Europcar Challenge Prize</p>
                         <p className="image-text--line2">UBEEQO and car rental vouchers</p>
-                        <img className="challenge-sponsor-image" src={require('./prizes/europcar.svg')}/>
+                        <img className="challenge-sponsor-image-wide" src={require('./prizes/europcar.svg')}/>
                     </div>
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./prizes/logo_prize_ibm.svg')}/>
                         <p className="image-text">IBM Challenge Prize</p>
                         <p className="image-text--line2">Particle Maker Kits including<br/>a 6 months Bluemix Code</p>
-                        <img className="challenge-sponsor-image" src={require('./prizes/IBM-Bluemix-logo-text_horizontal_transparent.png')}/>
+                        <img className="challenge-sponsor-image-wide" src={require('./prizes/IBM-Bluemix-logo-text_horizontal_transparent.png')}/>
                     </div>
                 </div>
             </div>
