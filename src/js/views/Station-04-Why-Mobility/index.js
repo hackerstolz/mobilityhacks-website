@@ -33,7 +33,7 @@ class Mobility extends React.Component {
                         <div className="picture-box__image-container">
                             <iframe src="//www.youtube.com/embed/R8myY9XjiN0" frameBorder="0" allowFullScreen></iframe>
                         </div>
-                        <h3>Food Hacks Aftermovie by HackerStolz</h3>
+                        <h3>Food Hacks Aftermovie by Hackerstolz</h3>
                         <p className="picture-box__image-desc not-xs">Get some impression about our last hackathon with this aftermovie! It was a great location, we had fantastic food, outstanding prototypes and of course genuis participants.
                             Thank you all for making this event unforgettable! </p>
                     </div>
@@ -43,7 +43,7 @@ class Mobility extends React.Component {
                             <div className="picture-box__image-container picture-box__image-container--img">
                                 <img className="picture-small" src={require('./img/001.jpg')}/>
                             </div>
-                            <h3>7 Reasons why You Schould Go to a Hackathon</h3>
+                            <h3>7 Reasons why you should go to a Hackathon</h3>
                             <p className="picture-box__image-desc not-xs">A hackathon is any event of any duration where people come together to solve problems with digital means and present them to each other. That’s it, really simple. In most cases a hackathon is on two days and you get 24 hours time for the hacking. But why should you even bother to invest two of your precious days? Well, here are at least seven reasons!</p>
                         </a>
                     </div>
