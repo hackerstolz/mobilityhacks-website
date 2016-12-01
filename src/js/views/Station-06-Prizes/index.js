@@ -58,6 +58,18 @@ class Prizes extends React.Component {
                         <p className="image-text--line2">Particle Maker Kits including<br/>a 6 months Bluemix Code</p>
                         <img className="challenge-sponsor-image-wide" src={require('./prizes/IBM-Bluemix-logo-text_horizontal_transparent.png')}/>
                     </div>
+                    <div className="circle-image__item">
+                        <img className="circle-image" src={require('./prizes/logo_prize_audienceaward.svg')}/>
+                        <p className="image-text">Lufthansa API Prize</p>
+                        <p className="image-text--line2">2 JBL Boxes and Power Banks</p>
+                        <img className="challenge-sponsor-image" src={require('./prizes/lufthansa.png')}/>
+                    </div>
+                    <div className="circle-image__item">
+                        <img className="circle-image" src={require('./prizes/logo_prize_audienceaward.svg')}/>
+                        <p className="image-text">BVG/DB OpenData API Prize</p>
+                        <p className="image-text--line2">400€ Travel voucher </p>
+                        <img className="challenge-sponsor-image" src={require('./prizes/DB.svg')}/>
+                    </div>
                 </div>
             </div>
         );
