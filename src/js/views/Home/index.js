@@ -2,6 +2,7 @@ import React from "react";
 import Station01 from "./../Station-01-Hero";
 import Station02 from "./../Station-02-Stay-Away";
 import Station03 from "./../Station-03-Get-Your-Ticket";
+import ExtraInfos from "./../Station-03-Extra-Infos";
 import Station04 from "./../Station-04-Why-Mobility";
 import Station05 from "./../Station-05-Sponsors";
 import Station06 from "./../Station-06-Prizes";
@@ -20,6 +21,7 @@ class Home extends React.Component {
             <div className="content-wrapper">
                 <Station01 />
                 <Station02 />
+                <ExtraInfos />
                 <Station03 />
                 <Station04 />
                 <Station05 />
