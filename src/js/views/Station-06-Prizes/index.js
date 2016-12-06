@@ -24,28 +24,28 @@ class Prizes extends React.Component {
                         <p className="image-text">1st Prize</p>
                         <p className="image-text--line2">2.000 EUR</p>
                         <img className="full-image" src={require('./images/1st.jpg')}/>
-                        <a href="https://devpost.com/software/herzi">Team Herzi</a>
+                        <a href="https://devpost.com/software/herzi" target="_blank">Team Herzi</a>
                     </div>
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./prizes/logo_prize2.svg')}/>
                         <p className="image-text">2nd Prize</p>
                         <p className="image-text--line2">1.000 EUR</p>
                         <img className="full-image" src={require('./images/2nd.jpg')}/>
-                        <a href="https://devpost.com/software/busted-k9ogbd">Team Busted</a>
+                        <a href="https://devpost.com/software/busted-k9ogbd" target="_blank">Team Busted</a>
                     </div>
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./prizes/logo_prize3.svg')}/>
                         <p className="image-text">3rd Prize</p>
                         <p className="image-text--line2">500 EUR</p>
                         <img className="full-image" src={require('./images/3rd.jpg')}/>
-                        <a href="https://devpost.com/software/petze">Team Petze</a>
+                        <a href="https://devpost.com/software/petze" target="_blank">Team Petze</a>
                     </div>
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./prizes/logo_prize_audienceaward.svg')}/>
                         <p className="image-text">Audience Award</p>
                         <p className="image-text--line2">Best Goodies Ever</p>
                         <img className="full-image" src={require('./images/Audience.jpg')}/>
-                        <a href="https://devpost.com/software/popup-concerts">Team PopupConcert</a>
+                        <a href="https://devpost.com/software/popup-concerts" target="_blank">Team PopupConcert</a>
                     </div>
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./prizes/logo_prize_bvg.svg')}/>
@@ -53,7 +53,7 @@ class Prizes extends React.Component {
                         <p className="image-text--line2">500€ Media-Saturn voucher</p>
                         <img className="challenge-sponsor-image" src={require('./prizes/BVG-white-border.png')}/>
                         <img className="full-image" src={require('./images/BVG.jpg')}/>
-                        <a href="https://devpost.com/software/bvg-next">Team BVG NEXT</a>
+                        <a href="https://devpost.com/software/bvg-next" target="_blank">Team BVG NEXT</a>
                     </div>
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./prizes/logo_prize_ergo.svg')}/>
@@ -61,7 +61,7 @@ class Prizes extends React.Component {
                         <p className="image-text--line2">500€</p>
                         <img className="challenge-sponsor-image" style={{width: '150px'}} src={require('./prizes/ergo.svg')}/>
                         <img className="full-image" src={require('./images/Ergo.jpg')}/>
-                        <a href="https://devpost.com/software/my-crash-buddy">Team My Crash Buddy</a>
+                        <a href="https://devpost.com/software/my-crash-buddy" target="_blank">Team My Crash Buddy</a>
                     </div>
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./prizes/logo_prize_europcar.svg')}/>
@@ -69,7 +69,7 @@ class Prizes extends React.Component {
                         <p className="image-text--line2">UBEEQO and car rental vouchers</p>
                         <img className="challenge-sponsor-image-wide" src={require('./prizes/europcar.svg')}/>
                         <img className="full-image" src={require('./images/Europcar.jpg')}/>
-                        <a href="https://devpost.com/software/greenstreet">Team GreenStreet</a>
+                        <a href="https://devpost.com/software/greenstreet" target="_blank">Team GreenStreet</a>
                     </div>
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./prizes/logo_prize_ibm.svg')}/>
@@ -77,7 +77,7 @@ class Prizes extends React.Component {
                         <p className="image-text--line2">Particle Maker Kits including<br/>a 6 months Bluemix Code</p>
                         <img className="challenge-sponsor-image-wide" src={require('./prizes/IBM-Bluemix-logo-text_horizontal_transparent.png')}/>
                         <img className="full-image" src={require('./images/IBM.jpg')}/>
-                        <a href="https://devpost.com/software/ubahnvz">Team UBahnVZ</a>
+                        <a href="https://devpost.com/software/ubahnvz" target="_blank">Team UBahnVZ</a>
                     </div>
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./prizes/logo_prize_audienceaward.svg')}/>
@@ -85,7 +85,7 @@ class Prizes extends React.Component {
                         <p className="image-text--line2">2 JBL Boxes and Power Banks</p>
                         <img className="challenge-sponsor-image" src={require('./prizes/lufthansa.png')}/>
                         <img className="full-image" src={require('./images/lufthansa.jpg')}/>
-                        <a href="https://devpost.com/software/zipyatrip">Team ZipYourTrip</a>
+                        <a href="https://devpost.com/software/zipyatrip" target="_blank">Team ZipYourTrip</a>
                     </div>
                 </div>
             </div>
