@@ -22,7 +22,6 @@ class Home extends React.Component {
                 <Station01 />
                 <Station02 />
                 <ExtraInfos />
-                <Station03 />
                 <Station04 />
                 <Station05 />
                 <Station06 />

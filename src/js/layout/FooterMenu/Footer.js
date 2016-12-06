@@ -1,7 +1,7 @@
-import React from 'react';
-import {BurgerMenuButton, Menu} from './BurgerMenu/';
-import TicketButton from './TicketButton/';
-import {Link} from 'react-scroll';
+import React from "react";
+import {BurgerMenuButton, Menu} from "./BurgerMenu/";
+import TicketButton from "./TicketButton/";
+import {Link} from "react-scroll";
 
 require('./footer.styl');
 
@@ -66,7 +66,7 @@ class Footer extends React.Component {
                     <div className="offCanvasMenu__container-top"></div>
                     <div className="offCanvasMenu__container-content">
                         <Link spy={true} smooth={true} to="home">#</Link>
-                        <Link spy={true} smooth={true} to="get-your-ticket" activeClass="link--active">Tickets</Link>
+                        <Link spy={true} smooth={true} to="get-your-ticket" activeClass="link--active">See results</Link>
                         <Link spy={true} smooth={true} to="why-mobility" activeClass="link--active">Why Mobility</Link>
                         <Link spy={true} smooth={true} to="sponsors" activeClass="link--active">Sponsors</Link>
                         <Link spy={true} smooth={true} to="prizes" activeClass="link--active">Prizes & Jury</Link>
@@ -87,7 +87,7 @@ class Footer extends React.Component {
                             </div>
                         </Link>
                         <Link spy={true} smooth={true} to="home">#</Link>
-                        <Link spy={true} smooth={true} to="get-your-ticket" activeClass="link--active">Tickets</Link>
+                        <Link spy={true} smooth={true} to="get-your-ticket" activeClass="link--active">See results</Link>
                         <Link spy={true} smooth={true} to="why-mobility" activeClass="link--active">Why Mobility</Link>
                         <Link spy={true} smooth={true} to="sponsors" activeClass="link--active">Sponsors</Link>
                         <Link spy={true} smooth={true} to="prizes" activeClass="link--active">Prizes & Jury</Link>

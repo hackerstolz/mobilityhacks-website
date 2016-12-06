@@ -6,9 +6,14 @@ class Prizes extends React.Component {
     render() {
         return (
             <div id="prizes" className="prizes content-container">
-                
+
                 <h1>Awesome Prizes</h1>
+                <img className="prize-image" src={require('./images/prize.jpg')}/>
+
+                <img className="prize-image" src={require('./images/prizes.jpg')}/>
+
                 <p className="textbox">
+
                     The good Stuff. Also a bunch of trophies!
                 </p>
 
@@ -18,57 +23,69 @@ class Prizes extends React.Component {
                         <img className="circle-image" src={require('./prizes/logo_prize1.svg')}/>
                         <p className="image-text">1st Prize</p>
                         <p className="image-text--line2">2.000 EUR</p>
+                        <img className="full-image" src={require('./images/1st.jpg')}/>
+                        <a href="http://www.devpost.com/">Team Herzi</a>
                     </div>
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./prizes/logo_prize2.svg')}/>
                         <p className="image-text">2nd Prize</p>
                         <p className="image-text--line2">1.000 EUR</p>
+                        <img className="full-image" src={require('./images/2nd.jpg')}/>
+                        <a href="http://www.devpost.com/">Team Busted</a>
                     </div>
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./prizes/logo_prize3.svg')}/>
                         <p className="image-text">3rd Prize</p>
                         <p className="image-text--line2">500 EUR</p>
+                        <img className="full-image" src={require('./images/3rd.jpg')}/>
+                        <a href="http://www.devpost.com/">Team Petze</a>
                     </div>
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./prizes/logo_prize_audienceaward.svg')}/>
                         <p className="image-text">Audience Award</p>
                         <p className="image-text--line2">Best Goodies Ever</p>
+                        <img className="full-image" src={require('./images/Audience.jpg')}/>
+                        <a href="http://www.devpost.com/">Team PopupConcert</a>
                     </div>
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./prizes/logo_prize_bvg.svg')}/>
                         <p className="image-text">BVG Challenge Prize</p>
                         <p className="image-text--line2">500€ Media-Saturn voucher</p>
                         <img className="challenge-sponsor-image" src={require('./prizes/BVG-white-border.png')}/>
+                        <img className="full-image" src={require('./images/BVG.jpg')}/>
+                        <a href="http://www.devpost.com/">Team Asdf</a>
                     </div>
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./prizes/logo_prize_ergo.svg')}/>
                         <p className="image-text">ERGO Challenge Prize</p>
                         <p className="image-text--line2">500€</p>
                         <img className="challenge-sponsor-image" style={{width: '150px'}} src={require('./prizes/ergo.svg')}/>
+                        <img className="full-image" src={require('./images/Ergo.jpg')}/>
+                        <a href="http://www.devpost.com/">Team Crash Buddy</a>
                     </div>
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./prizes/logo_prize_europcar.svg')}/>
                         <p className="image-text">Europcar Challenge Prize</p>
                         <p className="image-text--line2">UBEEQO and car rental vouchers</p>
                         <img className="challenge-sponsor-image-wide" src={require('./prizes/europcar.svg')}/>
+                        <img className="full-image" src={require('./images/Europcar.jpg')}/>
+                        <a href="http://www.devpost.com/">Team GreenStreet</a>
                     </div>
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./prizes/logo_prize_ibm.svg')}/>
                         <p className="image-text">IBM Challenge Prize</p>
                         <p className="image-text--line2">Particle Maker Kits including<br/>a 6 months Bluemix Code</p>
                         <img className="challenge-sponsor-image-wide" src={require('./prizes/IBM-Bluemix-logo-text_horizontal_transparent.png')}/>
+                        <img className="full-image" src={require('./images/IBM.jpg')}/>
+                        <a href="http://www.devpost.com/">Team ubahnVZ</a>
                     </div>
                     <div className="circle-image__item">
                         <img className="circle-image" src={require('./prizes/logo_prize_audienceaward.svg')}/>
                         <p className="image-text">Lufthansa API Prize</p>
                         <p className="image-text--line2">2 JBL Boxes and Power Banks</p>
                         <img className="challenge-sponsor-image" src={require('./prizes/lufthansa.png')}/>
-                    </div>
-                    <div className="circle-image__item">
-                        <img className="circle-image" src={require('./prizes/logo_prize_audienceaward.svg')}/>
-                        <p className="image-text">BVG/DB OpenData API Prize</p>
-                        <p className="image-text--line2">400€ Travel voucher </p>
-                        <img className="challenge-sponsor-image" src={require('./prizes/DB.svg')}/>
+                        <img className="full-image" src={require('./images/lufthansa.jpg')}/>
+                        <a href="http://www.devpost.com/">Team zipyourtrip</a>
                     </div>
                 </div>
             </div>

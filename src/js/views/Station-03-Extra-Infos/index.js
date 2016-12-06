@@ -6,7 +6,7 @@ var asdf = 'mobility{hacks}';
 class ExtraInfos extends React.Component {
     render() {
         return (
-            <div id="extra-infos" className="content-container extra-infos">
+            <div id="get-your-ticket" className="content-container get-your-ticket">
                 <div className="textbox">
                     <div className="container">
                         <div className="logo-container">
@@ -14,17 +14,32 @@ class ExtraInfos extends React.Component {
                             <img src={ require('./images/mobility-hacks-ci-logo.svg') }/>
                         </div>
 
-                        <br/>
+                        <br />
 
-                        <h3><a href="https://github.com/hackerstolz/mobilityhacks-api" target="_blank">API-Docu on Github</a></h3>
-                        <h3><a href="https://mobility-hacks.devpost.com/" target="_blank">Register your project on Devpost</a></h3>
-                        <ul>
-                            <li>Go to devpost</li>
-                            <li>Create an account</li>
-                            <li>Register for { asdf }<a href="https://mobility-hacks.devpost.com/">here</a></li>
-                            <li>Create your project as a submission for { asdf }</li>
-                        </ul>
+                        <p className="small-para">
+                            Wow, what a grand finale for such a great year. We hope you enjoyed the second Berlin Hackathon this year just as well as we did. The greatest thanks go to all participants, their impressive projects and their entertaining presentations. Over the Christmas season the memory of the atmosphere will give us much pleasure. The following days we will report the winning projects. The whole Hackerstolz team wishes all participants and fans a wonderful Christmas time. 😃
+                        </p>
+
+                        <br />
+
+                        <p className="small-para">
+                            We would also like to thank the Berlin fire brigade and police, which was so exemplary as the fire alarm at the opening ceremonies was triggered.<i> 🚒</i>
+                        </p>
+
+                        <br />
+
+                        <p className="small-para">
+                            You can find all submissions on
+                        </p>
+
+                        <a href="https://mobility-hacks.devpost.com/">Devpost</a>
                     </div>
+
+                    <iframe className="pic-frame"
+                            src="http://albumizr.com/a/vZI0"
+                            scrolling="no"
+                            frameBorder="no"
+                            allowFullScreen></iframe>
                 </div>
 
             </div>
