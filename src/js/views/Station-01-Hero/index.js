@@ -41,7 +41,7 @@ class Home extends React.Component {
 
     render() {
         return (
-            <div id="home" className="content-container home" title="Image copyright &copy 2012 WEW / FU Berlin, see http://userpage.fu-berlin.de/~kyba/images/berlin_mosaic.html">
+            <div id="home" className="content-container home">
                 <div className="startseite-logo__container">
                     <img className="startseite-logo__background-image" src={require('./img/splash_icon_background.svg')}/>
                     <div className="startseite-logo__img_wrap">
